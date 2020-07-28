@@ -1,3 +1,97 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 @import "_media.scss";
+
+//Universal Styling
+
+html, body {
+    width:100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+//Header Styling
+
+.header-banner {
+    position: relative;
+    margin-top: -350px;
+}
+
+.logo-aurore {
+    font-family: 'la belle aurore';
+    color: $terracotta_red;
+    margin-top: -670px;
+    margin-left: 150px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo-montserrat {
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    color: black;
+    margin-left: 150px;
+    margin-top: -80px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.head-contact {
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 1310px;
+    margin-top: -125px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.index-banner-header {
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 1326px;
+    width: 500px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-align: end;
+}
+
+.index-banner-line {
+    content: '';
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 12px;
+    margin-left: 1656px;
+}
+
+.index-banner-p {
+    font-family: 'montserrat';
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    width: 390px;
+    text-align: end;
+    letter-spacing: 3px;
+    margin-left: 1427px;
+}
+
+.index-banner-button {
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    background-color: $terracotta_red;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-size: 21px;
+    padding: 10px 25px;
+    margin-left: 1639px;
+    margin-top: 30px;
+}
