@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../SCSS/main.scss",
+        "../SCSS/_variables.scss",
+        "../SCSS/_mixins.scss",
+        "../SCSS/_media.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
