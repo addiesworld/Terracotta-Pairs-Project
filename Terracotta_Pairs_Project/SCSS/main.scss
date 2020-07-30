@@ -29,8 +29,9 @@ html, body {
     color: white;        
     text-transform: uppercase;
     text-align: center;
+    font-weight: bold;
     .head-contact {
-        font-weight: 500;
+        font-weight: 600;
         letter-spacing: 2px;
         text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
         padding-top: 15px;
@@ -41,6 +42,7 @@ html, body {
         color: $terracotta_red;
         font-size: 50px;
         margin-bottom: -56px;
+        margin-top: 47px;
         text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
     }
     .logo-montserrat {
@@ -67,6 +69,7 @@ html, body {
         width: 350px;
         margin: auto;
         margin-bottom: 30px;
+        text-transform: none;
     }
     .index-banner-button {
         background-color: $terracotta_red;
@@ -76,5 +79,23 @@ html, body {
         border: none;
         font-size: 25px;
         padding: 10px;
+        font-weight: 600;
+    }
+}
+
+.banner-submenu {
+    background-color: $terracotta_red;
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-top: 31px;
+        :first-child {
+            margin-left: -25px;
+        }
+        li {
+            padding: 15px 10px;
+        }
     }
 }

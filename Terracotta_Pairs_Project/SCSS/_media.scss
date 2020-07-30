@@ -5,3 +5,86 @@
 // Small : 750px
 // Medium : 975px
 // Large : 1260px 
+
+
+@media (min-width: 750px) {
+
+    .header-banner {
+        position: relative;
+        width: auto;
+        height: 450px;
+        background-size: cover;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
+                    url(../Images/header_lobster.jpg);
+        color: white;        
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        .head-contact {
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
+            padding-top: 15px;
+        }
+        .logo-aurore {
+            font-family: 'la belle aurore', sans-serif;
+            text-transform: capitalize;
+            color: $terracotta_red;
+            font-size: 50px;
+            margin-bottom: -56px;
+            margin-top: 47px;
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
+        }
+        .logo-montserrat {
+            color: black;
+            font-weight: 600;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        .index-banner-header {
+            font-size: 21px;
+            font-weight: 600;
+        }
+        .index-banner-line {
+            display: block;
+            content: '';
+            height: 1px;
+            width: 200px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: white;
+        }
+        .index-banner-p {
+            width: 350px;
+            margin: auto;
+            margin-bottom: 30px;
+            text-transform: none;
+        }
+        .index-banner-button {
+            background-color: $terracotta_red;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: none;
+            font-size: 25px;
+            padding: 10px;
+            font-weight: 600;
+        }
+    }
+    
+    .banner-submenu {
+        background-color: $terracotta_red;
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-top: 31px;
+            justify-content: center;
+            li {
+                padding: 15px 35px;
+            }
+        }
+    }
+}
