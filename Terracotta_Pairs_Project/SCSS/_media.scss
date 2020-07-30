@@ -25,6 +25,10 @@
             letter-spacing: 2px;
             text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
             padding-top: 15px;
+            margin-left: 225px;
+        }
+        .logo-cont {
+            margin-left: -450px;
         }
         .logo-aurore {
             font-family: 'la belle aurore', sans-serif;
@@ -42,17 +46,23 @@
             letter-spacing: 2px;
         }
         .index-banner-header {
-            font-size: 21px;
+            font-size: 38px;
+            letter-spacing: 4px;
+            width: 400px;
+            text-align: end;
             font-weight: 600;
+            margin-left: 306px;
+            margin-top: -69px;
         }
         .index-banner-line {
             display: block;
             content: '';
             height: 1px;
-            width: 200px;
+            width: 125px;
             margin: auto;
             margin-top: 30px;
             margin-bottom: 30px;
+            margin-left: 573px;
             background-color: white;
         }
         .index-banner-p {
@@ -83,7 +93,7 @@
             margin-top: 31px;
             justify-content: center;
             li {
-                padding: 15px 35px;
+                padding: 10px 35px;
             }
         }
     }

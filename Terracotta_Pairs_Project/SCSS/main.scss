@@ -1,6 +1,5 @@
 @import "_variables.scss";
 @import "_mixins.scss";
-@import "_media.scss";
 
 //Universal Styling
 
@@ -61,7 +60,7 @@ html, body {
         height: 1px;
         width: 200px;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 20px;
         margin-bottom: 30px;
         background-color: white;
     }
@@ -99,3 +98,5 @@ html, body {
         }
     }
 }
+
+@import "_media.scss";
