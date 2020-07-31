@@ -34,6 +34,7 @@ html, body {
         letter-spacing: 2px;
         text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
         padding-top: 15px;
+        font-size: 12px;
     }
     .logo-aurore {
         font-family: 'la belle aurore', sans-serif;
@@ -86,15 +87,17 @@ html, body {
     background-color: $terracotta_red;
     ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         list-style: none;
         margin-top: 31px;
         :first-child {
-            margin-left: -25px;
+            margin-left: -40px;
         }
         li {
+            margin-left: -40px;
             padding: 15px 10px;
+            border-top: 1px solid white;
         }
     }
 }
