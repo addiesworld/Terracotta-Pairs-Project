@@ -18,6 +18,10 @@ html, body {
 
 //Header Styling
 
+header {
+    margin-bottom: 450px;
+}
+
 .header-banner {
     position: relative;
     width: auto;
@@ -102,4 +106,50 @@ html, body {
     }
 }
 
+// Footer Styling
+
+.footer-book-now {
+    background-color: #3c3c3c;
+    color: #fff;
+    margin-bottom: -20px;
+    .book-now-cont {
+        text-align: center;
+        width: 333px;
+        padding: 20px;
+        font-size: 16px;
+        button {
+            color: $terracotta_red;
+            font-size: 21px;
+            font-weight: bold;
+            padding: 10px 15px;
+        }
+    }
+}
+
+.footer-nav {
+    background-color: $terracotta_red;
+    color: #fff;
+    margin-bottom: -20px;
+    h2 {
+        text-transform: uppercase;
+        padding-top: 15px;
+    }
+    li {
+        list-style: none;
+    }
+    p {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .footer-line {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 97px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        background-color: white;
+
+    }
+}
 @import "_media.scss";
