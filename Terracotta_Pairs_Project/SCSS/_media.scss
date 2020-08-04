@@ -9,7 +9,7 @@
     .header-banner {
         position: relative;
         width: auto;
-        height: 450px;
+        height: 475px;
         background-size: cover;
         background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
                     url(../Images/header_lobster.jpg);
@@ -26,6 +26,7 @@
         }
         .logo-cont {
             margin-left: -450px;
+            margin-bottom: 55px;
         }
         .logo-aurore {
             font-family: 'la belle aurore', sans-serif;
@@ -95,6 +96,7 @@
             list-style: none;
             margin-top: 31px;
             justify-content: center;
+            margin-left: 189px;
             li {
                 padding: 10px 35px;
                 border: none;
@@ -166,26 +168,28 @@
 
     .header-banner {
         .head-contact {
-            margin-left: 330px;
+            margin-left: 415px;
         }
         .logo-cont {
             margin-left: -450px;
         }
         .index-banner-header {
-            margin-left: 417px;
+            margin-left: 460px;
         }
         .index-banner-line {
-            margin-left: 689px;
+            margin-left: 725px;
         }
         .index-banner-p {
-            margin-left: 519px;
+            margin-left: 560px;
+        }
+        .index-banner-button {
+            margin-left: 610px;
         }
     }
     
     .banner-submenu {
         ul {
-            justify-content: flex-end;
-            margin-right: 112px;
+            margin-right: -90px;
         }
     }
 
@@ -219,4 +223,122 @@
 
 // Large : 1260px 
 
+@media (min-width: 1260px) {
 
+    .header-banner {
+        .head-contact {
+            margin-left: 608px;
+            // height: 475px;
+        }
+        .logo-cont {
+            margin-left: -831px;
+            margin-bottom: 55px;
+        }
+        .index-banner-header {
+            margin-left: 596px;
+            width: 504px;
+        }
+        .index-banner-line {
+            margin-left: 971px;
+        }
+        .index-banner-p {
+            margin-left: 802px;
+        }
+        .index-banner-button {
+            margin-left: 803px;
+        }
+    }
+    
+    .banner-submenu {
+        ul {
+            justify-content: flex-end;
+            margin-right: 112px;
+            li {
+                padding: 10px 40px;
+            }
+        }
+    }
+
+    .footer-book-now {
+        height: 125px;
+        .book-now-cont {
+            margin-left: 96px;
+            button {
+                margin-left: 841px;
+            }
+        }
+    }
+
+    .footer-nav {
+        #contact-list {
+            margin-left: 100px;
+        }
+        #sections-list {
+            margin-left: 525px;
+        }
+        #follow-list {
+            margin-left: 889px;
+        }
+    }
+}
+
+// Full Screen: 1920px
+
+@media (min-width: 1920px) {
+
+    .header-banner {
+        height: 474px;
+        .head-contact {
+            margin-left: 965px;
+        }
+        .logo-cont {
+            margin-left: -1210px;
+            margin-bottom: 54px;
+        }
+        .index-banner-header {
+            margin-left: 850px;
+            width: 768px;
+            letter-spacing: 12px;
+        }
+        .index-banner-line {
+            margin-left: 1480px;
+        }
+        .index-banner-p {
+            margin-left: 1310px;
+        }
+        .index-banner-button {
+            margin-left: 1160px;
+        }
+    }
+    
+    .banner-submenu {
+        ul {
+            margin-right: 265px;
+            li {
+                padding: 10px 40px;
+            }
+        }
+    }
+
+    .footer-book-now {
+        height: 125px;
+        .book-now-cont {
+            margin-left: 350px;
+            button {
+                margin-left: 810px;
+            }
+        }
+    }
+
+    .footer-nav {
+        #contact-list {
+            margin-left: 330px;
+        }
+        #sections-list {
+            margin-left: 735px;
+        }
+        #follow-list {
+            margin-left: 1130px;
+        }
+    }
+}
