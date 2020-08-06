@@ -1,18 +1,15 @@
 
 
 
-// Mobile : auto
+// Mobile : auto -- See "Main" SASS file
 // Small : 750px
-// Medium : 975px
-// Large : 1260px 
-
 
 @media (min-width: 750px) {
 
     .header-banner {
         position: relative;
         width: auto;
-        height: 450px;
+        height: 475px;
         background-size: cover;
         background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
                     url(../Images/header_lobster.jpg);
@@ -25,10 +22,11 @@
             letter-spacing: 2px;
             text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
             padding-top: 15px;
-            margin-left: 225px;
+            margin-left: 330px;
         }
         .logo-cont {
             margin-left: -450px;
+            margin-bottom: 55px;
         }
         .logo-aurore {
             font-family: 'la belle aurore', sans-serif;
@@ -66,25 +64,31 @@
             background-color: white;
         }
         .index-banner-p {
-            width: 350px;
+            width: 295px;
             margin: auto;
             margin-bottom: 30px;
+            margin-left: 407px;
             text-transform: none;
+            text-align: end;
+            font-size: 20px;
         }
         .index-banner-button {
             background-color: $terracotta_red;
             color: white;
             text-decoration: none;
-            text-transform: uppercase;
+            text-transform: capitalize;
             border: none;
             font-size: 25px;
             padding: 10px;
             font-weight: 600;
+            margin-left: 523px;
+            margin-top: -10px;
         }
     }
     
     .banner-submenu {
         background-color: $terracotta_red;
+        margin-top: -20px;
         ul {
             display: flex;
             flex-direction: row;
@@ -92,9 +96,249 @@
             list-style: none;
             margin-top: 31px;
             justify-content: center;
+            margin-left: 189px;
             li {
                 padding: 10px 35px;
+                border: none;
             }
+        }
+    }
+
+    .footer-book-now {
+        background-color: #3c3c3c;
+        color: #fff;
+        margin-bottom: -20px;
+        .book-now-cont {
+            text-align: center;
+            width: 600px;
+            padding: 20px;
+            font-size: 16px;
+            margin-left: 40px;
+            button {
+                color: $terracotta_red;
+                font-size: 21px;
+                font-weight: bold;
+                padding: 10px 15px;
+            }
+        }
+    }
+
+    .footer-nav {
+        background-color: $terracotta_red;
+        color: #fff;
+        margin-bottom: -20px;
+        h2 {
+            text-transform: uppercase;
+            padding-top: 25px;
+        }
+        li {
+            list-style: none;
+        }
+        p {
+            padding: 10px;
+            font-size: 13px;
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+        }
+        .footer-line {
+            content: '';
+            display: block;
+            height: 1px;
+            width: 97px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            background-color: white;
+
+        }
+        #sections-list {
+            margin-top: -258px;
+            margin-left: 258px;
+        }
+        #follow-list {
+            margin-top: -239px;
+            margin-left: 483px;
+        }
+    }
+}
+
+// Medium : 975px
+
+@media (min-width: 975px) {
+
+    .header-banner {
+        .head-contact {
+            margin-left: 415px;
+        }
+        .logo-cont {
+            margin-left: -450px;
+        }
+        .index-banner-header {
+            margin-left: 460px;
+        }
+        .index-banner-line {
+            margin-left: 725px;
+        }
+        .index-banner-p {
+            margin-left: 560px;
+        }
+        .index-banner-button {
+            margin-left: 610px;
+        }
+    }
+    
+    .banner-submenu {
+        ul {
+            margin-right: -90px;
+        }
+    }
+
+    .footer-book-now {
+        height: 125px;
+        .book-now-cont {
+            text-align: left;
+            font-size: 21px;
+            margin-left: 85px;
+            button {
+                display: flex;
+                width: 140px;
+                margin-left: 614px;
+                margin-top: -69px;
+            }
+        }
+    }
+
+    .footer-nav {
+        #contact-list {
+            margin-left: 100px;
+        }
+        #sections-list {
+            margin-left: 375px;
+        }
+        #follow-list {
+            margin-left: 625px;
+        }
+    }
+}
+
+// Large : 1260px 
+
+@media (min-width: 1260px) {
+
+    .header-banner {
+        .head-contact {
+            margin-left: 608px;
+            // height: 475px;
+        }
+        .logo-cont {
+            margin-left: -831px;
+            margin-bottom: 55px;
+        }
+        .index-banner-header {
+            margin-left: 596px;
+            width: 504px;
+        }
+        .index-banner-line {
+            margin-left: 971px;
+        }
+        .index-banner-p {
+            margin-left: 802px;
+        }
+        .index-banner-button {
+            margin-left: 803px;
+        }
+    }
+    
+    .banner-submenu {
+        ul {
+            justify-content: flex-end;
+            margin-right: 112px;
+            li {
+                padding: 10px 40px;
+            }
+        }
+    }
+
+    .footer-book-now {
+        height: 125px;
+        .book-now-cont {
+            margin-left: 96px;
+            button {
+                margin-left: 841px;
+            }
+        }
+    }
+
+    .footer-nav {
+        #contact-list {
+            margin-left: 100px;
+        }
+        #sections-list {
+            margin-left: 525px;
+        }
+        #follow-list {
+            margin-left: 889px;
+        }
+    }
+}
+
+// Full Screen: 1920px
+
+@media (min-width: 1920px) {
+
+    .header-banner {
+        height: 474px;
+        .head-contact {
+            margin-left: 965px;
+        }
+        .logo-cont {
+            margin-left: -1210px;
+            margin-bottom: 54px;
+        }
+        .index-banner-header {
+            margin-left: 850px;
+            width: 768px;
+            letter-spacing: 12px;
+        }
+        .index-banner-line {
+            margin-left: 1480px;
+        }
+        .index-banner-p {
+            margin-left: 1310px;
+        }
+        .index-banner-button {
+            margin-left: 1160px;
+        }
+    }
+    
+    .banner-submenu {
+        ul {
+            margin-right: 265px;
+            li {
+                padding: 10px 40px;
+            }
+        }
+    }
+
+    .footer-book-now {
+        height: 125px;
+        .book-now-cont {
+            margin-left: 350px;
+            button {
+                margin-left: 810px;
+            }
+        }
+    }
+
+    .footer-nav {
+        #contact-list {
+            margin-left: 330px;
+        }
+        #sections-list {
+            margin-left: 735px;
+        }
+        #follow-list {
+            margin-left: 1130px;
         }
     }
 }
