@@ -17,10 +17,6 @@ html, body {
   font-family: 'montserrat', sans-serif;
 }
 
-header {
-  margin-bottom: 450px;
-}
-
 .header-banner {
   position: relative;
   width: auto;
@@ -144,6 +140,7 @@ header {
   width: auto;
   margin: 25px;
   height: auto;
+  margin-top: 75px;
 }
 
 .description .description_width .description_text {
