@@ -1,4 +1,3 @@
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10,89 +9,577 @@ html, body {
   height: 100%;
   overflow-x: hidden;
   margin: 0;
+  margin-top: -8px;
   padding: 0;
+}
+
+* {
+  font-family: 'montserrat', sans-serif;
 }
 
 .header-banner {
   position: relative;
-  margin-top: -350px;
-}
-
-.logo-aurore {
-  font-family: 'la belle aurore';
-  color: #af473d;
-  margin-top: -670px;
-  margin-left: 150px;
-  font-size: 50px;
+  width: auto;
+  height: 450px;
+  background-size: cover;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../Images/header_lobster.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../Images/header_lobster.jpg);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
   font-weight: bold;
 }
 
-.logo-montserrat {
-  font-family: 'montserrat';
-  text-transform: uppercase;
-  color: black;
-  margin-left: 150px;
-  margin-top: -80px;
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
-
-.head-contact {
-  font-family: 'montserrat';
-  text-transform: uppercase;
-  color: #fff;
-  margin-left: 1310px;
-  margin-top: -125px;
-  font-size: 20px;
+.header-banner .head-contact {
   font-weight: 600;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  padding-top: 15px;
+}
+
+.header-banner .logo-aurore {
+  font-family: 'la belle aurore', sans-serif;
+  text-transform: capitalize;
+  color: #af473d;
+  font-size: 50px;
+  margin-bottom: -56px;
+  margin-top: 47px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.header-banner .logo-montserrat {
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
   letter-spacing: 2px;
 }
 
-.index-banner-header {
-  font-family: 'montserrat';
-  text-transform: uppercase;
-  color: #fff;
-  margin-top: 200px;
-  margin-left: 1326px;
-  width: 500px;
-  letter-spacing: 5px;
-  font-size: 50px;
-  text-align: end;
-}
-
-.index-banner-line {
-  content: '';
-  display: inline-block;
-  width: 160px;
-  height: 2px;
-  background-color: white;
-  margin-bottom: 12px;
-  margin-left: 1656px;
-}
-
-.index-banner-p {
-  font-family: 'montserrat';
-  color: #fff;
+.header-banner .index-banner-header {
   font-size: 21px;
   font-weight: 600;
-  width: 390px;
-  text-align: end;
-  letter-spacing: 3px;
-  margin-left: 1427px;
 }
 
-.index-banner-button {
-  font-family: 'montserrat';
-  text-transform: uppercase;
+.header-banner .index-banner-line {
+  display: block;
+  content: '';
+  height: 1px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.header-banner .index-banner-p {
+  width: 350px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+
+.header-banner .index-banner-button {
   background-color: #af473d;
-  color: #fff;
+  color: white;
   text-decoration: none;
+  text-transform: uppercase;
   border: none;
-  font-size: 21px;
-  padding: 10px 25px;
-  margin-left: 1639px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.banner-submenu {
+  background-color: #af473d;
+}
+
+.banner-submenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin-top: 31px;
+}
+
+.banner-submenu ul :first-child {
+  margin-left: -40px;
+}
+
+.banner-submenu ul li {
+  margin-left: -40px;
+  padding: 15px 10px;
+  border-top: 1px solid white;
+}
+
+.section_title {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  margin: 25px 0 0;
+  color: #af473d;
+  font-size: 30px;
+}
+
+.header_underline {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 150px;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.description .description_width {
+  width: auto;
+  margin: 25px;
+  height: auto;
+}
+
+.description .description_width .description_text {
+  margin: 25px 0;
+  font-size: 16px;
+}
+
+.description .description_width .description_text:last-of-type {
+  display: none;
+}
+
+.services {
+  margin-top: 75px;
+}
+
+.services .services_width {
+  width: 100%;
+  padding: 0 25px;
+}
+
+.services .services_width .card_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+.services .services_width .card_container .card {
+  display: block;
+  width: auto;
+  margin-top: 25px;
+}
+
+.services .services_width .card_container .card .card_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: auto;
+}
+
+.services .services_width .card_container .card .card_corporate {
+  background-image: url(../Images/services_image_1.jpg);
+}
+
+.services .services_width .card_container .card .card_weddings {
+  background-image: url(../Images/wedding_card_image.jpeg);
+}
+
+.services .services_width .card_container .card .card_events {
+  background-image: url(../Images/events_card_image.jpg);
+}
+
+.services .services_width .card_container .card .card_title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #af473d;
+  font-size: 24px;
+}
+
+.services .services_width .card_container .card .card_title_underline {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100px;
+  margin-top: 0;
+  background-color: black;
+  margin: 0 auto 10px;
+}
+
+.services .services_width .card_container .card .card_text {
+  text-align: center;
+}
+
+.services .services_width .card_container .card:first-of-type {
+  margin-top: 0px;
+}
+
+.reviews {
+  margin-top: 75px;
+}
+
+.reviews .background_image {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../Images/quote_image_1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/quote_image_1.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reviews .background_image .text_container {
+  width: 100%;
+  height: 400px;
+}
+
+.reviews .background_image .text_container .quote_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 200px;
+  padding: 25px 25px 0;
+}
+
+.reviews .background_image .text_container .quote_container i {
+  display: inline-block;
+  font-size: 20px;
+  width: auto;
+  margin: 0;
+}
+
+.reviews .background_image .text_container .quote_container .quote_left {
+  padding-top: 40px;
+}
+
+.reviews .background_image .text_container .quote_container .quote_right {
+  padding-top: 125px;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content {
+  text-align: center;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content .quote {
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 30px 25px 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content .quote_underline {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 33%;
   margin-top: 30px;
+  background-color: white;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content .quote_author {
+  margin-top: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.partners {
+  margin-top: 75px;
+  display: none;
+}
+
+.partners .partners_width {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners .partners_width .partners_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 750px;
+  height: auto;
+  margin: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners .partners_width .partners_container .partner_card {
+  display: block;
+  width: 200px;
+}
+
+.partners .partners_width .partners_container .partner_card .card_image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+}
+
+@media (min-width: 750px) {
+  .header-banner {
+    position: relative;
+    width: auto;
+    height: 450px;
+    background-size: cover;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../Images/header_lobster.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../Images/header_lobster.jpg);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+  .header-banner .head-contact {
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    padding-top: 15px;
+    margin-left: 225px;
+  }
+  .header-banner .logo-cont {
+    margin-left: -450px;
+  }
+  .header-banner .logo-aurore {
+    font-family: 'la belle aurore', sans-serif;
+    text-transform: capitalize;
+    color: #af473d;
+    font-size: 50px;
+    margin-bottom: -56px;
+    margin-top: 47px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .header-banner .logo-montserrat {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .header-banner .index-banner-header {
+    font-size: 38px;
+    letter-spacing: 4px;
+    width: 400px;
+    text-align: end;
+    font-weight: 600;
+    margin-left: 306px;
+    margin-top: -69px;
+  }
+  .header-banner .index-banner-line {
+    display: block;
+    content: '';
+    height: 1px;
+    width: 125px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 573px;
+    background-color: white;
+  }
+  .header-banner .index-banner-p {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-transform: none;
+  }
+  .header-banner .index-banner-button {
+    background-color: #af473d;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .banner-submenu {
+    background-color: #af473d;
+  }
+  .banner-submenu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    margin-top: 31px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .banner-submenu ul li {
+    padding: 10px 35px;
+  }
+  .description {
+    margin-top: 50px;
+  }
+  .description .description_width {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description .description_width .description_title {
+    color: #af473d;
+  }
+  .description .description_width .description_text:last-of-type {
+    display: block;
+  }
+  .section_title {
+    font-size: 36px;
+  }
+  .header_underline {
+    width: 185px;
+  }
+  .services .services_width {
+    width: 750px;
+    padding: 0 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .services .services_width .card_container {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 0;
+  }
+  .services .services_width .card_container .card {
+    display: block;
+    width: 360px;
+    padding: 0 0;
+    margin-top: 0px;
+  }
+  .services .services_width .card_container .card .card_image {
+    height: 202px;
+    width: 360px;
+  }
+  .services .services_width .card_container .card .card_title {
+    font-size: 24px;
+  }
+  .services .services_width .card_container .card:last-of-type {
+    margin-top: 25px;
+  }
+  .reviews .background_image .text_container {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote {
+    font-size: 18px;
+    padding: 30px 50px 0;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
+    font-size: 16px;
+  }
+  .partners {
+    display: block;
+  }
+}
+
+@media (min-width: 975px) {
+  .description .description_width {
+    width: 975px;
+  }
+  .services .services_width {
+    width: 975px;
+  }
+  .services .services_width .card_container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .services .services_width .card_container .card {
+    width: 310px;
+  }
+  .services .services_width .card_container .card .card_image {
+    height: 174px;
+    width: 310px;
+  }
+  .services .services_width .card_container .card:last-of-type {
+    margin-top: 0px;
+  }
+  .reviews .background_image .text_container {
+    width: 950px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote {
+    font-size: 20px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
+    font-size: 18px;
+  }
+  .partners .partners_width {
+    width: 975px;
+  }
+  .partners .partners_width .partners_container {
+    width: 950px;
+  }
+  .partners .partners_width .partners_container .partner_card {
+    width: 300px;
+  }
+  .partners .partners_width .partners_container .partner_card .card_image {
+    height: 150px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1260px) {
+  .description .description_width {
+    width: 1260px;
+  }
+  .services .services_width {
+    width: 1260px;
+  }
+  .services .services_width .card_container .card {
+    width: 400px;
+  }
+  .services .services_width .card_container .card .card_image {
+    height: 225px;
+    width: 400px;
+  }
+  .reviews .background_image .text_container {
+    width: 1200px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote {
+    font-size: 22px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
+    font-size: 18px;
+  }
+  .partners .partners_width {
+    width: 1260px;
+  }
+  .partners .partners_width .partners_container {
+    width: 1200px;
+  }
+  .partners .partners_width .partners_container .partner_card {
+    width: 350px;
+  }
+  .partners .partners_width .partners_container .partner_card .card_image {
+    height: 150px;
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
 html,body{width:100%;height:100%;overflow-x:hidden;margin:0;margin-top:-8px;padding:0}*{font-family:'montserrat', sans-serif}.header-banner{position:relative;width:auto;height:450px;background-size:cover;background:linear-gradient(to left, rgba(0,0,0,0.7), transparent),url(../Images/header_lobster.jpg);color:white;text-transform:uppercase;text-align:center;font-weight:bold}.header-banner .head-contact{font-weight:600;letter-spacing:2px;text-shadow:1px 1px rgba(0,0,0,0.7);padding-top:15px}.header-banner .logo-aurore{font-family:'la belle aurore', sans-serif;text-transform:capitalize;color:#af473d;font-size:50px;margin-bottom:-56px;margin-top:47px;text-shadow:1px 1px rgba(0,0,0,0.7)}.header-banner .logo-montserrat{color:black;font-weight:600;font-size:30px;letter-spacing:2px}.header-banner .index-banner-header{font-size:21px;font-weight:600}.header-banner .index-banner-line{display:block;content:'';height:1px;width:200px;margin:auto;margin-top:20px;margin-bottom:30px;background-color:white}.header-banner .index-banner-p{width:350px;margin:auto;margin-bottom:30px;text-transform:none}.header-banner .index-banner-button{background-color:#af473d;color:white;text-decoration:none;text-transform:uppercase;border:none;font-size:25px;padding:10px;font-weight:600}.banner-submenu{background-color:#af473d}.banner-submenu ul{display:flex;flex-direction:row;flex-wrap:wrap;list-style:none;margin-top:31px}.banner-submenu ul :first-child{margin-left:-25px}.banner-submenu ul li{padding:15px 10px}@media (min-width: 750px){.header-banner{position:relative;width:auto;height:450px;background-size:cover;background:linear-gradient(to left, rgba(0,0,0,0.7), transparent),url(../Images/header_lobster.jpg);color:white;text-transform:uppercase;text-align:center;font-weight:bold}.header-banner .head-contact{font-weight:600;letter-spacing:2px;text-shadow:1px 1px rgba(0,0,0,0.7);padding-top:15px;margin-left:225px}.header-banner .logo-cont{margin-left:-450px}.header-banner .logo-aurore{font-family:'la belle aurore', sans-serif;text-transform:capitalize;color:#af473d;font-size:50px;margin-bottom:-56px;margin-top:47px;text-shadow:1px 1px rgba(0,0,0,0.7)}.header-banner .logo-montserrat{color:black;font-weight:600;font-size:30px;letter-spacing:2px}.header-banner .index-banner-header{font-size:38px;letter-spacing:4px;width:400px;text-align:end;font-weight:600;margin-left:306px;margin-top:-69px}.header-banner .index-banner-line{display:block;content:'';height:1px;width:125px;margin:auto;margin-top:30px;margin-bottom:30px;margin-left:573px;background-color:white}.header-banner .index-banner-p{width:350px;margin:auto;margin-bottom:30px;text-transform:none}.header-banner .index-banner-button{background-color:#af473d;color:white;text-decoration:none;text-transform:uppercase;border:none;font-size:25px;padding:10px;font-weight:600}.banner-submenu{background-color:#af473d}.banner-submenu ul{display:flex;flex-direction:row;flex-wrap:wrap;list-style:none;margin-top:31px;justify-content:center}.banner-submenu ul li{padding:10px 35px}}
