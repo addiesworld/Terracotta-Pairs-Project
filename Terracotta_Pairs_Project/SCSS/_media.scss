@@ -2,7 +2,7 @@
 
 
 // Mobile : auto
-// Small : 750px
+// Small : 750px 725px
 // Medium : 975px
 // Large : 1260px 
 
@@ -94,6 +94,202 @@
             justify-content: center;
             li {
                 padding: 10px 35px;
+            }
+        }
+    }
+
+    .description {
+        margin-top: 50px;
+        .description_width {
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            .description_title {
+                // margin: 25px;
+                color: $terracotta_red;
+            }
+            .description_text:last-of-type {
+                display: block;
+            }
+        }
+    }
+    
+    .section_title {
+        font-size: 36px;
+    }
+
+    .header_underline {
+        width: 185px;
+    }
+
+    .services {
+    .services_width {
+        width: 750px;
+        padding: 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        .card_container {
+            justify-content: space-evenly;
+            padding: 0;
+            .card {
+                display: block;
+                width: 360px;
+                padding: 0 0;
+                margin-top: 0px;
+                .card_image {
+                    height: 202px;
+                    width: 360px;
+                }
+                .card_title {
+                    font-size: 24px;
+                }  
+            }
+            .card:last-of-type {
+                margin-top: 25px;
+            }
+        }
+    }
+    }
+
+    .reviews {
+        .background_image {
+            .text_container {
+                width: 750px;
+                margin-left: auto;
+                margin-right: auto;
+                .quote_container {
+                    .quote_content {
+                        .quote {
+                            font-size: 18px;
+                        padding: 30px 50px 0;
+                        }
+                        .quote_author {                        
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .partners {
+        display: block;
+    }
+}
+
+@media (min-width: 975px) {
+    .description {
+        .description_width {
+            width: 975px;
+        }
+    }
+
+    .services {
+        .services_width {
+            width: 975px;
+            .card_container {
+                justify-content: space-between;
+                .card {
+                    width: 310px;
+                    .card_image {
+                        height: 174px;
+                        width: 310px;
+                    }
+                }
+                .card:last-of-type {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    .reviews {
+        .background_image {
+            .text_container {
+                width: 950px;
+                .quote_container {
+                    .quote_content {
+                        .quote {
+                            font-size: 20px;
+                        }
+                        .quote_author {                        
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .partners {
+        .partners_width {
+            width: 975px;
+            .partners_container {
+                width: 950px;
+                .partner_card {
+                    width: 300px;
+                    .card_image {
+                        height: 150px;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1260px) {
+    .description {
+        .description_width {
+            width: 1260px;
+        }
+    }
+
+    .services {
+        .services_width {
+            width: 1260px;
+            .card_container {
+                .card {
+                    width: 400px;
+                    .card_image {
+                        height: 225px;
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+
+    .reviews {
+        .background_image {
+            .text_container {
+                width: 1200px;
+                .quote_container {
+                    .quote_content {
+                        .quote {
+                            font-size: 22px;
+                        }
+                        .quote_author {                        
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .partners {
+        .partners_width {
+            width: 1260px;
+            .partners_container {
+                width: 1200px;
+                .partner_card {
+                    width: 350px;
+                    .card_image {
+                        height: 150px;
+                        width: 300px;
+                    }
+                }
             }
         }
     }

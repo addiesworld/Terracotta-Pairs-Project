@@ -10,12 +10,8 @@ html, body {
     width:100%;
     height: 100%;
     overflow-x: hidden;
-<<<<<<< HEAD
-    margin: 0; // Is margin and padding for everything set to 0 by default.
-=======
     margin: 0;
     margin-top: -8px;
->>>>>>> 6d63160af534d6d1d0ce53f9b02f807a12a0e75c
     padding: 0;
 }
 
@@ -98,10 +94,195 @@ html, body {
         list-style: none;
         margin-top: 31px;
         :first-child {
-            margin-left: -25px;
+            margin-left: -40px;
         }
         li {
+            margin-left: -40px;
             padding: 15px 10px;
+            border-top: 1px solid white;
+        }
+    }
+}
+
+// #region General Website Styles: header, header_underline
+.section_title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 25px 0 0;
+    color: $terracotta_red;
+    font-size: 30px;
+}
+.header_underline {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: black;
+}
+// #endregion
+        
+.description {
+    .description_width {
+        width: auto;
+        margin: 25px;
+        height: auto; 
+        .description_text {
+            margin: 25px 0;
+            font-size: 16px;
+        }
+        .description_text:last-of-type {
+            display: none;
+        }
+    }
+}
+
+.services {
+        margin-top: 75px;
+    .services_width {
+        width: 100%;
+        padding: 0 25px;
+        .card_container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 25px;
+            .card {
+                display: block;
+                width: auto;
+                margin-top: 25px;
+                .card_image {
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 250px;
+                    width: auto;
+                }
+                .card_corporate {
+                    background-image: url(../Images/services_image_1.jpg);
+                }
+                .card_weddings {
+                    background-image: url(../Images/wedding_card_image.jpeg);
+                }
+                .card_events {
+                    background-image: url(../Images/events_card_image.jpg);
+                }
+                .card_title {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: $terracotta_red;
+                    font-size: 24px;
+                }
+                .card_title_underline {
+                    content: "";
+                    display: block;
+                    height: 1px;
+                    width: 100px;
+                    margin-top: 0;
+                    background-color: black;
+                    margin: 0 auto 10px;
+                }         
+                .card_text {
+                    text-align: center;
+                }    
+            }
+            .card:first-of-type {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+.reviews {
+    margin-top: 75px;
+    .background_image {
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../Images/quote_image_1.jpg); 
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        .text_container {
+            width: 100%;
+            height: 400px;
+            .quote_container {
+                display: flex;
+                color: white;
+                width: 100%;
+                height: 200px;
+                padding: 25px 25px 0;
+                i {
+                    display: inline-block;
+                    font-size: 20px;
+                    width: auto;
+                    margin: 0;
+                }
+                .quote_left {
+                    padding-top: 40px
+                }
+                .quote_right {
+                    padding-top: 125px;
+                }
+                .quote_content {
+                    text-align: center;
+                    .quote {
+                        display: inline-block;
+                        text-align: center;
+                        width: auto;
+                        height: auto;
+                        padding: 30px 25px 0;
+                        margin: 0;
+                        font-size: 16px;
+                    }
+                    .quote_underline {
+                        content: "";
+                        display: inline-block;
+                        height: 1px;
+                        width: 33%;
+                        margin-top: 30px;
+                        background-color: white;
+                    }
+                    .quote_author {                        
+                        margin-top: 20px;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.partners {
+    margin-top: 75px;
+    display: none;
+    .partners_width {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        .partners_container {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            width: 750px;
+            height: auto;
+            margin: 50px 0;
+            margin-left: auto;
+            margin-right: auto;
+            .partner_card {
+                display: block;
+                width: 200px;
+                .card_image {
+                    object-fit: contain;
+                    height: 100px;
+                    width: 200px;
+                    overflow: hidden;
+                }
+            }
         }
     }
 }
