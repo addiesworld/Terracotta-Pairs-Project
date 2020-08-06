@@ -109,22 +109,6 @@ header {
     }
 }
 
-// Footer Styling
-
-.footer-book-now {
-    background-color: #3c3c3c;
-    color: #fff;
-    margin-bottom: -20px;
-    .book-now-cont {
-        text-align: center;
-        width: 333px;
-        padding: 20px;
-        font-size: 16px;
-        button {
-            color: $terracotta_red;
-            font-size: 21px;
-            font-weight: bold;
-            padding: 10px 15px;
 // #region General Website Styles: header, header_underline
 .section_title {
     display: block;
@@ -308,6 +292,7 @@ header {
     }
 }
 
+// Footer Styling
 .footer-nav {
     background-color: $terracotta_red;
     color: #fff;
@@ -334,4 +319,23 @@ header {
 
     }
 }
+
+.footer-book-now {
+    background-color: #3c3c3c;
+    color: #fff;
+    margin-bottom: -20px;
+    .book-now-cont {
+        text-align: center;
+        width: 333px;
+        padding: 20px;
+        font-size: 16px;
+        button {
+            color: $terracotta_red;
+            font-size: 21px;
+            font-weight: bold;
+            padding: 10px 15px;
+        }
+    }
+}
+
 @import "_media.scss";
