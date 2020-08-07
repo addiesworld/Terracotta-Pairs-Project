@@ -113,6 +113,7 @@
             width: 750px;
             margin-left: auto;
             margin-right: auto;
+            padding: 0 8px;
             .description_title {
                 // margin: 25px;
                 color: $terracotta_red;
@@ -134,9 +135,10 @@
     .services {
     .services_width {
         width: 750px;
-        padding: 0 0;
+        // padding: 0 0;
         margin-left: auto;
         margin-right: auto;
+        padding: 0 8px;
         .card_container {
             justify-content: space-evenly;
             padding: 0;
@@ -166,6 +168,7 @@
                 width: 750px;
                 margin-left: auto;
                 margin-right: auto;
+                padding: 0 8px;
                 .quote_container {
                     .quote_content {
                         .quote {
@@ -183,6 +186,7 @@
 
     .partners {
         display: block;
+        padding: 0 8px;
     }
     
     .footer-book-now {

@@ -501,6 +501,7 @@ html, body {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 8px;
   }
   .description .description_width .description_title {
     color: #af473d;
@@ -516,9 +517,9 @@ html, body {
   }
   .services .services_width {
     width: 750px;
-    padding: 0 0;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 8px;
   }
   .services .services_width .card_container {
     -webkit-box-pack: space-evenly;
@@ -546,6 +547,7 @@ html, body {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 8px;
   }
   .reviews .background_image .text_container .quote_container .quote_content .quote {
     font-size: 18px;
@@ -556,6 +558,7 @@ html, body {
   }
   .partners {
     display: block;
+    padding: 0 8px;
   }
   .footer-book-now {
     background-color: #3c3c3c;
