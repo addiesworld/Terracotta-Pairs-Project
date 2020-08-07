@@ -8,108 +8,59 @@
 
 
 @media (min-width: 750px) {
-// #region
-/*
-    .header-banner {
-        position: relative;
-        width: auto;
-        height: 475px;
-        background-size: cover;
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
-                    url(../Images/header_lobster.jpg);
-        color: white;        
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: bold;
-        .header-cont {
-            display: block;
-            width: 346px;
-            margin: auto;
-        }
-        .head-contact {
-            width: 400px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-            padding-top: 15px;
-            margin-left: 135px;
-        }
-        .logo-cont {
-            display: block;
-            height: 100px;
-            width: 200px;
-            margin-top: -70px;
-            margin-left: -161px;
-        }
-        .header-info {
-            display: block;
-            width: 429px;
-            justify-content: end;
-            margin-left: 110px;
-            margin-top: -30px;
-            margin-bottom: 75px;
-        }
-        .index-banner-header {
-            font-size: 38px;
-            letter-spacing: 4px;
-            width: 400px;
-            text-align: end;
-            font-weight: 600;
-        }
-        .index-banner-line {
-            display: block;
-            content: '';
-            height: 1px;
-            width: 125px;
-            margin-left: 270px;
-            background-color: white;
-        }
-        .index-banner-p {
-            width: 295px;
-            text-transform: none;
-            text-align: end;
-            font-size: 20px;
-            margin-left: 100px;
-        }
-        .index-banner-button {
-            background-color: $terracotta_red;
-            color: white;
-            text-decoration: none;
-            text-transform: uppercase;
-            border: none;
-            font-size: 25px;
-            padding: 10px;
-            font-weight: 600;
-            margin-left: 190px;
-        }
-    }
-    
-    .banner-submenu {
-        background-color: $terracotta_red;
-        margin-top: -23px;
-        ul {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            list-style: none;
-            margin-top: 31px;
-            justify-content: center;
-            margin-left: 189px;
-            li {
-                padding: 10px 35px;
-                border: none;
+
+    .head {
+        .header_container {
+            width: 750px;
+            padding: 0 10px;
+            margin: 0 auto;
+            .top_container {
+                flex-direction: row;
+                justify-content: space-between;
+                padding-top: 40px;
+                .logo_container {
+                    margin: 0;
+                    padding: 0;
+                }
+                .contact_container {
+                    width: auto;
+                    p {
+                        margin-top: 0;
+                        display: inline-block;   
+                        margin-left: 20px;   
+                    }
+                }
+            }
+            .content_container {
+                margin-left: auto;
+                margin-right: 0px;
+                .slogan {
+                    margin: 0;
+                    margin-top: 20px;
+                }
             }
         }
     }
-    */
-// #endregion
+
+    .navigation_bar {
+        .button_container { 
+            width: 750px;
+            margin: 0 auto;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            a {
+                width: 25%;
+            }
+        }
+    }
+
     .description {
-        margin-top: 50px;
+        // margin-top: 50px;
         .description_width {
             width: 750px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 100px;
+            // margin-top: 100px;
             .description_title {
                 // margin: 25px;
                 color: $terracotta_red;
@@ -245,24 +196,42 @@
 
 // Medium : 975px
 @media (min-width: 975px) {
-    // #region 
-    /*
-    .header-banner {
-        .header-cont {
-            width: 258px;
-        }
-        .logo-cont {
-            margin-left: -250px;
+
+    .head {
+        background-position: 40%;
+        background-size: 100%;
+        .header_container {
+            width: 975px;
+            .content_container {
+                width: 40%;
+                text-align: right;
+                .slogan {
+                    font-size: 40px;
+                    margin-top: 0px;
+                    letter-spacing: 3px;
+                }
+                .underline {
+                    display: block;
+                }
+                .book_button {
+                    padding: 10px 40px
+                }
+            }
         }
     }
-    
-    .banner-submenu {
-        ul {
-            padding-left: 110px;
+
+    .navigation_bar {
+        .button_container { 
+            width: 975px;
+            justify-content: end;
+            padding: 0 10px;
+            a {
+                width: 20%;
+                text-align: right;
+                padding: 15px 0;
+            }
         }
     }
-    */
-    // #endregion
 
     .description {
         .description_width {
@@ -355,28 +324,34 @@
 // Large : 1260px 
 @media (min-width: 1260px) {
 
-    // #region
-    /*
-    .header-banner {
-            .header-cont {
-                width: 51px;
-            }
-            .logo-cont {
-                margin-left: -456px;
-            }
-    }
-    
-    .banner-submenu {
-        ul {
-            justify-content: flex-end;
-            margin-right: 112px;
-            li {
-                padding: 10px 40px;
+    .head {
+        .header_container {
+            width: 1260px;
+            .content_container {
+                // width: 30%;
+                // text-align: right;
+                .slogan {
+                    font-size: 50px;
+                    // margin: 0px;
+                }
+                .underline {
+                    margin-top: 0px;
+                }
+                .tagline {
+                    font-size:29px;
+                }
             }
         }
     }
-    */
-    // #endregion
+
+    .navigation_bar {
+        .button_container { 
+            width: 1260px;
+            a {
+                width: 200px;
+            }
+        }
+    }
 
     .description {
         .description_width {
@@ -457,69 +432,27 @@
 }
 
 // Full Screen: 1920px
-@media (min-width: 1920px) {
+// @media (min-width: 1920px) {
 
-    // #region
-    /*
-    .header-banner {
-        height: 492px;
-        .head-contact {
-            margin-left: 178px;
-            font-size: 15px;
-            width: 500px;
-        }
-        .logo-cont {
-            margin-left: -600px;
-            margin-bottom: 54px;
-        }
-        .index-banner-header {
-            margin-left: -230px;
-            width: 768px;
-            letter-spacing: 12px;
-        }
-        .index-banner-line {
-            margin-left: 398px;
-        }
-        .index-banner-p {
-            margin-left: 225px;
-        }
-        .index-banner-button {
-            margin-left: 348px;
-            width: 172px;
-        }
-    }
-    
-    .banner-submenu {
-        ul {
-            margin-right: 0px;
-            padding-right: 321px;
-            li {
-                padding: 10px 40px;
-            }
-        }
-    }  
-    */
-    // #endregion
+//     .footer-book-now {
+//         height: 150px;
+//         .book-now-cont {
+//             margin-left: 321px;
+//             button {
+//                 margin-left: 1084px;
+//             }
+//         }
+//     }
 
-    .footer-book-now {
-        height: 150px;
-        .book-now-cont {
-            margin-left: 321px;
-            button {
-                margin-left: 1084px;
-            }
-        }
-    }
-
-    .footer-nav {
-        #contact-list {
-            margin-left: 300px;
-        }
-        #sections-list {
-            margin-left: 825px;
-        }
-        #follow-list {
-            margin-left: 1377px;
-        }
-    }
-}
+//     .footer-nav {
+//         #contact-list {
+//             margin-left: 300px;
+//         }
+//         #sections-list {
+//             margin-left: 825px;
+//         }
+//         #follow-list {
+//             margin-left: 1377px;
+//         }
+//     }
+// }
