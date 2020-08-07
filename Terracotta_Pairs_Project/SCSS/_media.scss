@@ -20,31 +20,33 @@
         text-transform: uppercase;
         text-align: center;
         font-weight: bold;
+        .header-cont {
+            display: block;
+            width: 346px;
+            margin: auto;
+        }
         .head-contact {
+            width: 400px;
             font-weight: 600;
             letter-spacing: 2px;
             text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
             padding-top: 15px;
-            margin-left: 330px;
+            margin-left: 135px;
         }
         .logo-cont {
-            margin-left: -450px;
-            margin-bottom: 55px;
+            display: block;
+            height: 100px;
+            width: 200px;
+            margin-top: -70px;
+            margin-left: -161px;
         }
-        .logo-aurore {
-            font-family: 'la belle aurore', sans-serif;
-            text-transform: capitalize;
-            color: $terracotta_red;
-            font-size: 50px;
-            margin-bottom: -56px;
-            margin-top: 47px;
-            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-        }
-        .logo-montserrat {
-            color: black;
-            font-weight: 600;
-            font-size: 30px;
-            letter-spacing: 2px;
+        .header-info {
+            display: block;
+            width: 429px;
+            justify-content: end;
+            margin-left: 110px;
+            margin-top: -30px;
+            margin-bottom: 75px;
         }
         .index-banner-header {
             font-size: 38px;
@@ -52,46 +54,38 @@
             width: 400px;
             text-align: end;
             font-weight: 600;
-            margin-left: 306px;
-            margin-top: -69px;
         }
         .index-banner-line {
             display: block;
             content: '';
             height: 1px;
             width: 125px;
-            margin: auto;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            margin-left: 573px;
+            margin-left: 270px;
             background-color: white;
         }
         .index-banner-p {
             width: 295px;
-            margin: auto;
-            margin-bottom: 30px;
-            margin-left: 407px;
             text-transform: none;
             text-align: end;
             font-size: 20px;
+            margin-left: 100px;
         }
         .index-banner-button {
             background-color: $terracotta_red;
             color: white;
             text-decoration: none;
-            text-transform: capitalize;
+            text-transform: uppercase;
             border: none;
             font-size: 25px;
             padding: 10px;
             font-weight: 600;
-            margin-left: 523px;
-            margin-top: -10px;
+            margin-left: 190px;
         }
     }
     
     .banner-submenu {
         background-color: $terracotta_red;
-        margin-top: -20px;
+        margin-top: -23px;
         ul {
             display: flex;
             flex-direction: row;
@@ -113,6 +107,7 @@
             width: 750px;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 100px;
             .description_title {
                 // margin: 25px;
                 color: $terracotta_red;
@@ -245,31 +240,18 @@
 
 // Medium : 975px
 @media (min-width: 975px) {
-
     .header-banner {
-        .head-contact {
-            margin-left: 415px;
+        .header-cont {
+            width: 258px;
         }
         .logo-cont {
-            margin-left: -450px;
-        }
-        .index-banner-header {
-            margin-left: 460px;
-        }
-        .index-banner-line {
-            margin-left: 725px;
-        }
-        .index-banner-p {
-            margin-left: 560px;
-        }
-        .index-banner-button {
-            margin-left: 610px;
+            margin-left: -250px;
         }
     }
     
     .banner-submenu {
         ul {
-            margin-right: -90px;
+            padding-left: 110px;
         }
     }
 
@@ -338,11 +320,12 @@
             text-align: left;
             font-size: 21px;
             margin-left: 85px;
+            margin-top: -7px;
             button {
                 display: flex;
                 width: 140px;
-                margin-left: 614px;
-                margin-top: -69px;
+                margin-left: 620px;
+                margin-top: -82px;
             }
         }
     }
@@ -364,27 +347,12 @@
 @media (min-width: 1260px) {
 
     .header-banner {
-        .head-contact {
-            margin-left: 608px;
-            // height: 475px;
-        }
-        .logo-cont {
-            margin-left: -831px;
-            margin-bottom: 55px;
-        }
-        .index-banner-header {
-            margin-left: 596px;
-            width: 504px;
-        }
-        .index-banner-line {
-            margin-left: 971px;
-        }
-        .index-banner-p {
-            margin-left: 802px;
-        }
-        .index-banner-button {
-            margin-left: 803px;
-        }
+            .header-cont {
+                width: 51px;
+            }
+            .logo-cont {
+                margin-left: -456px;
+            }
     }
     
     .banner-submenu {
@@ -453,24 +421,24 @@
     }
 
     .footer-book-now {
-        height: 125px;
+        height: 150px;
         .book-now-cont {
-            margin-left: 96px;
+            margin-left: 137px;
             button {
-                margin-left: 841px;
+                margin-left: 814px;
             }
         }
     }
 
     .footer-nav {
         #contact-list {
-            margin-left: 100px;
+            margin-left: 118px;
         }
         #sections-list {
             margin-left: 525px;
         }
         #follow-list {
-            margin-left: 889px;
+            margin-left: 922px;
         }
     }
 }
@@ -479,33 +447,37 @@
 @media (min-width: 1920px) {
 
     .header-banner {
-        height: 474px;
+        height: 492px;
         .head-contact {
-            margin-left: 965px;
+            margin-left: 178px;
+            font-size: 15px;
+            width: 500px;
         }
         .logo-cont {
-            margin-left: -1210px;
+            margin-left: -600px;
             margin-bottom: 54px;
         }
         .index-banner-header {
-            margin-left: 850px;
+            margin-left: -230px;
             width: 768px;
             letter-spacing: 12px;
         }
         .index-banner-line {
-            margin-left: 1480px;
+            margin-left: 398px;
         }
         .index-banner-p {
-            margin-left: 1310px;
+            margin-left: 225px;
         }
         .index-banner-button {
-            margin-left: 1160px;
+            margin-left: 348px;
+            width: 172px;
         }
     }
     
     .banner-submenu {
         ul {
-            margin-right: 265px;
+            margin-right: 0px;
+            padding-right: 321px;
             li {
                 padding: 10px 40px;
             }
@@ -513,24 +485,24 @@
     }  
 
     .footer-book-now {
-        height: 125px;
+        height: 150px;
         .book-now-cont {
-            margin-left: 350px;
+            margin-left: 321px;
             button {
-                margin-left: 810px;
+                margin-left: 1084px;
             }
         }
     }
 
     .footer-nav {
         #contact-list {
-            margin-left: 330px;
+            margin-left: 300px;
         }
         #sections-list {
-            margin-left: 735px;
+            margin-left: 825px;
         }
         #follow-list {
-            margin-left: 1130px;
+            margin-left: 1377px;
         }
     }
 }

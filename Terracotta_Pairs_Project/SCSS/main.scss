@@ -9,7 +9,6 @@
 html, body {
     width:100%;
     height: 100%;
-    overflow-x: hidden;
     margin: 0;
     margin-top: -8px;
     padding: 0;
@@ -24,7 +23,7 @@ html, body {
 .header-banner {
     position: relative;
     width: auto;
-    height: 450px;
+    height: 455px;
     background-size: cover;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
                 url(../Images/header_lobster.jpg);
@@ -32,6 +31,11 @@ html, body {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    .header-cont {
+        display: block;
+        width: 346px;
+        margin: auto;
+    }
     .head-contact {
         font-weight: 600;
         letter-spacing: 2px;
@@ -55,7 +59,7 @@ html, body {
         letter-spacing: 2px;
     }
     .index-banner-header {
-        font-size: 21px;
+        font-size: 23px;
         font-weight: 600;
     }
     .index-banner-line {
@@ -69,10 +73,11 @@ html, body {
         background-color: white;
     }
     .index-banner-p {
-        width: 350px;
+        width: 322px;
         margin: auto;
         margin-bottom: 30px;
         text-transform: none;
+        line-height: 25px;
     }
     .index-banner-button {
         background-color: $terracotta_red;
@@ -130,7 +135,7 @@ html, body {
         width: auto;
         margin: 25px;
         height: auto; 
-        margin-top: 75px;
+        margin-top: 210px;
 
         .description_text {
             margin: 25px 0;
@@ -204,7 +209,7 @@ html, body {
     .background_image {
         background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../Images/quote_image_1.jpg); 
         width: 100%;
-        height: 400px;
+        height: 450px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -324,7 +329,7 @@ html, body {
     margin-bottom: -20px;
     .book-now-cont {
         text-align: center;
-        width: 333px;
+        width: auto;
         padding: 20px;
         font-size: 16px;
         button {
