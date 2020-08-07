@@ -24,98 +24,204 @@ html, body {
 //     padding: 0;
 // }
 
-//Header Styling
-
-.header-banner {
-    position: relative;
-    width: auto;
-    height: 455px;
+.head {
     background-size: cover;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
                 url(../Images/header_lobster.jpg);
-    color: white;        
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    .header-cont {
-        display: block;
-        width: 346px;
-        margin: auto;
-    }
-    .head-contact {
-        font-weight: 600;
-        letter-spacing: 2px;
-        text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-        padding-top: 15px;
-        font-size: 12px;
-    }
-    .logo-aurore {
-        font-family: 'la belle aurore', sans-serif;
-        text-transform: capitalize;
-        color: $terracotta_red;
-        font-size: 50px;
-        margin-bottom: -56px;
-        margin-top: 47px;
-        text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-    }
-    .logo-montserrat {
-        color: black;
-        font-weight: 600;
-        font-size: 30px;
-        letter-spacing: 2px;
-    }
-    .index-banner-header {
-        font-size: 23px;
-        font-weight: 600;
-    }
-    .index-banner-line {
-        display: block;
-        content: '';
-        height: 1px;
-        width: 200px;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        background-color: white;
-    }
-    .index-banner-p {
-        width: 322px;
-        margin: auto;
-        margin-bottom: 30px;
-        text-transform: none;
-        line-height: 25px;
-    }
-    .index-banner-button {
-        background-color: $terracotta_red;
+    .header_container {
+        width: auto;
+        height: auto;
         color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        border: none;
-        font-size: 25px;
-        padding: 10px;
-        font-weight: 600;
+        .top_container {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: nowrap;
+            align-content: center;
+            text-align: center;
+            p {
+                margin: 0;
+            }
+            .logo_container {
+                margin-top: 20px;
+                display: block;
+                .logo_terra {
+                    text-transform: capitalize;
+                    font-family: 'la belle aurore';
+                    color: $terracotta_red;
+                    font-size: 50px;
+                    height: 60px;
+                }
+                .logo_catering {
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+            .contact_container {
+                p {
+                    margin-top: 10px;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .content_container {
+            display: block;
+            text-align: center;
+            .slogan {
+                font-size: 30px;
+                font-weight: 800;
+            }
+            .underline {
+                display: none;
+                width: 200px;
+                height: 1px;
+                background-color: white;
+                content: "";
+                margin: 0 auto;
+            }
+            .tagline {
+            }
+            .book_button {
+                color: white;
+                text-decoration: none;
+                display: inline-block;
+                width: auto;
+                background-color: $terracotta_red;
+                font-size: 20px;
+                font-weight: 600;
+                padding: 20px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            .book_button:hover {
+                background-color: $terracotta_red_dark;
+            }
+        }
     }
 }
-
-.banner-submenu {
+.navigation_bar {
+    width: auto;
+    height: auto;
+    color: white;
     background-color: $terracotta_red;
-    ul {
+    border-top: solid 1px white;
+    .button_container { 
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
-        list-style: none;
-        margin-top: 31px;
-        :first-child {
-            margin-left: -40px;
+        a {
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            text-decoration: none;
         }
-        li {
-            margin-left: -40px;
-            padding: 15px 10px;
-            border-top: 1px solid white;
+        a:hover {
+            background-color: $terracotta_red_dark;
         }
     }
 }
+//Header Styling
+// #region
+// .header-banner {
+//     position: relative;
+//     width: auto;
+//     height: 455px;
+//     background-size: cover;
+//     background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
+//                 url(../Images/header_lobster.jpg);
+//     color: white;        
+//     text-transform: uppercase;
+//     text-align: center;
+//     font-weight: bold;
+//     .header-cont {
+//         display: block;
+//         width: 346px;
+//         margin: auto;
+//     }
+//     .head-contact {
+//         font-weight: 600;
+//         letter-spacing: 2px;
+//         text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
+//         padding-top: 15px;
+//         font-size: 12px;
+//     }
+//     .logo-aurore {
+//         font-family: 'la belle aurore', sans-serif;
+//         text-transform: capitalize;
+//         color: $terracotta_red;
+//         font-size: 50px;
+//         margin-bottom: -56px;
+//         margin-top: 47px;
+//         text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
+//     }
+//     .logo-montserrat {
+//         color: black;
+//         font-weight: 600;
+//         font-size: 30px;
+//         letter-spacing: 2px;
+//     }
+//     .index-banner-header {
+//         font-size: 23px;
+//         font-weight: 600;
+//     }
+//     .index-banner-line {
+//         display: block;
+//         content: '';
+//         height: 1px;
+//         width: 200px;
+//         margin: auto;
+//         margin-top: 20px;
+//         margin-bottom: 30px;
+//         background-color: white;
+//     }
+//     .index-banner-p {
+//         width: 322px;
+//         margin: auto;
+//         margin-bottom: 30px;
+//         text-transform: none;
+//         line-height: 25px;
+//     }
+//     .index-banner-button {
+//         background-color: $terracotta_red;
+//         color: white;
+//         text-decoration: none;
+//         text-transform: uppercase;
+//         border: none;
+//         font-size: 25px;
+//         padding: 10px;
+//         font-weight: 600;
+//     }
+// }
 
+// .banner-submenu {
+//     background-color: $terracotta_red;
+//     ul {
+//         display: flex;
+//         flex-direction: column;
+//         flex-wrap: wrap;
+//         list-style: none;
+//         margin-top: 31px;
+//         :first-child {
+//             margin-left: -40px;
+//         }
+//         li {
+//             margin-left: -40px;
+//             padding: 15px 10px;
+//             border-top: 1px solid white;
+//         }
+//     }
+// }
+// #endregion
 // #region General Website Styles: header, header_underline
 .section_title {
     display: block;
@@ -141,7 +247,6 @@ html, body {
         width: auto;
         margin: 25px;
         height: auto; 
-        margin-top: 210px;
 
         .description_text {
             margin: 25px 0;

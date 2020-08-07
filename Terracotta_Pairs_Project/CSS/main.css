@@ -1,1 +1,859 @@
-*{box-sizing:border-box;font-family:'montserrat', sans-serif}html,body{width:100%;height:100%;margin:0;margin-top:-8px;padding:0}*{font-family:'montserrat', sans-serif}.header-banner{position:relative;width:auto;height:455px;background-size:cover;background:linear-gradient(to left, rgba(0,0,0,0.7), transparent),url(../Images/header_lobster.jpg);color:white;text-transform:uppercase;text-align:center;font-weight:bold}.header-banner .header-cont{display:block;width:346px;margin:auto}.header-banner .head-contact{font-weight:600;letter-spacing:2px;text-shadow:1px 1px rgba(0,0,0,0.7);padding-top:15px;font-size:12px}.header-banner .logo-aurore{font-family:'la belle aurore', sans-serif;text-transform:capitalize;color:#af473d;font-size:50px;margin-bottom:-56px;margin-top:47px;text-shadow:1px 1px rgba(0,0,0,0.7)}.header-banner .logo-montserrat{color:black;font-weight:600;font-size:30px;letter-spacing:2px}.header-banner .index-banner-header{font-size:23px;font-weight:600}.header-banner .index-banner-line{display:block;content:'';height:1px;width:200px;margin:auto;margin-top:20px;margin-bottom:30px;background-color:white}.header-banner .index-banner-p{width:322px;margin:auto;margin-bottom:30px;text-transform:none;line-height:25px}.header-banner .index-banner-button{background-color:#af473d;color:white;text-decoration:none;text-transform:uppercase;border:none;font-size:25px;padding:10px;font-weight:600}.banner-submenu{background-color:#af473d}.banner-submenu ul{display:flex;flex-direction:column;flex-wrap:wrap;list-style:none;margin-top:31px}.banner-submenu ul :first-child{margin-left:-40px}.banner-submenu ul li{margin-left:-40px;padding:15px 10px;border-top:1px solid white}.section_title{display:block;text-transform:uppercase;letter-spacing:2px;width:100%;margin:25px 0 0;color:#af473d;font-size:30px}.header_underline{content:"";display:block;height:1px;width:150px;margin-top:10px;background-color:black}.description .description_width{width:auto;margin:25px;height:auto;margin-top:210px}.description .description_width .description_text{margin:25px 0;font-size:16px}.description .description_width .description_text:last-of-type{display:none}.services{margin-top:75px}.services .services_width{width:100%;padding:0 25px}.services .services_width .card_container{width:100%;display:flex;flex-wrap:wrap;justify-content:center;margin-top:25px}.services .services_width .card_container .card{display:block;width:auto;margin-top:25px}.services .services_width .card_container .card .card_image{background-size:cover;background-repeat:no-repeat;background-position:center;height:250px;width:auto}.services .services_width .card_container .card .card_corporate{background-image:url(../Images/services_image_1.jpg)}.services .services_width .card_container .card .card_weddings{background-image:url(../Images/wedding_card_image.jpeg)}.services .services_width .card_container .card .card_events{background-image:url(../Images/events_card_image.jpg)}.services .services_width .card_container .card .card_title{text-transform:uppercase;text-align:center;color:#af473d;font-size:24px}.services .services_width .card_container .card .card_title_underline{content:"";display:block;height:1px;width:100px;margin-top:0;background-color:black;margin:0 auto 10px}.services .services_width .card_container .card .card_text{text-align:center}.services .services_width .card_container .card:first-of-type{margin-top:0px}.reviews{margin-top:75px}.reviews .background_image{background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../Images/quote_image_1.jpg);width:100%;height:450px;background-size:cover;background-repeat:no-repeat;background-position:center}.reviews .background_image .text_container{width:100%;height:400px}.reviews .background_image .text_container .quote_container{display:flex;color:white;width:100%;height:200px;padding:25px 25px 0}.reviews .background_image .text_container .quote_container i{display:inline-block;font-size:20px;width:auto;margin:0}.reviews .background_image .text_container .quote_container .quote_left{padding-top:40px}.reviews .background_image .text_container .quote_container .quote_right{padding-top:125px}.reviews .background_image .text_container .quote_container .quote_content{text-align:center}.reviews .background_image .text_container .quote_container .quote_content .quote{display:inline-block;text-align:center;width:auto;height:auto;padding:30px 25px 0;margin:0;font-size:16px}.reviews .background_image .text_container .quote_container .quote_content .quote_underline{content:"";display:inline-block;height:1px;width:33%;margin-top:30px;background-color:white}.reviews .background_image .text_container .quote_container .quote_content .quote_author{margin-top:20px;font-size:14px;text-transform:uppercase;letter-spacing:1px}.partners{margin-top:75px;display:none}.partners .partners_width{width:750px;margin-left:auto;margin-right:auto}.partners .partners_width .partners_container{display:flex;flex-wrap:nowrap;justify-content:space-between;width:750px;height:auto;margin:50px 0;margin-left:auto;margin-right:auto}.partners .partners_width .partners_container .partner_card{display:block;width:200px}.partners .partners_width .partners_container .partner_card .card_image{object-fit:contain;height:100px;width:200px;overflow:hidden}.footer-nav{background-color:#af473d;color:#fff;margin-bottom:-20px}.footer-nav h2{text-transform:uppercase;padding-top:15px}.footer-nav li{list-style:none}.footer-nav p{padding:10px;font-size:13px}.footer-nav .footer-line{content:'';display:block;height:1px;width:97px;margin-top:20px;margin-bottom:30px;background-color:white}.footer-book-now{background-color:#3c3c3c;color:#fff;margin-bottom:-20px}.footer-book-now .book-now-cont{text-align:center;width:auto;padding:20px;font-size:16px}.footer-book-now .book-now-cont button{color:#af473d;font-size:21px;font-weight:bold;padding:10px 15px}@media (min-width: 750px){.header-banner{position:relative;width:auto;height:475px;background-size:cover;background:linear-gradient(to left, rgba(0,0,0,0.7), transparent),url(../Images/header_lobster.jpg);color:white;text-transform:uppercase;text-align:center;font-weight:bold}.header-banner .header-cont{display:block;width:346px;margin:auto}.header-banner .head-contact{width:400px;font-weight:600;letter-spacing:2px;text-shadow:1px 1px rgba(0,0,0,0.7);padding-top:15px;margin-left:135px}.header-banner .logo-cont{display:block;height:100px;width:200px;margin-top:-70px;margin-left:-161px}.header-banner .header-info{display:block;width:429px;justify-content:end;margin-left:110px;margin-top:-30px;margin-bottom:75px}.header-banner .index-banner-header{font-size:38px;letter-spacing:4px;width:400px;text-align:end;font-weight:600}.header-banner .index-banner-line{display:block;content:'';height:1px;width:125px;margin-left:270px;background-color:white}.header-banner .index-banner-p{width:295px;text-transform:none;text-align:end;font-size:20px;margin-left:100px}.header-banner .index-banner-button{background-color:#af473d;color:white;text-decoration:none;text-transform:uppercase;border:none;font-size:25px;padding:10px;font-weight:600;margin-left:190px}.banner-submenu{background-color:#af473d;margin-top:-23px}.banner-submenu ul{display:flex;flex-direction:row;flex-wrap:wrap;list-style:none;margin-top:31px;justify-content:center;margin-left:189px}.banner-submenu ul li{padding:10px 35px;border:none}.description{margin-top:50px}.description .description_width{width:750px;margin-left:auto;margin-right:auto;margin-top:100px}.description .description_width .description_title{color:#af473d}.description .description_width .description_text:last-of-type{display:block}.section_title{font-size:36px}.header_underline{width:185px}.services .services_width{width:750px;padding:0 0;margin-left:auto;margin-right:auto}.services .services_width .card_container{justify-content:space-evenly;padding:0}.services .services_width .card_container .card{display:block;width:360px;padding:0 0;margin-top:0px}.services .services_width .card_container .card .card_image{height:202px;width:360px}.services .services_width .card_container .card .card_title{font-size:24px}.services .services_width .card_container .card:last-of-type{margin-top:25px}.reviews .background_image .text_container{width:750px;margin-left:auto;margin-right:auto}.reviews .background_image .text_container .quote_container .quote_content .quote{font-size:18px;padding:30px 50px 0}.reviews .background_image .text_container .quote_container .quote_content .quote_author{font-size:16px}.partners{display:block}.footer-book-now{background-color:#3c3c3c;color:#fff;margin-bottom:-20px}.footer-book-now .book-now-cont{text-align:center;width:600px;padding:20px;font-size:16px;margin-left:40px}.footer-book-now .book-now-cont button{color:#af473d;font-size:21px;font-weight:bold;padding:10px 15px}.footer-nav{background-color:#af473d;color:#fff;margin-bottom:-20px}.footer-nav h2{text-transform:uppercase;padding-top:25px}.footer-nav li{list-style:none}.footer-nav p{padding:10px;font-size:13px;margin-top:80px;display:flex;justify-content:center}.footer-nav .footer-line{content:'';display:block;height:1px;width:97px;margin-top:20px;margin-bottom:30px;background-color:white}.footer-nav #sections-list{margin-top:-258px;margin-left:258px}.footer-nav #follow-list{margin-top:-239px;margin-left:483px}}@media (min-width: 975px){.header-banner .header-cont{width:258px}.header-banner .logo-cont{margin-left:-250px}.banner-submenu ul{padding-left:110px}.description .description_width{width:975px}.services .services_width{width:975px}.services .services_width .card_container{justify-content:space-between}.services .services_width .card_container .card{width:310px}.services .services_width .card_container .card .card_image{height:174px;width:310px}.services .services_width .card_container .card:last-of-type{margin-top:0px}.reviews .background_image .text_container{width:950px}.reviews .background_image .text_container .quote_container .quote_content .quote{font-size:20px}.reviews .background_image .text_container .quote_container .quote_content .quote_author{font-size:18px}.partners .partners_width{width:975px}.partners .partners_width .partners_container{width:950px}.partners .partners_width .partners_container .partner_card{width:300px}.partners .partners_width .partners_container .partner_card .card_image{height:150px;width:300px}.footer-book-now{height:125px}.footer-book-now .book-now-cont{text-align:left;font-size:21px;margin-left:85px;margin-top:-7px}.footer-book-now .book-now-cont button{display:flex;width:140px;margin-left:620px;margin-top:-82px}.footer-nav #contact-list{margin-left:100px}.footer-nav #sections-list{margin-left:375px}.footer-nav #follow-list{margin-left:625px}}@media (min-width: 1260px){.header-banner .header-cont{width:51px}.header-banner .logo-cont{margin-left:-456px}.banner-submenu ul{justify-content:flex-end;margin-right:112px}.banner-submenu ul li{padding:10px 40px}.description .description_width{width:1260px}.services .services_width{width:1260px}.services .services_width .card_container .card{width:400px}.services .services_width .card_container .card .card_image{height:225px;width:400px}.reviews .background_image .text_container{width:1200px}.reviews .background_image .text_container .quote_container .quote_content .quote{font-size:22px}.reviews .background_image .text_container .quote_container .quote_content .quote_author{font-size:18px}.partners .partners_width{width:1260px}.partners .partners_width .partners_container{width:1200px}.partners .partners_width .partners_container .partner_card{width:350px}.partners .partners_width .partners_container .partner_card .card_image{height:150px;width:300px}.footer-book-now{height:150px}.footer-book-now .book-now-cont{margin-left:137px}.footer-book-now .book-now-cont button{margin-left:814px}.footer-nav #contact-list{margin-left:118px}.footer-nav #sections-list{margin-left:525px}.footer-nav #follow-list{margin-left:922px}}@media (min-width: 1920px){.header-banner{height:492px}.header-banner .head-contact{margin-left:178px;font-size:15px;width:500px}.header-banner .logo-cont{margin-left:-600px;margin-bottom:54px}.header-banner .index-banner-header{margin-left:-230px;width:768px;letter-spacing:12px}.header-banner .index-banner-line{margin-left:398px}.header-banner .index-banner-p{margin-left:225px}.header-banner .index-banner-button{margin-left:348px;width:172px}.banner-submenu ul{margin-right:0px;padding-right:321px}.banner-submenu ul li{padding:10px 40px}.footer-book-now{height:150px}.footer-book-now .book-now-cont{margin-left:321px}.footer-book-now .book-now-cont button{margin-left:1084px}.footer-nav #contact-list{margin-left:300px}.footer-nav #sections-list{margin-left:825px}.footer-nav #follow-list{margin-left:1377px}}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'montserrat', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-size: cover;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../Images/header_lobster.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../Images/header_lobster.jpg);
+}
+
+.head .header_container {
+  width: auto;
+  height: auto;
+  color: white;
+}
+
+.head .header_container .top_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.head .header_container .top_container p {
+  margin: 0;
+}
+
+.head .header_container .top_container .logo_container {
+  margin-top: 20px;
+  display: block;
+}
+
+.head .header_container .top_container .logo_container .logo_terra {
+  text-transform: capitalize;
+  font-family: 'la belle aurore';
+  color: #af473d;
+  font-size: 50px;
+  height: 60px;
+}
+
+.head .header_container .top_container .logo_container .logo_catering {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.head .header_container .top_container .logo_container p {
+  margin: 0;
+}
+
+.head .header_container .top_container .contact_container p {
+  margin-top: 10px;
+}
+
+.head .header_container .top_container .contact_container p i {
+  padding-right: 10px;
+}
+
+.head .header_container .content_container {
+  display: block;
+  text-align: center;
+}
+
+.head .header_container .content_container .slogan {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.head .header_container .content_container .underline {
+  display: none;
+  width: 200px;
+  height: 1px;
+  background-color: white;
+  content: "";
+  margin: 0 auto;
+}
+
+.head .header_container .content_container .book_button {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+  background-color: #af473d;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.head .header_container .content_container .book_button:hover {
+  background-color: #9c3f37;
+}
+
+.navigation_bar {
+  width: auto;
+  height: auto;
+  color: white;
+  background-color: #af473d;
+  border-top: solid 1px white;
+}
+
+.navigation_bar .button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navigation_bar .button_container a {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navigation_bar .button_container a:hover {
+  background-color: #9c3f37;
+}
+
+.section_title {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  margin: 25px 0 0;
+  color: #af473d;
+  font-size: 30px;
+}
+
+.header_underline {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 150px;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.description .description_width {
+  width: auto;
+  margin: 25px;
+  height: auto;
+}
+
+.description .description_width .description_text {
+  margin: 25px 0;
+  font-size: 16px;
+}
+
+.description .description_width .description_text:last-of-type {
+  display: none;
+}
+
+.services {
+  margin-top: 75px;
+}
+
+.services .services_width {
+  width: 100%;
+  padding: 0 25px;
+}
+
+.services .services_width .card_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+.services .services_width .card_container .card {
+  display: block;
+  width: auto;
+  margin-top: 25px;
+}
+
+.services .services_width .card_container .card .card_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: auto;
+}
+
+.services .services_width .card_container .card .card_corporate {
+  background-image: url(../Images/services_image_1.jpg);
+}
+
+.services .services_width .card_container .card .card_weddings {
+  background-image: url(../Images/wedding_card_image.jpeg);
+}
+
+.services .services_width .card_container .card .card_events {
+  background-image: url(../Images/events_card_image.jpg);
+}
+
+.services .services_width .card_container .card .card_title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #af473d;
+  font-size: 24px;
+}
+
+.services .services_width .card_container .card .card_title_underline {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100px;
+  margin-top: 0;
+  background-color: black;
+  margin: 0 auto 10px;
+}
+
+.services .services_width .card_container .card .card_text {
+  text-align: center;
+}
+
+.services .services_width .card_container .card:first-of-type {
+  margin-top: 0px;
+}
+
+.reviews {
+  margin-top: 75px;
+}
+
+.reviews .background_image {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../Images/quote_image_1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/quote_image_1.jpg);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reviews .background_image .text_container {
+  width: 100%;
+  height: 400px;
+}
+
+.reviews .background_image .text_container .quote_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 200px;
+  padding: 25px 25px 0;
+}
+
+.reviews .background_image .text_container .quote_container i {
+  display: inline-block;
+  font-size: 20px;
+  width: auto;
+  margin: 0;
+}
+
+.reviews .background_image .text_container .quote_container .quote_left {
+  padding-top: 40px;
+}
+
+.reviews .background_image .text_container .quote_container .quote_right {
+  padding-top: 125px;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content {
+  text-align: center;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content .quote {
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 30px 25px 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content .quote_underline {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 33%;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.reviews .background_image .text_container .quote_container .quote_content .quote_author {
+  margin-top: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.partners {
+  margin-top: 75px;
+  display: none;
+}
+
+.partners .partners_width {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners .partners_width .partners_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 750px;
+  height: auto;
+  margin: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners .partners_width .partners_container .partner_card {
+  display: block;
+  width: 200px;
+}
+
+.partners .partners_width .partners_container .partner_card .card_image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.footer-nav {
+  background-color: #af473d;
+  color: #fff;
+  margin-bottom: -20px;
+}
+
+.footer-nav h2 {
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.footer-nav li {
+  list-style: none;
+}
+
+.footer-nav p {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.footer-nav .footer-line {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 97px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.footer-book-now {
+  background-color: #3c3c3c;
+  color: #fff;
+  margin-bottom: -20px;
+}
+
+.footer-book-now .book-now-cont {
+  text-align: center;
+  width: auto;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.footer-book-now .book-now-cont button {
+  color: #af473d;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+@media (min-width: 750px) {
+  /*
+    .header-banner {
+        position: relative;
+        width: auto;
+        height: 475px;
+        background-size: cover;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
+                    url(../Images/header_lobster.jpg);
+        color: white;        
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        .header-cont {
+            display: block;
+            width: 346px;
+            margin: auto;
+        }
+        .head-contact {
+            width: 400px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
+            padding-top: 15px;
+            margin-left: 135px;
+        }
+        .logo-cont {
+            display: block;
+            height: 100px;
+            width: 200px;
+            margin-top: -70px;
+            margin-left: -161px;
+        }
+        .header-info {
+            display: block;
+            width: 429px;
+            justify-content: end;
+            margin-left: 110px;
+            margin-top: -30px;
+            margin-bottom: 75px;
+        }
+        .index-banner-header {
+            font-size: 38px;
+            letter-spacing: 4px;
+            width: 400px;
+            text-align: end;
+            font-weight: 600;
+        }
+        .index-banner-line {
+            display: block;
+            content: '';
+            height: 1px;
+            width: 125px;
+            margin-left: 270px;
+            background-color: white;
+        }
+        .index-banner-p {
+            width: 295px;
+            text-transform: none;
+            text-align: end;
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        .index-banner-button {
+            background-color: $terracotta_red;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: none;
+            font-size: 25px;
+            padding: 10px;
+            font-weight: 600;
+            margin-left: 190px;
+        }
+    }
+    
+    .banner-submenu {
+        background-color: $terracotta_red;
+        margin-top: -23px;
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-top: 31px;
+            justify-content: center;
+            margin-left: 189px;
+            li {
+                padding: 10px 35px;
+                border: none;
+            }
+        }
+    }
+    */
+  .description {
+    margin-top: 50px;
+  }
+  .description .description_width {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  .description .description_width .description_title {
+    color: #af473d;
+  }
+  .description .description_width .description_text:last-of-type {
+    display: block;
+  }
+  .section_title {
+    font-size: 36px;
+  }
+  .header_underline {
+    width: 185px;
+  }
+  .services .services_width {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 8px;
+  }
+  .services .services_width .card_container {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 0;
+  }
+  .services .services_width .card_container .card {
+    display: block;
+    width: 360px;
+    padding: 0 0;
+    margin-top: 0px;
+  }
+  .services .services_width .card_container .card .card_image {
+    height: 202px;
+    width: 360px;
+  }
+  .services .services_width .card_container .card .card_title {
+    font-size: 24px;
+  }
+  .services .services_width .card_container .card:last-of-type {
+    margin-top: 25px;
+  }
+  .reviews .background_image .text_container {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 8px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote {
+    font-size: 18px;
+    padding: 30px 50px 0;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
+    font-size: 16px;
+  }
+  .partners {
+    display: block;
+    padding: 0 8px;
+  }
+  .footer-book-now {
+    background-color: #3c3c3c;
+    color: #fff;
+    margin-bottom: -20px;
+  }
+  .footer-book-now .book-now-cont {
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+  .footer-book-now .book-now-cont button {
+    color: #af473d;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px 15px;
+  }
+  .footer-nav {
+    background-color: #af473d;
+    color: #fff;
+    margin-bottom: -20px;
+  }
+  .footer-nav h2 {
+    text-transform: uppercase;
+    padding-top: 25px;
+  }
+  .footer-nav li {
+    list-style: none;
+  }
+  .footer-nav p {
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-nav .footer-line {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 97px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+  }
+  .footer-nav #sections-list {
+    margin-top: -258px;
+    margin-left: 258px;
+  }
+  .footer-nav #follow-list {
+    margin-top: -239px;
+    margin-left: 483px;
+  }
+}
+
+@media (min-width: 975px) {
+  /*
+    .header-banner {
+        .header-cont {
+            width: 258px;
+        }
+        .logo-cont {
+            margin-left: -250px;
+        }
+    }
+    
+    .banner-submenu {
+        ul {
+            padding-left: 110px;
+        }
+    }
+    */
+  .description .description_width {
+    width: 975px;
+  }
+  .services .services_width {
+    width: 975px;
+  }
+  .services .services_width .card_container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .services .services_width .card_container .card {
+    width: 310px;
+  }
+  .services .services_width .card_container .card .card_image {
+    height: 174px;
+    width: 310px;
+  }
+  .services .services_width .card_container .card:last-of-type {
+    margin-top: 0px;
+  }
+  .reviews .background_image .text_container {
+    width: 950px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote {
+    font-size: 20px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
+    font-size: 18px;
+  }
+  .partners .partners_width {
+    width: 975px;
+  }
+  .partners .partners_width .partners_container {
+    width: 950px;
+  }
+  .partners .partners_width .partners_container .partner_card {
+    width: 300px;
+  }
+  .partners .partners_width .partners_container .partner_card .card_image {
+    height: 150px;
+    width: 300px;
+  }
+  .footer-book-now {
+    height: 125px;
+  }
+  .footer-book-now .book-now-cont {
+    text-align: left;
+    font-size: 21px;
+    margin-left: 85px;
+    margin-top: -7px;
+  }
+  .footer-book-now .book-now-cont button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 140px;
+    margin-left: 620px;
+    margin-top: -82px;
+  }
+  .footer-nav #contact-list {
+    margin-left: 100px;
+  }
+  .footer-nav #sections-list {
+    margin-left: 375px;
+  }
+  .footer-nav #follow-list {
+    margin-left: 625px;
+  }
+}
+
+@media (min-width: 1260px) {
+  /*
+    .header-banner {
+            .header-cont {
+                width: 51px;
+            }
+            .logo-cont {
+                margin-left: -456px;
+            }
+    }
+    
+    .banner-submenu {
+        ul {
+            justify-content: flex-end;
+            margin-right: 112px;
+            li {
+                padding: 10px 40px;
+            }
+        }
+    }
+    */
+  .description .description_width {
+    width: 1260px;
+  }
+  .services .services_width {
+    width: 1260px;
+  }
+  .services .services_width .card_container .card {
+    width: 400px;
+  }
+  .services .services_width .card_container .card .card_image {
+    height: 225px;
+    width: 400px;
+  }
+  .reviews .background_image .text_container {
+    width: 1200px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote {
+    font-size: 22px;
+  }
+  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
+    font-size: 18px;
+  }
+  .partners .partners_width {
+    width: 1260px;
+  }
+  .partners .partners_width .partners_container {
+    width: 1200px;
+  }
+  .partners .partners_width .partners_container .partner_card {
+    width: 350px;
+  }
+  .partners .partners_width .partners_container .partner_card .card_image {
+    height: 150px;
+    width: 300px;
+  }
+  .footer-book-now {
+    height: 150px;
+  }
+  .footer-book-now .book-now-cont {
+    margin-left: 137px;
+  }
+  .footer-book-now .book-now-cont button {
+    margin-left: 814px;
+  }
+  .footer-nav #contact-list {
+    margin-left: 118px;
+  }
+  .footer-nav #sections-list {
+    margin-left: 525px;
+  }
+  .footer-nav #follow-list {
+    margin-left: 922px;
+  }
+}
+
+@media (min-width: 1920px) {
+  /*
+    .header-banner {
+        height: 492px;
+        .head-contact {
+            margin-left: 178px;
+            font-size: 15px;
+            width: 500px;
+        }
+        .logo-cont {
+            margin-left: -600px;
+            margin-bottom: 54px;
+        }
+        .index-banner-header {
+            margin-left: -230px;
+            width: 768px;
+            letter-spacing: 12px;
+        }
+        .index-banner-line {
+            margin-left: 398px;
+        }
+        .index-banner-p {
+            margin-left: 225px;
+        }
+        .index-banner-button {
+            margin-left: 348px;
+            width: 172px;
+        }
+    }
+    
+    .banner-submenu {
+        ul {
+            margin-right: 0px;
+            padding-right: 321px;
+            li {
+                padding: 10px 40px;
+            }
+        }
+    }  
+    */
+  .footer-book-now {
+    height: 150px;
+  }
+  .footer-book-now .book-now-cont {
+    margin-left: 321px;
+  }
+  .footer-book-now .book-now-cont button {
+    margin-left: 1084px;
+  }
+  .footer-nav #contact-list {
+    margin-left: 300px;
+  }
+  .footer-nav #sections-list {
+    margin-left: 825px;
+  }
+  .footer-nav #follow-list {
+    margin-left: 1377px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

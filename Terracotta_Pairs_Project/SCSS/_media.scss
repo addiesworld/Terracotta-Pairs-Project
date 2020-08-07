@@ -8,7 +8,8 @@
 
 
 @media (min-width: 750px) {
-
+// #region
+/*
     .header-banner {
         position: relative;
         width: auto;
@@ -100,7 +101,8 @@
             }
         }
     }
-
+    */
+// #endregion
     .description {
         margin-top: 50px;
         .description_width {
@@ -243,6 +245,8 @@
 
 // Medium : 975px
 @media (min-width: 975px) {
+    // #region 
+    /*
     .header-banner {
         .header-cont {
             width: 258px;
@@ -257,6 +261,8 @@
             padding-left: 110px;
         }
     }
+    */
+    // #endregion
 
     .description {
         .description_width {
@@ -349,6 +355,8 @@
 // Large : 1260px 
 @media (min-width: 1260px) {
 
+    // #region
+    /*
     .header-banner {
             .header-cont {
                 width: 51px;
@@ -367,6 +375,8 @@
             }
         }
     }
+    */
+    // #endregion
 
     .description {
         .description_width {
@@ -449,6 +459,8 @@
 // Full Screen: 1920px
 @media (min-width: 1920px) {
 
+    // #region
+    /*
     .header-banner {
         height: 492px;
         .head-contact {
@@ -486,6 +498,8 @@
             }
         }
     }  
+    */
+    // #endregion
 
     .footer-book-now {
         height: 150px;
