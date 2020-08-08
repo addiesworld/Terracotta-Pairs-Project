@@ -414,48 +414,92 @@ html, body {
     }
 }
 
-// Footer Styling
-.footer-nav {
-    background-color: $terracotta_red;
-    color: #fff;
-    margin-bottom: -20px;
-    h2 {
-        text-transform: uppercase;
-        padding-top: 15px;
-    }
-    li {
-        list-style: none;
-    }
-    p {
-        padding: 10px;
-        font-size: 13px;
-    }
-    .footer-line {
-        content: '';
-        display: block;
-        height: 1px;
-        width: 97px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        background-color: white;
-
-    }
-}
-
-.footer-book-now {
-    background-color: #3c3c3c;
-    color: #fff;
-    margin-bottom: -20px;
-    .book-now-cont {
-        text-align: center;
+.footer {
+    .book_container {
         width: auto;
+        height: auto;
+        background-color: #3c3c3c;
+        .book_now {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            text-align: center;
+            .book_text {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 0 40px;
+                font-size: 20px;
+            }
+            .book_now_button {
+                display: block;
+                width: 40%;
+                padding: 20px;
+                font-size: 20px;
+                color: $terracotta_red;
+                background-color: white;
+                color: $terracotta_red;
+                text-transform: uppercase;
+                text-decoration: none;
+                margin: 0 auto 20px;
+            }
+            .book_now_button:hover {
+                background-color: $terracotta_red;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    .links_container {
+        width: auto;
+        height: auto;
+        color: white;
+        background-color: $terracotta_red;
         padding: 20px;
-        font-size: 16px;
-        button {
-            color: $terracotta_red;
-            font-size: 21px;
-            font-weight: bold;
-            padding: 10px 15px;
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            .link_box {
+                width: 100%;
+                h3 {
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 25px;
+                }
+                .underline {
+                    display: block;
+                    content: "";
+                    width: 40%;
+                    height: 1px;
+                    background-color: white;
+                    margin-bottom: 20px;
+                }
+                p {
+                    display: block;
+                    width: 100%;
+                    text-transform: capitalize;
+                    padding: 0;
+                    margin: 0;
+                }
+                a {
+                    margin-top: 5px;
+                    padding: 0;
+                    display: block;
+                    text-transform: capitalize;
+                    color: white;
+                    text-decoration: none;
+                    i {
+                        margin-right: 15px;
+                    }
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .copyright {
+            margin-top: 30px;
+            text-transform: uppercase;
         }
     }
 }
