@@ -24,68 +24,52 @@
             display: block;
             width: 346px;
             margin: auto;
-        }
-        .head-contact {
-            width: 400px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-            padding-top: 15px;
-            margin-left: 135px;
-        }
-        .logo-cont {
-            display: block;
-            height: 100px;
-            width: 200px;
-            margin-top: -70px;
-            margin-left: -161px;
-        }
-        .header-info {
-            display: block;
-            width: 429px;
-            justify-content: end;
-            margin-left: 110px;
-            margin-top: -30px;
-            margin-bottom: 75px;
-        }
-        .index-banner-header {
-            font-size: 38px;
-            letter-spacing: 4px;
-            width: 400px;
-            text-align: end;
-            font-weight: 600;
-        }
-        .index-banner-line {
-            display: block;
-            content: '';
-            height: 1px;
-            width: 125px;
-            margin-left: 270px;
-            background-color: white;
-        }
-        .index-banner-p {
-            width: 295px;
-            text-transform: none;
-            text-align: end;
-            font-size: 20px;
-            margin-left: 100px;
-        }
-        .index-banner-button {
-            background-color: $terracotta_red;
-            color: white;
-            text-decoration: none;
-            text-transform: uppercase;
-            border: none;
-            font-size: 25px;
-            padding: 10px;
-            font-weight: 600;
-            margin-left: 190px;
+            .head-contact {
+                width: 370px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
+                padding-top: 15px;
+                margin-left: 135px;
+            }
+            .logo-cont {
+                display: block;
+                height: 100px;
+                width: 200px;
+                margin-top: -91px;
+                margin-left: -215px;
+            }
+            .header-info {
+                display: block;
+                width: 429px;
+                justify-content: end;
+                margin-left: 73px;
+                margin-top: -30px;
+                margin-bottom: 75px;
+                .index-banner-header {
+                    align-self: flex-end;
+                    font-size: 35px;
+                    text-align: end;
+                }
+                .index-banner-line {
+                    margin: auto;
+                    margin-bottom: 20px;
+                    margin-left: 328px;
+                    width: 100px;
+                }
+                .index-banner-p{
+                    text-align: end;
+                    float: right;
+                }
+                .index-banner-button {
+                    margin-left: 243px;
+                }
+            }
         }
     }
     
     .banner-submenu {
         background-color: $terracotta_red;
-        margin-top: -23px;
         ul {
             display: flex;
             flex-direction: row;
@@ -94,6 +78,9 @@
             margin-top: 31px;
             justify-content: center;
             margin-left: 189px;
+            :first-child {
+                margin-left: -45px;
+            }
             li {
                 padding: 10px 35px;
                 border: none;
@@ -184,11 +171,12 @@
     }
     
     .footer-book-now {
+        display: flex;
+        flex-direction: column;
         background-color: #3c3c3c;
         color: #fff;
-        margin-bottom: -20px;
+        align-items: center;
         .book-now-cont {
-            text-align: center;
             width: 600px;
             padding: 20px;
             font-size: 16px;
@@ -206,37 +194,28 @@
         background-color: $terracotta_red;
         color: #fff;
         margin-bottom: -20px;
-        h2 {
-            text-transform: uppercase;
-            padding-top: 25px;
-        }
-        li {
-            list-style: none;
-        }
-        p {
-            padding: 10px;
-            font-size: 13px;
-            margin-top: 80px;
-            display: flex;
-            justify-content: center;
-        }
-        .footer-line {
-            content: '';
-            display: block;
-            height: 1px;
-            width: 97px;
-            margin-top: 20px;
-            margin-bottom: 30px;
-            background-color: white;
-
-        }
-        #sections-list {
-            margin-top: -258px;
-            margin-left: 258px;
-        }
-        #follow-list {
-            margin-top: -239px;
-            margin-left: 483px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .footer-nav {
+            #contact-list,
+            #sections-list,
+            #follow-list {
+                h2 {
+                    text-transform: uppercase;
+                    padding-top: 25px;
+                }
+                li {
+                    list-style: none;
+                }
+                p {
+                    padding: 10px;
+                    font-size: 13px;
+                    margin-top: 80px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
         }
     }
 }
@@ -246,15 +225,21 @@
     .header-banner {
         .header-cont {
             width: 258px;
-        }
-        .logo-cont {
-            margin-left: -250px;
+            .logo-cont {
+                margin-left: -362px;
+            }
+            .header-info {
+                .index-banner-p {
+                    width: 270px;
+                    font-size: 18px;
+                }
+            }
         }
     }
     
     .banner-submenu {
         ul {
-            padding-left: 110px;
+            padding-left: 128px;
         }
     }
 
@@ -320,28 +305,22 @@
     .footer-book-now {
         height: 125px;
         .book-now-cont {
+            flex-direction: row;
+            width: 785px;
             text-align: left;
             font-size: 21px;
-            margin-left: 85px;
+            margin-left: 0;
             margin-top: -7px;
             button {
                 display: flex;
-                width: 140px;
-                margin-left: 620px;
-                margin-top: -82px;
+                width: 282px;
             }
         }
     }
 
     .footer-nav {
-        #contact-list {
-            margin-left: 100px;
-        }
-        #sections-list {
-            margin-left: 375px;
-        }
         #follow-list {
-            margin-left: 625px;
+            margin-right: 100px;
         }
     }
 }
@@ -350,18 +329,41 @@
 @media (min-width: 1260px) {
 
     .header-banner {
-            .header-cont {
-                width: 51px;
+        .header-cont {
+            .head-contact {
+                margin-left: 355px;
             }
             .logo-cont {
-                margin-left: -456px;
+                margin-left: -510px;
             }
+            .header-info {
+                width: 655px;
+                .index-banner-header{
+                    font-size: 40px;
+                    letter-spacing: 6px;
+                }
+                .index-banner-line {
+                    margin-left: 515px;
+                    width: 130px;
+                }
+                .index-banner-p {
+                    width: 347px;
+                    letter-spacing: 2px;
+                    font-size: 20px;
+                    padding-right: 7px;
+                }
+                .index-banner-button {
+                    margin-top: 20px;
+                    margin-left: 449px;
+                }
+            }
+        }
     }
     
     .banner-submenu {
         ul {
-            justify-content: flex-end;
-            margin-right: 112px;
+            padding-left: 515px;
+            margin-top: -28px;
             li {
                 padding: 10px 40px;
             }
@@ -426,86 +428,18 @@
     .footer-book-now {
         height: 150px;
         .book-now-cont {
-            margin-left: 137px;
+            width: 1215px;
+            margin-top: 10px;
             button {
-                margin-left: 814px;
+                margin-left: 417px;
             }
         }
     }
 
     .footer-nav {
-        #contact-list {
-            margin-left: 118px;
-        }
-        #sections-list {
-            margin-left: 525px;
-        }
-        #follow-list {
-            margin-left: 922px;
-        }
-    }
-}
-
-// Full Screen: 1920px
-@media (min-width: 1920px) {
-
-    .header-banner {
-        height: 492px;
-        .head-contact {
-            margin-left: 178px;
-            font-size: 15px;
-            width: 500px;
-        }
-        .logo-cont {
-            margin-left: -600px;
-            margin-bottom: 54px;
-        }
-        .index-banner-header {
-            margin-left: -230px;
-            width: 768px;
-            letter-spacing: 12px;
-        }
-        .index-banner-line {
-            margin-left: 398px;
-        }
-        .index-banner-p {
-            margin-left: 225px;
-        }
-        .index-banner-button {
-            margin-left: 348px;
-            width: 172px;
-        }
-    }
-    
-    .banner-submenu {
+        padding: 0 270px;
         ul {
-            margin-right: 0px;
-            padding-right: 321px;
-            li {
-                padding: 10px 40px;
-            }
-        }
-    }  
-
-    .footer-book-now {
-        height: 150px;
-        .book-now-cont {
-            margin-left: 321px;
-            button {
-                margin-left: 1084px;
-            }
-        }
-    }
-
-    .footer-nav {
-        #contact-list {
-            margin-left: 300px;
-        }
-        #sections-list {
-            margin-left: 825px;
-        }
-        #follow-list {
-            margin-left: 1377px;
+            width: 245px;
         }
     }
 }
