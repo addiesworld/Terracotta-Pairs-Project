@@ -1,169 +1,204 @@
 @import "_variables.scss";
 
-.header-banner {
-    position: relative;
-    width: auto;
-    height: 455px;
+.head {
     background-size: cover;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
-                url(../Images/Homepage_Images/header_lobster.jpg);
-    color: white;        
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    .header-cont {
-        display: block;
-        width: 346px;
-        margin: auto;
-        .head-contact {
+                url(../Images/header_lobster.jpg);
+    .header_container {
+        width: auto;
+        height: auto;
+        color: white;
+        .top_container {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: nowrap;
+            align-content: center;
+            text-align: center;
+            p {
+                margin: 0;
+            }
+            .logo_container {
+                margin-top: 40px;
+                display: block;
+                .logo_terra {
+                    text-transform: capitalize;
+                    font-family: 'la belle aurore';
+                    color: $terracotta_red;
+                    font-size: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                }
+                .logo_catering {
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                    height: 30px;
+                    margin-top: -5px;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+            .contact_container {
+                p {
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .content_container {
+            display: block;
+            text-align: center;
+            .slogan {
+                font-size: 30px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            .underline {
+                display: none;
+                width: 150px;
+                height: 1px;
+                background-color: white;
+                content: "";
+                margin-top: 30px;
+                margin-left: auto;
+                margin-right: 0px;
+            }
+            .book_button {
+                color: white;
+                text-decoration: none;
+                display: inline-block;
+                width: auto;
+                background-color: $terracotta_red;
+                font-size: 20px;
+                font-weight: 600;
+                padding: 20px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            .book_button:hover {
+                background-color: $terracotta_red_dark;
+            }
+        }
+    }
+}
+
+.navigation_bar {
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: $terracotta_red;
+    .button_container { 
+        display: flex;
+        flex-wrap: wrap;
+        a {
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+            width: 100%;
+            padding: 15px 0;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.footer {
+    .book_container {
+        width: auto;
+        height: auto;
+        background-color: #3c3c3c;
+        .book_now {
             display: flex;
             justify-content: space-between;
-            width: 345px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-            padding-top: 15px;
-            font-size: 12px;
-            .index-banner-p {
-                margin-left: 0;
-            }
-        }
-        
-        .logo-cont {
-            display: flex;
             flex-direction: column;
-            margin-top: -35px;
-            .logo-aurore {
-                font-family: 'la belle aurore', sans-serif;
-                text-transform: capitalize;
-                color: $terracotta_red;
-                font-size: 50px;
-                margin-bottom: -56px;
-                margin-top: 47px;
-                text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-            }
-            .logo-montserrat {
-                color: black;
-                font-weight: 600;
-                font-size: 30px;
-                letter-spacing: 2px;
-            }
-        }
-    
-        .header-info {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin-top: -16px;
-            .index-banner-header {
-                font-size: 23px;
-                font-weight: 600;
-            }
-            .index-banner-line {
+            text-align: center;
+            .book_text {
                 display: block;
-                content: '';
-                height: 1px;
-                width: 200px;
-                margin: auto;
-                margin-top: 20px;
-                margin-bottom: 30px;
+                color: white;
+                text-align: center;
+                padding: 0 40px;
+                font-size: 20px;
+            }
+            .book_now_button {
+                display: block;
+                width: 40%;
+                padding: 20px;
+                font-size: 20px;
+                color: $terracotta_red;
                 background-color: white;
+                color: $terracotta_red;
+                text-transform: uppercase;
+                text-decoration: none;
+                margin: 0 auto 20px;
             }
-            .index-banner-p {
-                width: 322px;
-                margin: auto;
-                margin-bottom: 30px;
-                text-transform: none;
-                line-height: 25px;
-            }
-            .index-banner-button {
+            .book_now_button:hover {
                 background-color: $terracotta_red;
                 color: white;
                 text-decoration: none;
-                text-transform: uppercase;
-                border: none;
-                font-size: 25px;
-                padding: 10px;
-                font-weight: 600;
-                width: 185px;
-                align-self: center;
             }
         }
     }
-}
-
-.banner-submenu {
-    background-color: $terracotta_red;
-    ul {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        list-style: none;
-        margin-top: 31px;
-        :first-child {
-            margin-left: -40px;
-        }
-        li {
-            margin-left: -40px;
-            padding: 15px 10px;
-            border-top: 1px solid white;
-        }
-    }
-}
-
-.footer-book-now {
-    background-color: #3c3c3c;
-    color: #fff;
-    .book-now-cont {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+    .links_container {
         width: auto;
+        height: auto;
+        color: white;
+        background-color: $terracotta_red;
         padding: 20px;
-        font-size: 16px;
-        button {
-            color: $terracotta_red;
-            font-size: 21px;
-            font-weight: bold;
-            padding: 10px 15px;
-            width: 162px;
-            align-self: center;
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            .link_box {
+                width: 100%;
+                h3 {
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 25px;
+                }
+                .underline {
+                    display: block;
+                    content: "";
+                    width: 40%;
+                    height: 1px;
+                    background-color: white;
+                    margin-bottom: 20px;
+                }
+                p {
+                    display: block;
+                    width: 100%;
+                    text-transform: capitalize;
+                    padding: 0;
+                    margin: 0;
+                }
+                a {
+                    margin-top: 5px;
+                    padding: 0;
+                    display: block;
+                    text-transform: capitalize;
+                    color: white;
+                    text-decoration: none;
+                    i {
+                        margin-right: 15px;
+                    }
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .copyright {
+            margin-top: 30px;
             text-transform: uppercase;
         }
-    }
-}
-
-.footer-nav {
-    background-color: $terracotta_red;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: unset;
-    align-items: baseline;
-    h2 {
-        text-transform: uppercase;
-        padding-top: 15px;
-    }
-    li {
-        list-style: none;
-    }
-    p {
-        align-self: center;
-        font-size: 13px;
-    }
-    .footer-line {
-        content: '';
-        display: block;
-        height: 1px;
-        width: 97px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        background-color: white;
-    }
-    .copyright {
-        margin: auto;
-        text-transform: uppercase;
-        text-align: center;
     }
 }
 
