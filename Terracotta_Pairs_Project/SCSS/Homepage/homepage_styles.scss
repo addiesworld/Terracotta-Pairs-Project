@@ -1,5 +1,5 @@
-@import "_variables.scss";
-@import "_mixins.scss";
+@import "../_variables.scss";
+@import "../_header_footer_styles.scss";
 
 //Universal Styling
 * { // This can replace the need of html and body, as this selects everything. 
@@ -11,120 +11,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-//Header Styling
-
-.header-banner {
-    position: relative;
-    width: auto;
-    height: 455px;
-    background-size: cover;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
-                url(../Images/header_lobster.jpg);
-    color: white;        
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    .header-cont {
-        display: block;
-        width: 346px;
-        margin: auto;
-        .head-contact {
-            display: flex;
-            justify-content: space-between;
-            width: 345px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-            padding-top: 15px;
-            font-size: 12px;
-            .index-banner-p {
-                margin-left: 0;
-            }
-        }
-        
-        .logo-cont {
-            display: flex;
-            flex-direction: column;
-            margin-top: -35px;
-            .logo-aurore {
-                font-family: 'la belle aurore', sans-serif;
-                text-transform: capitalize;
-                color: $terracotta_red;
-                font-size: 50px;
-                margin-bottom: -56px;
-                margin-top: 47px;
-                text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
-            }
-            .logo-montserrat {
-                color: black;
-                font-weight: 600;
-                font-size: 30px;
-                letter-spacing: 2px;
-            }
-        }
-    
-        .header-info {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin-top: -16px;
-            .index-banner-header {
-                font-size: 23px;
-                font-weight: 600;
-            }
-            .index-banner-line {
-                display: block;
-                content: '';
-                height: 1px;
-                width: 200px;
-                margin: auto;
-                margin-top: 20px;
-                margin-bottom: 30px;
-                background-color: white;
-            }
-            .index-banner-p {
-                width: 322px;
-                margin: auto;
-                margin-bottom: 30px;
-                text-transform: none;
-                line-height: 25px;
-            }
-            .index-banner-button {
-                background-color: $terracotta_red;
-                color: white;
-                text-decoration: none;
-                text-transform: uppercase;
-                border: none;
-                font-size: 25px;
-                padding: 10px;
-                font-weight: 600;
-                width: 185px;
-                align-self: center;
-            }
-        }
-    }
-    
-}
-
-.banner-submenu {
-    background-color: $terracotta_red;
-    ul {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        list-style: none;
-        margin-top: 31px;
-        :first-child {
-            margin-left: -40px;
-        }
-        li {
-            margin-left: -40px;
-            padding: 15px 10px;
-            border-top: 1px solid white;
-        }
-    }
 }
 
 // #region General Website Styles: header, header_underline
@@ -187,13 +73,13 @@ html, body {
                     width: auto;
                 }
                 .card_corporate {
-                    background-image: url(../Images/services_image_1.jpg);
+                    background-image: url(../Images/Homepage_Images/services_image_1.jpg);
                 }
                 .card_weddings {
-                    background-image: url(../Images/wedding_card_image.jpeg);
+                    background-image: url(../Images/Homepage_Images/wedding_card_image.jpeg);
                 }
                 .card_events {
-                    background-image: url(../Images/events_card_image.jpg);
+                    background-image: url(../Images/Homepage_Images/events_card_image.jpg);
                 }
                 .card_title {
                     text-transform: uppercase;
@@ -224,7 +110,7 @@ html, body {
 .reviews {
     margin-top: 75px;
     .background_image {
-        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../Images/quote_image_1.jpg); 
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../Images/Homepage_Images/quote_image_1.jpg); 
         width: 100%;
         height: 450px;
         background-size: cover;
@@ -312,62 +198,5 @@ html, body {
     }
 }
 
-// Footer Styling
-
-.footer-book-now {
-    background-color: #3c3c3c;
-    color: #fff;
-    .book-now-cont {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: auto;
-        padding: 20px;
-        font-size: 16px;
-        button {
-            color: $terracotta_red;
-            font-size: 21px;
-            font-weight: bold;
-            padding: 10px 15px;
-            width: 162px;
-            align-self: center;
-            text-transform: uppercase;
-        }
-    }
-}
-
-.footer-nav {
-    background-color: $terracotta_red;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: unset;
-    align-items: baseline;
-    h2 {
-        text-transform: uppercase;
-        padding-top: 15px;
-    }
-    li {
-        list-style: none;
-    }
-    p {
-        align-self: center;
-        font-size: 13px;
-    }
-    .footer-line {
-        content: '';
-        display: block;
-        height: 1px;
-        width: 97px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        background-color: white;
-    }
-    .copyright {
-        margin: auto;
-        text-transform: uppercase;
-        text-align: center;
-    }
-}
-
 @import "_media.scss";
+@import "../_header_footer_media.scss";
