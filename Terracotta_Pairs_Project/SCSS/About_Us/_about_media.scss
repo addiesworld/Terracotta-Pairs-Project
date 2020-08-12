@@ -1,0 +1,98 @@
+@import "../_variables.scss";
+
+@media (min-width: 750px) {
+    .about_us {
+        .about_width {
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            .content_container {
+                margin: 25px 0;
+                .description_text {
+                    display: inline-block;
+                    padding: 0;
+                    margin: 0;
+                    width: 500px;
+                }
+                img {
+                    padding-right: 20px;
+                    display: block;
+                    width: 250px;
+                    height: auto;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+    .our_history {
+        margin-top: 50px;
+        .history_width {
+            width: 750px;
+            padding: 0 10px;
+            margin-left: auto;
+            margin-right: auto;
+            .description_text:last-of-type {
+                display: block;
+            }
+        }
+    }
+
+    .meet_the_team {
+        .team_width {
+            width: 750px;
+            margin: 0 auto;
+            .card_container {
+                .card {
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 975px) {
+    .about_us {
+        .about_width {
+            width: 975px;
+            .content_container {
+                img {
+                    width: 300px;
+                }
+                .description_text {
+                    width: 675px;
+                }
+            }
+        }
+    }
+
+    .our_history {
+        .history_width {
+            width: 975px;
+        }
+    }
+}
+
+@media (min-width: 1260px) {
+    .about_us {
+        .about_width {
+            width: 1260px;
+            .content_container {
+                img {
+                    width: 300px;
+                }
+                .description_text {
+                    width: 960px;
+                }
+            }
+        }
+    }
+
+    .our_history {
+        .history_width {
+            width: 1260px;
+        }
+    }
+}

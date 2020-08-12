@@ -37,9 +37,13 @@ html, body {
     .description_width {
         width: auto;
         margin: 25px;
+        padding: 0 10px;
         height: auto; 
-        margin-top: 210px;
+        // margin-top: 210px;
 
+        .description_title {
+            color: $terracotta_red;
+        }
         .description_text {
             margin: 25px 0;
             font-size: 16px;
