@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../SCSS/About_Us/about_us_styles.scss"
+    ],
+    "names": [],
+    "file": "about_us_styles.css"
+}
