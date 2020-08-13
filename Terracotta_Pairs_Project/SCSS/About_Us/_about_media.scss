@@ -73,6 +73,12 @@
             width: 975px;
         }
     }
+
+    .meet_the_team {
+        .team_width {
+            width: 975px;
+        }
+    }
 }
 
 @media (min-width: 1260px) {
@@ -92,6 +98,12 @@
 
     .our_history {
         .history_width {
+            width: 1260px;
+        }
+    }
+
+    .meet_the_team {
+        .team_width {
             width: 1260px;
         }
     }
