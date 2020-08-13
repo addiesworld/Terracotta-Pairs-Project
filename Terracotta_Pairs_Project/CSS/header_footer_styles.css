@@ -1,0 +1,248 @@
+.head {
+  background-size: cover;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../Images/Homepage_Images/header_lobster.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../Images/Homepage_Images/header_lobster.jpg);
+}
+
+.head .header_container {
+  width: auto;
+  height: auto;
+  color: white;
+}
+
+.head .header_container .top_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.head .header_container .top_container p {
+  margin: 0;
+}
+
+.head .header_container .top_container .logo_container {
+  margin-top: 40px;
+  display: block;
+}
+
+.head .header_container .top_container .logo_container .logo_terra {
+  text-transform: capitalize;
+  font-family: 'la belle aurore';
+  color: #af473d;
+  font-size: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.head .header_container .top_container .logo_container .logo_catering {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 2px;
+  height: 30px;
+  margin-top: -5px;
+}
+
+.head .header_container .top_container .logo_container p {
+  margin: 0;
+}
+
+.head .header_container .top_container .contact_container p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.head .header_container .top_container .contact_container p i {
+  padding-right: 10px;
+}
+
+.head .header_container .content_container {
+  display: block;
+  text-align: center;
+}
+
+.head .header_container .content_container .slogan {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.head .header_container .content_container .underline {
+  display: none;
+  width: 150px;
+  height: 1px;
+  background-color: white;
+  content: "";
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.head .header_container .content_container .book_button {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+  background-color: #af473d;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.head .header_container .content_container .book_button:hover {
+  background-color: #7c332d;
+}
+
+.navigation_bar {
+  width: auto;
+  height: auto;
+  color: white;
+  background-color: #af473d;
+}
+
+.navigation_bar .button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navigation_bar .button_container a {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.footer .book_container {
+  width: auto;
+  height: auto;
+  background-color: #3c3c3c;
+}
+
+.footer .book_container .book_now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.footer .book_container .book_now .book_text {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0 40px;
+  font-size: 20px;
+}
+
+.footer .book_container .book_now .book_now_button {
+  display: block;
+  width: 40%;
+  padding: 20px;
+  font-size: 20px;
+  color: #af473d;
+  background-color: white;
+  color: #af473d;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 auto 20px;
+}
+
+.footer .book_container .book_now .book_now_button:hover {
+  background-color: #af473d;
+  color: white;
+  text-decoration: none;
+}
+
+.footer .links_container {
+  width: auto;
+  height: auto;
+  color: white;
+  background-color: #af473d;
+  padding: 20px;
+}
+
+.footer .links_container .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .links_container .links .link_box {
+  width: 100%;
+}
+
+.footer .links_container .links .link_box h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.footer .links_container .links .link_box .underline {
+  display: block;
+  content: "";
+  width: 40%;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.footer .links_container .links .link_box p {
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .links_container .links .link_box a {
+  margin-top: 5px;
+  padding: 0;
+  display: block;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+}
+
+.footer .links_container .links .link_box a i {
+  margin-right: 15px;
+}
+
+.footer .links_container .links .link_box a:hover {
+  text-decoration: underline;
+}
+
+.footer .links_container .copyright {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=header_footer_styles.css.map */

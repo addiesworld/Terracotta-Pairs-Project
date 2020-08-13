@@ -361,7 +361,7 @@ html, body {
 
 .meet_the_team .team_width .card_container .card .card_image img {
   width: 200px;
-  height: auto;
+  height: 200px;
 }
 
 .meet_the_team .team_width .card_container .card .content {
@@ -408,7 +408,7 @@ html, body {
     padding-right: 20px;
     display: block;
     width: 250px;
-    height: auto;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -447,6 +447,9 @@ html, body {
   .our_history .history_width {
     width: 975px;
   }
+  .meet_the_team .team_width {
+    width: 975px;
+  }
 }
 
 @media (min-width: 1260px) {
@@ -460,6 +463,9 @@ html, body {
     width: 960px;
   }
   .our_history .history_width {
+    width: 1260px;
+  }
+  .meet_the_team .team_width {
     width: 1260px;
   }
 }
@@ -582,8 +588,13 @@ html, body {
     width: 975px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: end;
+            justify-content: flex-end;
     padding: 0 10px;
+  }
+  @-moz-document {
+    .navigation_bar .button_container {
+      justify-content: end;
+    }
   }
   .navigation_bar .button_container a {
     width: 20%;
