@@ -11,15 +11,17 @@ class TeamMember {
 }
 
 const Staff = [
-    Steve = new TeamMember("Steve", "Harrington", "Dingus", "../Images/About_Us_Images/Steve_Harrington.jpg", "TEXT HERE"),
-    Nancy = new TeamMember("Nancy", "Wheeler", "Badass", "../Images/About_Us_Images/Nancy_Wheeler.png", "TEXT HERE"),
-    Dustin = new TeamMember("Dustin", "Henderson", "Nerd", "../Images/About_Us_Images/Dustin.png", "TEXT HERE") 
+    Steve = new TeamMember("Steve", "Harrington", "Dingus", "../Images/About_Us_Images/Steve_Harrington.jpg", "Exercitation ea quis incididunt proident ipsum in. In deserunt veniam eu aliquip. Do deserunt nisi ullamco irure elit et voluptate nulla."),
+    Nancy = new TeamMember("Nancy", "Wheeler", "Badass", "../Images/About_Us_Images/Nancy_Wheeler.png", "Eiusmod ullamco aliqua ullamco consequat commodo non. Dolor ea Lorem nostrud eiusmod adipisicing adipisicing.  Eu aliquip laboris commodo dolore ut voluptate eiusmod aliqua quis eiusmod irure aute ullamco ut."),
+    Dustin = new TeamMember("Dustin", "Henderson", "Nerd", "../Images/About_Us_Images/Dustin.png", "Laborum dolor esse tempor Lorem nulla ad dolor.  Ex esse sint reprehenderit dolore fugiat enim eiusmod nisi commodo anim et excepteur fugiat."),
+    Eleven = new TeamMember("Eleven", "Hopper", "GateKeeper", "../Images/About_Us_Images/Eleven.jpg", "Consectetur ea reprehenderit quis duis magna sit cillum. Consectetur consequat nulla ad dolore pariatur esse id officia dolore elit nostrud minim est."),
+    Hopper = new TeamMember("Jim", "Hopper", "Security", "../Images/About_Us_Images/Hopper.jpeg", "Fugiat do id pariatur ut. Elit et sint cupidatat labore. Cupidatat adipisicing elit eu laborum magna velit tempor tempor cillum enim minim."),
+    Joyce = new TeamMember("Joyce", "Byers", "Legend", "../Images/About_Us_Images/Joyce.jpg", "Dolore aliquip ullamco nostrud ipsum est nostrud ad duis laboris esse magna. Amet cillum amet ex id voluptate reprehenderit in officia ex dolor amet occaecat.")
 ]
 
 const staffContainer = document.getElementById("staff_container");
 document.addEventListener("DOMContentLoaded", function(){
-    // Staff.forEach(CreateStaffObject)
-    for (var i =0; i < Staff.length; i++) {
+    for (var i = 0; i < Staff.length; i++) {
         CreateStaffObject(Staff[i])
     }
 })
@@ -31,10 +33,8 @@ function CreateStaffObject(staff) {
     <div class="card_image">
         <img src="${staff.imageURL}" alt="${staff.stafffirstname} ${staff.staffsurname}" id="${staff.stafffirstname}_${staff.staffsurname}">
     </div>`
-
     card_container.innerHTML += imagemarkup
 
-    // imagemarkup.innerHTML += image
     let contentmarkup = `        
     <div class="content">
         <h3 class="card_name">${staff.stafffirstname} ${staff.staffsurname}</h3>
@@ -50,18 +50,21 @@ function CreateStaffObject(staff) {
     let image = document.getElementById(staff.stafffirstname+"_"+staff.staffsurname)
 
     image.onload = function () {
-        console.log(image.naturalWidth)
-        console.log(image.naturalHeight)
         if (image.naturalHeight > image.naturalWidth) {
             image.classList.add('tall_image')
+            let offset = image.clientHeight - 200
+            let half = offset/2
+            image.style.marginTop= -half+"px"
         } else {
-            image.classList.add('wide_image')
+            image.classList.add('wide_image')    
+            let offset = image.clientWidth - 200
+            let half = offset/2
+            image.style.marginLeft= -half+"px"
         }
     }
 }
 
-
-/*
+/* #region Card Template Layout
 <div class="card">
     <div class="card_image">
         <img src="../Images/About_Us_Images/Steve_Harrington.jpg" alt="Steve Harrington">
@@ -77,6 +80,4 @@ function CreateStaffObject(staff) {
         </p>
     </div>
 </div>     
-*/
-
-
+#endregion */

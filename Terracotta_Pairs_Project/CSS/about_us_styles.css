@@ -332,9 +332,9 @@ html, body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 25px;
 }
 
@@ -362,10 +362,12 @@ html, body {
 .meet_the_team .team_width .card_container .card .card_image .wide_image {
   height: 200px;
   width: auto;
+  overflow: hidden;
 }
 
 .meet_the_team .team_width .card_container .card .card_image .tall_image {
   height: auto;
+  overflow: hidden;
   width: 200px;
 }
 
@@ -392,6 +394,10 @@ html, body {
 .meet_the_team .team_width .card_container .card .content .card_title {
   text-transform: uppercase;
   color: #7c332d;
+}
+
+.meet_the_team .team_width .card_container .card .content .card_text {
+  padding: 0 10px;
 }
 
 @media (min-width: 750px) {
@@ -433,6 +439,11 @@ html, body {
   .meet_the_team .team_width {
     width: 750px;
     margin: 0 auto;
+  }
+  .meet_the_team .team_width .card_container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .meet_the_team .team_width .card_container .card {
     width: 30%;

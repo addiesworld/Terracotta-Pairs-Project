@@ -78,7 +78,8 @@ html, body {
             width: auto;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            // justify-content: space-between;
+            justify-content: center;
             margin-top: 25px;
             .card {
                 display: block;
@@ -99,10 +100,12 @@ html, body {
                     .wide_image {
                         height: 200px;
                         width: auto;
+                        overflow: hidden;                   
                     }
                     .tall_image {
                         height: auto;
-                        width: 200px;
+                        overflow: hidden;
+                        width: 200px;                  
                     }
                 }
                 .content {
@@ -124,6 +127,9 @@ html, body {
                     .card_title {
                         text-transform: uppercase;
                         color: $terracotta_red_dark;
+                    }
+                    .card_text {
+                        padding: 0 10px;
                     }
                 }
             }
