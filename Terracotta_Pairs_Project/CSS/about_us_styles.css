@@ -353,15 +353,20 @@ html, body {
   display: inline-block;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   height: 200px;
   width: 200px;
   overflow: hidden;
 }
 
-.meet_the_team .team_width .card_container .card .card_image img {
-  width: 200px;
+.meet_the_team .team_width .card_container .card .card_image .wide_image {
   height: 200px;
+  width: auto;
+}
+
+.meet_the_team .team_width .card_container .card .card_image .tall_image {
+  height: auto;
+  width: 200px;
 }
 
 .meet_the_team .team_width .card_container .card .content {
