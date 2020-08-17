@@ -1,0 +1,121 @@
+@import "../_variables.scss";
+@import "../../SCSS/header_footer_styles.scss";
+
+//Universal Styling
+* { // This can replace the need of html and body, as this selects everything. 
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+// #region General Website Styles: header, header_underline
+.section_title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 25px 0 0;
+    color: $terracotta_red;
+    font-size: 30px;
+}
+.header_underline {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: black;
+}
+// #endregion
+        
+.testimonials {
+    .description_width {
+        width: auto;
+        margin: 25px;
+        padding: 0 10px;
+        height: auto; 
+        // margin-top: 210px;
+        .testimony-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .testimony-img {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                margin: 50px 50px 5px 50px;
+            }
+            .testimony-name {
+                display: flex;
+            }
+            .testimonial_text {
+                margin: 25px 0;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.testimony-p {
+    display: none;
+}
+
+.award-img-cont {
+    height: 250px;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.award-img {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+                url(../../Images/Testimonial_Images/award.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    .award-carousel {
+        .carousel-cont {
+            display: flex;
+            height: 250px;
+            margin-top: 20px;
+            text-align: center;
+            a {
+                text-decoration: none;
+                h4 {
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: $terracotta_red;
+                    text-shadow: -1px 0 #af473d, 0 1px #af473d, 1px 0 #af473d, 0 -1px #af473d;
+                }
+                p {
+                    color: white;
+                }
+            }
+        }
+        .c-content-2 {
+            h4 {
+                margin-bottom: -11px;
+            }
+        }
+        .c-content-3 {
+            h4 {
+                margin-bottom: 0px;
+                margin-top: 10px;
+            }
+        }
+        .c-content-4 {
+            h4 {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+@import "_testimonial_media.scss";
+@import "../_header_footer_media.scss";
