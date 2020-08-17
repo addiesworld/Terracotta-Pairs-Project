@@ -6,6 +6,7 @@
 
 .head .header_container {
   width: auto;
+  padding: 0 25px;
   height: auto;
   color: white;
 }
@@ -112,6 +113,7 @@
   width: auto;
   height: auto;
   color: white;
+  padding: 0 25px;
   background-color: #af473d;
 }
 
@@ -138,6 +140,7 @@
   width: auto;
   height: auto;
   background-color: #3c3c3c;
+  padding: 0 25px;
 }
 
 .footer .book_container .book_now {

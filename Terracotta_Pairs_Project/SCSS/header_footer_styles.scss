@@ -4,8 +4,10 @@
     background-size: cover;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.700), transparent),
                 url(../Images/Homepage_Images/header_lobster.jpg);
+
     .header_container {
         width: auto;
+        padding: 0 25px;
         height: auto;
         color: white;
         .top_container {
@@ -95,6 +97,7 @@
     width: auto;
     height: auto;
     color: white;
+    padding: 0 25px;
     background-color: $terracotta_red;
     .button_container { 
         display: flex;
@@ -117,6 +120,7 @@
         width: auto;
         height: auto;
         background-color: #3c3c3c;
+        padding: 0 25px;
         .book_now {
             display: flex;
             justify-content: space-between;

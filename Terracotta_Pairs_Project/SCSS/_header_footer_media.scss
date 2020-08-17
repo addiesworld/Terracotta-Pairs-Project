@@ -6,7 +6,7 @@
     .head {
         .header_container {
             width: 750px;
-            padding: 0 10px;
+            padding: 0 25px;
             margin: 0 auto;
             .top_container {
                 flex-direction: row;
@@ -93,12 +93,11 @@
 
 // Medium : 975px
 @media (min-width: 975px) {
-
     .head {
         background-position: 40%;
         background-size: 100%;
         .header_container {
-            width: 975px;
+            width: 955px;
             .content_container {
                 width: 40%;
                 text-align: right;
@@ -119,7 +118,7 @@
 
     .navigation_bar {
         .button_container { 
-            width: 975px;
+            width: 955px;
             justify-content: flex-end;
             padding: 0 10px;
             @-moz-document {
@@ -136,7 +135,7 @@
     .footer {
         .book_container {
             .book_now {
-                width: 975px;
+                width: 955px;
                 .book_text {
                     width: 675px;
                     padding-right: 50px;
@@ -150,7 +149,7 @@
         }
         .links_container {
             .links {
-                width: 975px;
+                width: 955px;
                 .link_box {
                     width: 33%;
                     .underline {
@@ -167,7 +166,7 @@
 
     .head {
         .header_container {
-            width: 1260px;
+            width: 1240px;
             .content_container {
                 // width: 30%;
                 // text-align: right;
@@ -187,7 +186,7 @@
 
     .navigation_bar {
         .button_container { 
-            width: 1260px;
+            width: 1240px;
             a {
                 width: 200px;
             }
@@ -197,7 +196,7 @@
     .footer {
         .book_container {
             .book_now {
-                width: 1260px;
+                width: 1240px;
                 .book_text {
                     width: 1010px;
                     padding-right: 75px;
@@ -211,7 +210,7 @@
         }
         .links_container {
             .links {
-                width: 1260px;
+                width: 1240px;
                 .link_box {
                     .underline {
                         width: 50%;

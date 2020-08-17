@@ -1,0 +1,63 @@
+@import "../_variables.scss";
+
+@media (min-width: 750px) {
+    .services {
+        .services_width {
+            width: 730px;
+            margin: 0 auto;
+            .services_slideshow {
+                margin-top: 25px;
+                display: block;
+                .slide {
+                    padding: 0 25px;
+                    width: 750px;
+                    height: 400px;
+                    border: solid 1px red;
+                    justify-content: center;
+                    margin-bottom: 50px;
+                    img {
+                        width: 100%;
+                        height: 400px;
+                        overflow: hidden;
+                    }
+                    .image_text_boundaries {
+                        // display: inline-block;
+                        display: block;
+                        padding: 0 auto;
+                        justify-content: center;
+                        text-align: center;
+                        position: relative;
+                        color: white;
+                        // width: 100%;
+                        border: solid 1px red;
+                        a {
+                            display: block;
+                            background-color: $terracotta-red;
+
+                        }
+                        a:hover {
+                            text-transform: none;
+                            background-color: $terracotta_red_dark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 975px) {
+    .services {
+        .services_width {
+            width: 955px;
+        }
+    }
+}
+
+@media (min-width: 1260px) {
+    .services {
+        .services_width {
+            width: 1240px;
+        }
+    }
+}
