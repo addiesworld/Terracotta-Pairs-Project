@@ -120,8 +120,11 @@
     .navigation_bar {
         .button_container { 
             width: 975px;
-            justify-content: end;
             padding: 0 10px;
+            justify-content: flex-end;
+            @-moz-document {
+                justify-content: end;
+            }
             a {
                 width: 20%;
                 text-align: right;
