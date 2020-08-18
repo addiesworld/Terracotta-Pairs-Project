@@ -342,15 +342,15 @@ html, body {
 }
 
 .services .services_width .card_container .card .card_corporate {
-  background-image: url(../../Images/Homepage_Images/services_image_1.jpg);
+  background-image: url(../Images/Homepage_Images/services_image_1.jpg);
 }
 
 .services .services_width .card_container .card .card_weddings {
-  background-image: url(../../Images/Homepage_Images/wedding_card_image.jpeg);
+  background-image: url(../Images/Homepage_Images/wedding_card_image.jpeg);
 }
 
 .services .services_width .card_container .card .card_events {
-  background-image: url(../../Images/Homepage_Images/events_card_image.jpg);
+  background-image: url(../Images/Homepage_Images/events_card_image.jpg);
 }
 
 .services .services_width .card_container .card .card_title {
@@ -383,8 +383,8 @@ html, body {
 }
 
 .reviews .background_image {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../Images/Homepage_Images/quote_image_1.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../Images/Homepage_Images/quote_image_1.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../Images/Homepage_Images/quote_image_1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Homepage_Images/quote_image_1.jpg);
   width: 100%;
   height: 450px;
   background-size: cover;

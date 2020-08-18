@@ -77,13 +77,13 @@ html, body {
                     width: auto;
                 }
                 .card_corporate {
-                    background-image: url(../../Images/Homepage_Images/services_image_1.jpg);
+                    background-image: url(../Images/Homepage_Images/services_image_1.jpg);
                 }
                 .card_weddings {
-                    background-image: url(../../Images/Homepage_Images/wedding_card_image.jpeg);
+                    background-image: url(../Images/Homepage_Images/wedding_card_image.jpeg);
                 }
                 .card_events {
-                    background-image: url(../../Images/Homepage_Images/events_card_image.jpg);
+                    background-image: url(../Images/Homepage_Images/events_card_image.jpg);
                 }
                 .card_title {
                     text-transform: uppercase;
@@ -114,7 +114,7 @@ html, body {
 .reviews {
     margin-top: 75px;
     .background_image {
-        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../../Images/Homepage_Images/quote_image_1.jpg); 
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../Images/Homepage_Images/quote_image_1.jpg); 
         width: 100%;
         height: 450px;
         background-size: cover;
