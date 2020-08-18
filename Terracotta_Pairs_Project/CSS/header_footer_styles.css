@@ -36,6 +36,10 @@
   display: block;
 }
 
+.head .header_container .top_container .logo_container a {
+  text-decoration: none;
+}
+
 .head .header_container .top_container .logo_container .logo_terra {
   text-transform: capitalize;
   font-family: 'la belle aurore';
