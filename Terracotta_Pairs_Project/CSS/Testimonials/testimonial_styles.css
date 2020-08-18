@@ -489,9 +489,32 @@ html, body {
     margin: auto;
     padding: 0 10px;
     height: auto;
+    /* The typewriter cursor effect */
+  }
+  .testimonials .description_width .testimony-name {
+    padding-bottom: 30px;
+  }
+  .testimonials .description_width .typewriter {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #af473d;
+    /* The typwriter cursor */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #af473d;
+    }
+  }
+  .testimonials .description_width .testimonial_text {
+    margin-top: -185px;
+    letter-spacing: .15em;
   }
   .testimonials .card-2 {
-    margin-top: 110px;
+    margin-top: 0px;
   }
   .testimonials .award-img-cont {
     height: 450px;
