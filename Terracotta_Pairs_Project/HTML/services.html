@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap">
         <script src="https://kit.fontawesome.com/151cafdb67.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../JavaScript/slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="../JavaScript/slick-1.8.1/slick/slick-theme.css"/>
     </head>
     <body>
         <header>
@@ -44,14 +46,14 @@
         </header>
         <div class="services">
             <div class="services_width">
-                <h2 class="section_title">About the company</h2>
-                <span class="header_underline"></span>
+                <h2 class="section_title slide_title">About the company</h2>
+                <span class="header_underline slide_title"></span>
                 <div class="services_slideshow">
                     <div class="slide">
                         <div class="image_text_boundaries">
                             <h3 class="image_header">Weddings</h3>
                             <p class="image_text">Magna laborum nostrud voluptate ex est irure et irure commodo ut.Est fugiat amet eu nisi excepteur exercitation.</p>
-                            <a class="image_button" href="#">see more</a>
+                            <a class="image_button" href="#wedding_section">see more</a>
                         </div>
                         <img src="" class="image_slide" alt="">
                     </div>
@@ -59,7 +61,7 @@
                         <div class="image_text_boundaries">
                             <h3 class="image_header">Birthday</h3>
                             <p class="image_text">Magna laborum nostrud voluptate ex est irure et irure commodo ut.Est fugiat amet eu nisi excepteur exercitation.</p>
-                            <a class="image_button" href="#">see more</a>
+                            <a class="image_button" href="#birthday_section">see more</a>
                         </div>
                         <img src="" class="image_slide" alt="">
                     </div>
@@ -67,18 +69,42 @@
                         <div class="image_text_boundaries">
                             <h3 class="image_header">Corporate</h3>
                             <p class="image_text">Magna laborum nostrud voluptate ex est irure et irure commodo ut.Est fugiat amet eu nisi excepteur exercitation.</p>
-                            <a class="image_button" href="#">see more</a>
+                            <a class="image_button" href="#corporate_section">see more</a>
                         </div>
                         <img src="" class="image_slide" alt="">
                     </div>
-                    <!-- <div class="slide">
-                        <img src="../Images/Services_Images/Birthday_Food.jpg" alt="">
-                        <div class="image_text_boundaries">
-                            <h3 class="image_header">Birthday</h3>
-                            <p class="image_text">Magna laborum nostrud voluptate ex est irure et irure commodo ut.Est fugiat amet eu nisi excepteur exercitation.</p>
-                            <a class="image_button">see more</a>
-                        </div>
-                    </div> -->
+                </div>
+                <h2 class="section_title" id="wedding_section">weddings</h2>
+                <span class="header_underline"></span>
+                <div class="section_content">
+                    <img class="section_image" src="../Images/Services_Images/Wedding_Food.jpg" alt="Wedding Food">
+                    <p>Id ad cupidatat veniam eu laborum occaecat anim quis dolor anim mollit. Cupidatat consequat pariatur consectetur ad velit ut consequat cillum amet in duis elit. 
+                        Sunt id ad do elit Lorem proident. Voluptate do magna occaecat esse amet culpa ipsum. Ex officia mollit reprehenderit nulla velit cillum. 
+                        Ex culpa pariatur mollit incididunt nisi occaecat cillum. Dolor reprehenderit sunt velit quis nulla quis dolor. 
+                        Excepteur qui dolore incididunt dolore eu laborum id dolor ut sit est. Reprehenderit amet ipsum tempor eu sunt do dolor velit aliqua pariatur sint ullamco. 
+                        Laboris non duis labore eu enim officia cupidatat.</p>
+                </div>
+                <h2 class="section_title" id="birthday_section">birthday parties</h2>
+                <span class="header_underline"></span>
+                <div class="section_content alt-direction">
+                    <img class="section_image" src="../Images/Services_Images/Birthday_Food.jpg" alt="Birthday Food">
+                    <p>Sunt exercitation incididunt voluptate anim esse reprehenderit magna dolor veniam consectetur consectetur dolor est elit. 
+                        Sunt ad enim cupidatat fugiat dolor aute qui quis ut culpa est deserunt est. 
+                        Dolor proident id consequat commodo proident ea dolor laboris eu id magna mollit dolor non.Culpa do eu consectetur culpa amet eiusmod excepteur aliquip ex occaecat. 
+                        Irure cupidatat cillum eu in anim ad reprehenderit nisi esse dolore consectetur. Aliqua excepteur in elit enim anim sint Lorem sit duis nisi velit eiusmod. 
+                        Labore quis voluptate officia consectetur eu exercitation aute sint esse consectetur velit ullamco Lorem pariatur. 
+                        Velit magna nulla labore officia ipsum ad do consectetur. Cupidatat aliqua excepteur nulla reprehenderit anim magna ad duis officia est. 
+                        Elit consectetur labore sint sit deserunt aliquip mollit enim.</p>
+                </div>
+                <h2 class="section_title" id="corporate_section">corporate</h2>
+                <span class="header_underline"></span>
+                <div class="section_content">
+                    <img class="section_image" src="../Images/Services_Images/Corporate_Food.jpeg" alt="Corporate Food">
+                    <p>Pariatur velit consequat esse et qui enim id adipisicing anim nisi ipsum ipsum nulla.
+                        Culpa duis laborum eiusmod commodo ullamco nostrud in ea duis consequat culpa eiusmod. Cillum cupidatat id voluptate velit est ea aliqua sint aute Lorem quis ex eu non. 
+                        Aliqua ea enim anim proident pariatur anim laboris laborum anim occaecat. Esse aliqua Lorem esse enim. 
+                        Laboris reprehenderit esse nisi non ut veniam ut incididunt minim ipsum esse sit sit. Elit id occaecat ullamco anim quis qui officia. 
+                        Amet tempor eu proident eu do enim est sit pariatur ea deserunt elit consectetur occaecat.</p>
                 </div>
             </div>
 
@@ -126,6 +152,7 @@
                 </div>
             </div>
         </footer>
+        <script type="text/javascript" src="../JavaScript/slick-1.8.1/slick/slick.min.js"></script>
         <script src="../JavaScript/services_slideshow.js"></script>
     </body>
 </html>

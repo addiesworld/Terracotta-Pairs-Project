@@ -27,3 +27,11 @@ let imageValid = function(imageURL) {
         return imageURL
 }
 
+
+$('.services_slideshow').slick({
+    autoplay: true,
+    autplaySpeed: 2000,
+    fade: true,
+    cssEase: 'linear'
+    // dots: true
+})

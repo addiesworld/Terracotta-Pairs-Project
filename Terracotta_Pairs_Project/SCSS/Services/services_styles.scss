@@ -38,8 +38,20 @@ html, body {
         width: auto;
         height: auto;
         padding: 0 10px;
+        .slide_title {
+            display: none;
+        }
         .services_slideshow {
             display: none;
+        }
+        .section_content {
+            display: flex;
+            flex-direction: column;
+            margin: 25px 0;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
         }
     }
 }

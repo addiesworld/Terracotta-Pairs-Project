@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Typewriter</h1>
+
+<p class="demo"></p>
+<p class="demo"></p>
+<p class="demo"></p>
+
+<script>
+var index = [0,0,0];
+var txt = ['Lorem ipsum dummy text blabla.',
+'htrhtrh th th tt htht htaeh arth',
+'fhti jgoi \joifjaeoifj oijgoi gjro'];
+var speed = 50;
+
+const texts = document.getElementsByClassName("demo");
+console.log(texts);
+
+document.addEventListener("DOMContentLoaded", function(){
+  addCharx5();
+});
+
+async function addCharx5() {
+  for (var x = 0; x < txt.length; x++) {  
+    for (var y = 0; y < txt[x].length; y++) {
+          texts[x].innerHTML += txt[x].charAt(y);
+          await sleep(50);
+          
+    }
+  }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+</script>
+
+</body>
+</html>

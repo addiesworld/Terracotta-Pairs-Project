@@ -5,6 +5,9 @@
         .services_width {
             width: 750px;
             margin: 0 auto;
+            .slide_title {
+                display: block;
+            }
             .services_slideshow {
                 margin-top: 25px;
                 display: block;
@@ -15,7 +18,8 @@
                     justify-content: center;
                     margin-bottom: 50px;
                     img {
-                        width: 100%;
+                        object-fit: cover;
+                        width: 700px;
                         height: 400px;
                         overflow: hidden;
                     }
@@ -28,7 +32,7 @@
                         color: white;
                         width: 700px;
                         height: 400px;
-                        background-color: rgba(0,0,0,0.5);
+                        background-color: rgba(0,0,0,0.3);
                         a {
                             text-transform: uppercase;
                             color: white;
@@ -57,6 +61,29 @@
                     }
                 }
             }
+            .section_content {
+                width: 750px;
+                height: 100%;
+                flex-direction: row;
+                padding: 0 25px;
+                margin-bottom: 50px;
+                img {
+                    width: 50%;
+                    display: block;
+                    margin-right: 20px;
+                    overflow: hidden;
+                } 
+                p {
+                    width: 50%;
+                }
+            }
+            .alt-direction {
+                flex-direction: row-reverse;
+                img {
+                    margin-right: 0;
+                    margin-left: 20px;
+                }
+            }
         }
     }
 }
@@ -68,9 +95,21 @@
             .services_slideshow {
                 .slide {
                     width: 975px;
+                    img {
+                        width: 925px;
+                    }
                     .image_text_boundaries {
                         width: 925px;
                     }
+                }
+            }
+            .section_content {
+                width: 975px;
+                img {
+                    width: 30%;
+                } 
+                p {
+                    width: 70%;
                 }
             }
         }
@@ -85,9 +124,21 @@
                 display: block;
                 .slide {
                     width: 1260px;
+                    img {
+                        width: 1210px;
+                    }
                     .image_text_boundaries {
                         width: 1210px
                     }
+                }
+            }
+            .section_content {
+                width: 1260px;
+                img {
+                    width: 25%;
+                }
+                p {
+                    width: 75%;
                 }
             }
         }

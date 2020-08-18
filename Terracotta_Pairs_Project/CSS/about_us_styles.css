@@ -405,20 +405,21 @@ html, body {
   .about_us .about_width .content_container {
     margin: 25px 0;
   }
-  .about_us .about_width .content_container .description_text {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    width: 500px;
-  }
   .about_us .about_width .content_container img {
     padding-right: 20px;
     display: block;
     width: 250px;
     height: 250px;
-    background-size: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .about_us .about_width .content_container .description_text {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 500px;
   }
   .our_history {
     margin-top: 50px;
