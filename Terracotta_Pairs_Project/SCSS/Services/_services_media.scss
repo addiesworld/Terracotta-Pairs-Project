@@ -1,0 +1,146 @@
+@import "../_variables.scss";
+
+@media (min-width: 750px) {
+    .services {
+        .services_width {
+            width: 750px;
+            margin: 0 auto;
+            .slide_title {
+                display: block;
+            }
+            .services_slideshow {
+                margin-top: 25px;
+                display: block;
+                .slide {
+                    padding: 0 25px;
+                    width: 750px;
+                    height: 400px;
+                    justify-content: center;
+                    margin-bottom: 50px;
+                    img {
+                        object-fit: cover;
+                        width: 700px;
+                        height: 400px;
+                        overflow: hidden;
+                    }
+                    .image_text_boundaries {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        text-align: center;
+                        position: absolute;
+                        color: white;
+                        width: 700px;
+                        height: 400px;
+                        background-color: rgba(0,0,0,0.3);
+                        a {
+                            text-transform: uppercase;
+                            color: white;
+                            margin: 0 auto;
+                            height: 50px;
+                            line-height: 50px;
+                            width: 200px;
+                            display: block;
+                            background-color: $terracotta-red;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            text-decoration: none;
+                            background-color: $terracotta_red_dark;
+                        }
+                        .image_header {
+                            font-size: 30px;
+                            font-weight: 800;
+                            margin: 0px 0px 25px;
+                        }
+                        .image_text {
+                            width: 600px;
+                            margin: 25px auto 50px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .section_content {
+                width: 750px;
+                height: 100%;
+                flex-direction: row;
+                padding: 0 25px;
+                margin-bottom: 50px;
+                img {
+                    width: 50%;
+                    display: block;
+                    margin-right: 20px;
+                    overflow: hidden;
+                } 
+                p {
+                    width: 50%;
+                }
+            }
+            .alt-direction {
+                flex-direction: row-reverse;
+                img {
+                    margin-right: 0;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 975px) {
+    .services {
+        .services_width {
+            width: 975px;
+            .services_slideshow {
+                .slide {
+                    width: 975px;
+                    img {
+                        width: 925px;
+                    }
+                    .image_text_boundaries {
+                        width: 925px;
+                    }
+                }
+            }
+            .section_content {
+                width: 975px;
+                img {
+                    width: 30%;
+                } 
+                p {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1260px) {
+    .services {
+        .services_width {
+            width: 1260px;
+            .services_slideshow {
+                display: block;
+                .slide {
+                    width: 1260px;
+                    img {
+                        width: 1210px;
+                    }
+                    .image_text_boundaries {
+                        width: 1210px
+                    }
+                }
+            }
+            .section_content {
+                width: 1260px;
+                img {
+                    width: 25%;
+                }
+                p {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}

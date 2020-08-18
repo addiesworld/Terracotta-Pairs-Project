@@ -6,6 +6,7 @@
 
 .head .header_container {
   width: auto;
+  padding: 0 25px;
   height: auto;
   color: white;
 }
@@ -112,6 +113,7 @@
   width: auto;
   height: auto;
   color: white;
+  padding: 0 25px;
   background-color: #af473d;
 }
 
@@ -138,6 +140,7 @@
   width: auto;
   height: auto;
   background-color: #3c3c3c;
+  padding: 0 25px;
 }
 
 .footer .book_container .book_now {
@@ -278,367 +281,194 @@ html, body {
   background-color: black;
 }
 
-.description .description_width {
-  width: auto;
-  margin: 25px;
-  padding: 0 10px;
-  height: auto;
-}
-
-.description .description_width .description_title {
-  color: #af473d;
-}
-
-.description .description_width .description_text {
-  margin: 25px 0;
-  font-size: 16px;
-}
-
-.description .description_width .description_text:last-of-type {
-  display: none;
-}
-
-.services {
-  margin-top: 75px;
-}
-
 .services .services_width {
-  width: 100%;
-  padding: 0 25px;
-}
-
-.services .services_width .card_container {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 25px;
-}
-
-.services .services_width .card_container .card {
-  display: block;
-  width: auto;
-  margin-top: 25px;
-}
-
-.services .services_width .card_container .card .card_image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 250px;
-  width: auto;
-}
-
-.services .services_width .card_container .card .card_corporate {
-  background-image: url(../Images/Homepage_Images/services_image_1.jpg);
-}
-
-.services .services_width .card_container .card .card_weddings {
-  background-image: url(../Images/Homepage_Images/wedding_card_image.jpeg);
-}
-
-.services .services_width .card_container .card .card_events {
-  background-image: url(../Images/Homepage_Images/events_card_image.jpg);
-}
-
-.services .services_width .card_container .card .card_title {
-  text-transform: uppercase;
-  text-align: center;
-  color: #af473d;
-  font-size: 24px;
-}
-
-.services .services_width .card_container .card .card_title_underline {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100px;
-  margin-top: 0;
-  background-color: black;
-  margin: 0 auto 10px;
-}
-
-.services .services_width .card_container .card .card_text {
-  text-align: center;
-}
-
-.services .services_width .card_container .card:first-of-type {
-  margin-top: 0px;
-}
-
-.reviews {
-  margin-top: 75px;
-}
-
-.reviews .background_image {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../Images/Homepage_Images/quote_image_1.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Homepage_Images/quote_image_1.jpg);
-  width: 100%;
-  height: 450px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.reviews .background_image .text_container {
-  width: 100%;
-  height: 400px;
-}
-
-.reviews .background_image .text_container .quote_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: white;
-  width: 100%;
-  height: 200px;
-  padding: 25px 25px 0;
-}
-
-.reviews .background_image .text_container .quote_container i {
-  display: inline-block;
-  font-size: 20px;
-  width: auto;
-  margin: 0;
-}
-
-.reviews .background_image .text_container .quote_container .quote_left {
-  padding-top: 40px;
-}
-
-.reviews .background_image .text_container .quote_container .quote_right {
-  padding-top: 125px;
-}
-
-.reviews .background_image .text_container .quote_container .quote_content {
-  text-align: center;
-}
-
-.reviews .background_image .text_container .quote_container .quote_content .quote {
-  display: inline-block;
-  text-align: center;
   width: auto;
   height: auto;
-  padding: 30px 25px 0;
-  margin: 0;
-  font-size: 16px;
+  padding: 0 10px;
 }
 
-.reviews .background_image .text_container .quote_container .quote_content .quote_underline {
-  content: "";
-  display: inline-block;
-  height: 1px;
-  width: 33%;
-  margin-top: 30px;
-  background-color: white;
-}
-
-.reviews .background_image .text_container .quote_container .quote_content .quote_author {
-  margin-top: 20px;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.partners {
-  margin-top: 75px;
+.services .services_width .slide_title {
   display: none;
 }
 
-.partners .partners_width {
-  width: 750px;
-  margin-left: auto;
-  margin-right: auto;
+.services .services_width .services_slideshow {
+  display: none;
 }
 
-.partners .partners_width .partners_container {
+.services .services_width .section_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 750px;
-  height: auto;
-  margin: 50px 0;
-  margin-left: auto;
-  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px 0;
 }
 
-.partners .partners_width .partners_container .partner_card {
-  display: block;
-  width: 200px;
-}
-
-.partners .partners_width .partners_container .partner_card .card_image {
-  -o-object-fit: contain;
-     object-fit: contain;
-  height: 100px;
-  width: 200px;
-  overflow: hidden;
+.services .services_width .section_content img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 750px) {
-  .description {
-    margin-top: 50px;
-  }
-  .description .description_width {
-    width: 750px;
-    padding: 0 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .description .description_width .description_text:last-of-type {
-    display: block;
-  }
-  .section_title {
-    font-size: 36px;
-  }
-  .header_underline {
-    width: 185px;
-  }
   .services .services_width {
     width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 8px;
+    margin: 0 auto;
   }
-  .services .services_width .card_container {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    padding: 0;
-  }
-  .services .services_width .card_container .card {
+  .services .services_width .slide_title {
     display: block;
-    width: 360px;
-    padding: 0 0;
-    margin-top: 0px;
   }
-  .services .services_width .card_container .card .card_image {
-    height: 202px;
-    width: 360px;
-  }
-  .services .services_width .card_container .card .card_title {
-    font-size: 24px;
-  }
-  .services .services_width .card_container .card:last-of-type {
+  .services .services_width .services_slideshow {
     margin-top: 25px;
-  }
-  .reviews .background_image .text_container {
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 8px;
-  }
-  .reviews .background_image .text_container .quote_container .quote_content .quote {
-    font-size: 18px;
-    padding: 30px 50px 0;
-  }
-  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
-    font-size: 16px;
-  }
-  .partners {
     display: block;
-    padding: 0 8px;
+  }
+  .services .services_width .services_slideshow .slide {
+    padding: 0 25px;
+    width: 750px;
+    height: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 50px;
+  }
+  .services .services_width .services_slideshow .slide img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .services .services_width .services_slideshow .slide .image_text_boundaries {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    position: absolute;
+    color: white;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .services .services_width .services_slideshow .slide .image_text_boundaries a {
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    display: block;
+    background-color: #af473d;
+    text-decoration: none;
+  }
+  .services .services_width .services_slideshow .slide .image_text_boundaries a:hover {
+    text-decoration: none;
+    background-color: #7c332d;
+  }
+  .services .services_width .services_slideshow .slide .image_text_boundaries .image_header {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px 0px 25px;
+  }
+  .services .services_width .services_slideshow .slide .image_text_boundaries .image_text {
+    width: 600px;
+    margin: 25px auto 50px;
+    font-size: 20px;
+  }
+  .services .services_width .section_content {
+    width: 750px;
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0 25px;
+    margin-bottom: 50px;
+  }
+  .services .services_width .section_content img {
+    width: 50%;
+    display: block;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  .services .services_width .section_content p {
+    width: 50%;
+  }
+  .services .services_width .alt-direction {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .services .services_width .alt-direction img {
+    margin-right: 0;
+    margin-left: 20px;
   }
 }
 
 @media (min-width: 975px) {
-  .description .description_width {
-    width: 975px;
-  }
   .services .services_width {
     width: 975px;
   }
-  .services .services_width .card_container {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .services .services_width .card_container .card {
-    width: 310px;
-  }
-  .services .services_width .card_container .card .card_image {
-    height: 174px;
-    width: 310px;
-  }
-  .services .services_width .card_container .card:last-of-type {
-    margin-top: 0px;
-  }
-  .reviews .background_image .text_container {
-    width: 950px;
-  }
-  .reviews .background_image .text_container .quote_container .quote_content .quote {
-    font-size: 20px;
-  }
-  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
-    font-size: 18px;
-  }
-  .partners .partners_width {
+  .services .services_width .services_slideshow .slide {
     width: 975px;
   }
-  .partners .partners_width .partners_container {
-    width: 950px;
+  .services .services_width .services_slideshow .slide img {
+    width: 925px;
   }
-  .partners .partners_width .partners_container .partner_card {
-    width: 300px;
+  .services .services_width .services_slideshow .slide .image_text_boundaries {
+    width: 925px;
   }
-  .partners .partners_width .partners_container .partner_card .card_image {
-    height: 150px;
-    width: 300px;
+  .services .services_width .section_content {
+    width: 975px;
+  }
+  .services .services_width .section_content img {
+    width: 30%;
+  }
+  .services .services_width .section_content p {
+    width: 70%;
   }
 }
 
 @media (min-width: 1260px) {
-  .description .description_width {
-    width: 1260px;
-  }
   .services .services_width {
     width: 1260px;
   }
-  .services .services_width .card_container .card {
-    width: 400px;
+  .services .services_width .services_slideshow {
+    display: block;
   }
-  .services .services_width .card_container .card .card_image {
-    height: 225px;
-    width: 400px;
-  }
-  .reviews .background_image .text_container {
-    width: 1200px;
-  }
-  .reviews .background_image .text_container .quote_container .quote_content .quote {
-    font-size: 22px;
-  }
-  .reviews .background_image .text_container .quote_container .quote_content .quote_author {
-    font-size: 18px;
-  }
-  .partners .partners_width {
+  .services .services_width .services_slideshow .slide {
     width: 1260px;
   }
-  .partners .partners_width .partners_container {
-    width: 1200px;
+  .services .services_width .services_slideshow .slide img {
+    width: 1210px;
   }
-  .partners .partners_width .partners_container .partner_card {
-    width: 350px;
+  .services .services_width .services_slideshow .slide .image_text_boundaries {
+    width: 1210px;
   }
-  .partners .partners_width .partners_container .partner_card .card_image {
-    height: 150px;
-    width: 300px;
+  .services .services_width .section_content {
+    width: 1260px;
+  }
+  .services .services_width .section_content img {
+    width: 25%;
+  }
+  .services .services_width .section_content p {
+    width: 75%;
   }
 }
 
 @media (min-width: 750px) {
   .head .header_container {
     width: 750px;
-    padding: 0 10px;
+    padding: 0 25px;
     margin: 0 auto;
   }
   .head .header_container .top_container {
@@ -732,7 +562,7 @@ html, body {
     background-size: 100%;
   }
   .head .header_container {
-    width: 975px;
+    width: 955px;
   }
   .head .header_container .content_container {
     width: 40%;
@@ -750,11 +580,16 @@ html, body {
     padding: 10px 40px;
   }
   .navigation_bar .button_container {
-    width: 975px;
+    width: 955px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: end;
+            justify-content: flex-end;
     padding: 0 10px;
+  }
+  @-moz-document {
+    .navigation_bar .button_container {
+      justify-content: end;
+    }
   }
   .navigation_bar .button_container a {
     width: 20%;
@@ -762,7 +597,7 @@ html, body {
     padding: 15px 0;
   }
   .footer .book_container .book_now {
-    width: 975px;
+    width: 955px;
   }
   .footer .book_container .book_now .book_text {
     width: 675px;
@@ -774,7 +609,7 @@ html, body {
     padding: 10px 20px;
   }
   .footer .links_container .links {
-    width: 975px;
+    width: 955px;
   }
   .footer .links_container .links .link_box {
     width: 33%;
@@ -786,7 +621,7 @@ html, body {
 
 @media (min-width: 1260px) {
   .head .header_container {
-    width: 1260px;
+    width: 1240px;
   }
   .head .header_container .content_container .slogan {
     font-size: 50px;
@@ -798,13 +633,13 @@ html, body {
     font-size: 29px;
   }
   .navigation_bar .button_container {
-    width: 1260px;
+    width: 1240px;
   }
   .navigation_bar .button_container a {
     width: 200px;
   }
   .footer .book_container .book_now {
-    width: 1260px;
+    width: 1240px;
   }
   .footer .book_container .book_now .book_text {
     width: 1010px;
@@ -816,10 +651,10 @@ html, body {
     padding: 10px 20px;
   }
   .footer .links_container .links {
-    width: 1260px;
+    width: 1240px;
   }
   .footer .links_container .links .link_box .underline {
     width: 50%;
   }
 }
-/*# sourceMappingURL=homepage_styles.css.map */
+/*# sourceMappingURL=services_styles.css.map */

@@ -1,0 +1,60 @@
+@import "../variables";
+@import "../header_footer_styles";
+
+//Universal Styling
+* { // This can replace the need of html and body, as this selects everything. 
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+html, body {
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+// #region General Website Styles: header, header_underline
+.section_title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 25px 0 0;
+    color: $terracotta_red;
+    font-size: 30px;
+}
+.header_underline {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: black;
+}
+// #endregion
+
+.services {
+    .services_width {
+        width: auto;
+        height: auto;
+        padding: 0 10px;
+        .slide_title {
+            display: none;
+        }
+        .services_slideshow {
+            display: none;
+        }
+        .section_content {
+            display: flex;
+            flex-direction: column;
+            margin: 25px 0;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@import "_services_media.scss";
+@import "../_header_footer_media.scss";

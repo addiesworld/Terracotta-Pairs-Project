@@ -8,20 +8,21 @@
             margin-right: auto;
             .content_container {
                 margin: 25px 0;
-                .description_text {
-                    display: inline-block;
-                    padding: 0;
-                    margin: 0;
-                    width: 500px;
-                }
                 img {
                     padding-right: 20px;
                     display: block;
                     width: 250px;
                     height: 250px;
-                    background-size: cover;
+                    // background-size: cover;
+                    object-fit: cover;
                     background-repeat: no-repeat;
                     background-position: center;
+                }
+                .description_text {
+                    display: inline-block;
+                    padding: 0;
+                    margin: 0;
+                    width: 500px;
                 }
             }
         }
@@ -31,7 +32,7 @@
         margin-top: 50px;
         .history_width {
             width: 750px;
-            padding: 0 10px;
+            // padding: 0 10px;
             margin-left: auto;
             margin-right: auto;
             .description_text:last-of-type {
@@ -45,6 +46,7 @@
             width: 750px;
             margin: 0 auto;
             .card_container {
+                justify-content: space-between;
                 .card {
                     width: 30%;
                 }
@@ -73,6 +75,12 @@
             width: 975px;
         }
     }
+
+    .meet_the_team {
+        .team_width {
+            width: 975px;
+        }
+    }
 }
 
 @media (min-width: 1260px) {
@@ -92,6 +100,12 @@
 
     .our_history {
         .history_width {
+            width: 1260px;
+        }
+    }
+
+    .meet_the_team {
+        .team_width {
             width: 1260px;
         }
     }
