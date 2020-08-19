@@ -1,5 +1,5 @@
 @import "../_variables.scss";
-@import "../../SCSS/header_footer_styles.scss";
+@import "../_header_footer_styles.scss";
 
 //Universal Styling
 * { // This can replace the need of html and body, as this selects everything. 
@@ -72,9 +72,10 @@ html, body {
     position: relative;
     overflow: hidden;
 }
+
 .award-img {
     background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-                url(../../Images/Testimonial_Images/award.jpg);
+                url(../Images/Testimonial_Images/award.jpg);
     background-size: cover;
     position: absolute;
     height: 100%;

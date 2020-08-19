@@ -1,7 +1,7 @@
 .head {
   background-size: cover;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../Images/Homepage_Images/header_lobster.jpg);
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../Images/Homepage_Images/header_lobster.jpg);
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../../Terracotta_Pairs_Project/Images/Homepage_Images/header_lobster.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../../Terracotta_Pairs_Project/Images/Homepage_Images/header_lobster.jpg);
 }
 
 .head .header_container {
@@ -336,8 +336,8 @@ html, body {
 }
 
 .award-img {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url(../../Images/Testimonial_Images/award.jpg);
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../Images/Testimonial_Images/award.jpg);
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url(../Images/Testimonial_Images/award.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../Images/Testimonial_Images/award.jpg);
   background-size: cover;
   position: absolute;
   height: 100%;
@@ -540,34 +540,9 @@ html, body {
     margin: auto;
     padding: 0 10px;
     height: auto;
-    /* The typewriter cursor effect */
   }
   .testimonials .description_width .testimony-name {
     padding-bottom: 30px;
-  }
-  .testimonials .description_width .typewriter {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: 0.15em solid #af473d;
-    /* The typwriter cursor */
-    -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  }
-  @-webkit-keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #af473d;
-    }
-  }
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #af473d;
-    }
   }
   .testimonials .description_width .testimonial_text {
     margin-top: -185px;

@@ -30,11 +30,15 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 async function addCharx5(item, index) {
-    for (var y = 0; y < txt[index].length; y++) {
-        item.innerHTML += txt[index].charAt(y);
-        await sleep(50);
-    }
-    item.classList.remove("typewriter");
+  for (var y = 0; y < txt[index].length; y++) {
+    item.innerHTML += txt[index].charAt(y); 
+    item.innerHTML += " |"
+    await sleep(50)
+    var stringTest = item.innerHTML.toString()
+    var test = stringTest.substring(0, y+1)
+    item.innerHTML = test
+    await sleep(25)
+  }
 }
 
 function sleep(ms) {
