@@ -1,5 +1,3 @@
-
-
 class TeamMember {
     constructor(stafffirstname, staffsurname, position, imageURL, description, sex) {
         this.stafffirstname = stafffirstname;

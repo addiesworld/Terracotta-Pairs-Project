@@ -13,6 +13,7 @@ var txt = ['"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
 let texts = document.getElementsByClassName("testimonial_text");
 
 document.addEventListener("DOMContentLoaded", function(){
+  console.log("Test Message")
   for (var x = 0; x < texts.length;x++) {
     addCharx5(texts[x], x);
   }
