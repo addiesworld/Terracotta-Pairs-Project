@@ -300,6 +300,8 @@ html, body {
 }
 
 .testimonials .description_width .testimony-card {
+  margin-top: 25px;
+  padding: 25px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,22 +314,42 @@ html, body {
           align-items: center;
 }
 
-.testimonials .description_width .testimony-card .testimony-img {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  margin: 50px 50px 5px 50px;
-}
-
-.testimonials .description_width .testimony-card .testimony-name {
+.testimonials .description_width .testimony-card .testimony_author {
+  width: auto;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
-.testimonials .description_width .testimony-card .testimonial_text {
+.testimonials .description_width .testimony-card .testimony_author .testimony-img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.testimonials .description_width .testimony-card .testimony_author .testimony-name {
   margin: 25px 0;
+  padding: 0;
+}
+
+.testimonials .description_width .testimony-card .testimony_text {
+  padding: 0;
   font-size: 16px;
+  text-align: left;
+  width: 100%;
+  margin: 0;
 }
 
 .testimony-p {
@@ -335,271 +357,103 @@ html, body {
 }
 
 .award-img-cont {
-  height: 250px;
+  height: 300px;
   width: 100%;
   margin-top: 25px;
   position: relative;
   overflow: hidden;
 }
 
-.award-img {
+.award-img-cont .award-img {
   background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url(../Images/Testimonial_Images/award.jpg);
   background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../Images/Testimonial_Images/award.jpg);
   background-size: cover;
-  position: absolute;
   height: 100%;
   width: 100%;
 }
 
-.award-img .award-carousel .carousel-cont {
+.award-img-cont .award-img .award-carousel {
+  height: 300px;
+}
+
+.award-img-cont .award-img .award-carousel .carousel-cont {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 250px;
-  margin-top: 20px;
   text-align: center;
+  height: 300px;
 }
 
-.award-img .award-carousel .carousel-cont a {
+.award-img-cont .award-img .award-carousel .carousel-cont a {
+  display: block;
   text-decoration: none;
+  margin: auto auto;
 }
 
-.award-img .award-carousel .carousel-cont a h4 {
+.award-img-cont .award-img .award-carousel .carousel-cont a h4 {
+  margin: 0 0 30px;
   font-size: 30px;
   font-weight: bold;
   color: #af473d;
   text-shadow: -1px 0 #af473d, 0 1px #af473d, 1px 0 #af473d, 0 -1px #af473d;
 }
 
-.award-img .award-carousel .carousel-cont a p {
+.award-img-cont .award-img .award-carousel .carousel-cont a p {
+  padding: 0 25px;
   color: white;
-}
-
-.award-img .award-carousel .c-content-2 h4 {
-  margin-bottom: -11px;
-}
-
-.award-img .award-carousel .c-content-3 h4 {
-  margin-bottom: 0px;
-  margin-top: 10px;
-}
-
-.award-img .award-carousel .c-content-4 h4 {
-  margin-bottom: 0px;
 }
 
 @media (min-width: 750px) {
   .testimonials .description_width {
     width: auto;
-    margin: 25px;
+    margin: 25px auto;
     padding: 0 10px;
     height: auto;
   }
   .testimonials .description_width .testimony-card {
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    margin-top: 0px;
+    height: auto;
+    padding: 0 25px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
-  .testimonials .description_width .testimony-card .testimony-name {
-    padding-left: 35px;
+  .testimonials .description_width .testimony-card .testimony_author {
+    margin-left: auto;
+    margin-right: auto;
   }
-  .testimonials .description_width .testimony-card .testimonial_text {
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 325px;
-    margin-top: -185px;
+  .testimonials .description_width .testimony-card .testimony_author .testimony-name {
+    margin-bottom: 0px;
   }
-  .testimonials .description_width .card-2 {
-    margin-top: 100px;
+  .testimonials .description_width .testimony-card .testimony_text {
+    margin-left: 25px;
+    margin-top: -75px;
   }
-  .testimonials .description_width .card-3 {
-    margin-top: 50px;
-  }
-  .testimonials .description_width .st-awards {
-    margin-top: 150px;
-  }
-  .testimonials .award-img-cont {
-    height: 305px;
-    width: 100%;
-  }
-  .testimonials .award-img-cont .award-carousel .carousel-cont {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 250px;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .testimonials .award-img-cont .award-carousel .carousel-cont a {
-    text-decoration: none;
-  }
-  .testimonials .award-img-cont .award-carousel .carousel-cont a h4 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #af473d;
-    text-shadow: -1px 0 #af473d, 0 1px #af473d, 1px 0 #af473d, 0 -1px #af473d;
-  }
-  .testimonials .award-img-cont .award-carousel .carousel-cont a p {
-    color: white;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-1 {
-    padding-top: 35px;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-2 h4,
-  .testimonials .award-img-cont .award-carousel .c-content-2 p {
-    padding-top: 35px;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-3 h4 {
-    padding-top: 55px;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-4 h4 {
-    padding-top: 35px;
-    padding-bottom: 25px;
+  .testimonials .award-img-cont .award-carousel {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (min-width: 975px) {
   .testimonials .description_width {
     width: 975px;
-    margin: auto;
-    padding: 0 10px;
-    height: auto;
   }
   .testimonials .description_width .testimony-p {
     display: block;
   }
-  .testimonials .description_width .testimony-card {
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    margin-top: 0px;
-  }
-  .testimonials .description_width .testimony-card .testimony-name {
-    padding-left: 35px;
-  }
-  .testimonials .description_width .testimony-card .testimonial_text {
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 325px;
-    margin-top: -185px;
-  }
-  .testimonials .description_width .card-2 {
-    margin-top: 100px;
-  }
-  .testimonials .description_width .card-3 {
-    margin-top: 100px;
-  }
-  .testimonials .description_width .st-awards {
-    margin-top: 150px;
-  }
-  .testimonials .description_width .award-img-cont {
-    width: 100vw;
-    margin: 0;
-    margin-top: 25px;
-    padding: 0 10px;
-    height: 450px;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-1 {
-    padding-top: 85px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-1 p {
-    width: 700px;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-2 {
-    padding-top: 50px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-2 p {
-    width: 700px;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-3 {
-    padding-top: 60px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-3 p {
-    padding-top: 25px;
-    width: 700px;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-4 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-4 h4 {
-    padding-top: 95px;
-  }
-  .testimonials .description_width .award-img-cont .award-carousel .c-content-4 p {
-    width: 700px;
+  .testimonials .award-img-cont .award-carousel {
+    width: 925px;
   }
 }
 
 @media (min-width: 1260px) {
   .testimonials .description_width {
     width: 1260px;
-    margin: auto;
-    padding: 0 10px;
-    height: auto;
   }
-  .testimonials .description_width .testimony-name {
-    padding-bottom: 30px;
-  }
-  .testimonials .description_width .testimonial_text {
-    margin-top: -185px;
-    letter-spacing: .15em;
-  }
-  .testimonials .card-2 {
-    margin-top: 0px;
-  }
-  .testimonials .award-img-cont {
-    height: 450px;
-    width: 100%;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-1 {
-    padding-top: 85px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-1 p {
-    width: 700px;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-2 {
-    padding-top: 50px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-2 p {
-    width: 700px;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-3 {
-    padding-top: 60px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-3 p {
-    padding-top: 25px;
-    width: 700px;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-4 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-4 h4 {
-    padding-top: 95px;
-  }
-  .testimonials .award-img-cont .award-carousel .c-content-4 p {
-    width: 700px;
+  .testimonials .award-img-cont .award-carousel {
+    width: 1210px;
   }
 }
 

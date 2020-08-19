@@ -1,19 +1,17 @@
-$('.autoplay').slick({
+$('.award-carousel').slick({ // was autoplay
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
   });
 
-const typingSpeed = 150;
+const typingSpeed = 50;
 var txt = ['"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut lectus sem."',
 '"Affogato viral shabby chic, ello governor! iPhone af four loko trust fund sunt next level scenester tousled austin. Fam godard ethical slow-carb vape."',
 '"Donec non felis feugiat felis gravida accumsan. Duis orci mauris, luctus sit amet lectus at, pellentesque aliquet tellus."'];
 
-let texts = document.getElementsByClassName("testimonial_text");
-
+let texts = document.getElementsByClassName("testimony_text")
 document.addEventListener("DOMContentLoaded", function(){
-  console.log("Test Message")
   for (var x = 0; x < texts.length;x++) {
     addCharx5(texts[x], x);
   }

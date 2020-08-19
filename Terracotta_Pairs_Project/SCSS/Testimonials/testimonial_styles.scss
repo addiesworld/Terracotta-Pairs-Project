@@ -41,21 +41,39 @@ html, body {
         height: auto; 
         // margin-top: 210px;
         .testimony-card {
+            // height: auto;
+            margin-top: 25px;
+            padding: 25px 0;
             display: flex;
             flex-direction: column;
             align-items: center;
-            .testimony-img {
-                height: 200px;
-                width: 200px;
-                border-radius: 50%;
-                margin: 50px 50px 5px 50px;
-            }
-            .testimony-name {
+            .testimony_author {
+                width: auto;
+                height: auto;
                 display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                .testimony-img {
+                    display: block;
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                }
+                .testimony-name {
+                    margin: 25px 0;
+                    padding: 0;
+                }
             }
-            .testimonial_text {
-                margin: 25px 0;
+
+            .testimony_text {
+                padding: 0;
                 font-size: 16px;
+                text-align: left;
+                width: 100%;
+                margin: 0;
             }
         }
     }
@@ -66,53 +84,39 @@ html, body {
 }
 
 .award-img-cont {
-    height: 250px;
+    height: 300px;
     width: 100%;
     margin-top: 25px;
     position: relative;
     overflow: hidden;
-}
-
-.award-img {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-                url(../Images/Testimonial_Images/award.jpg);
-    background-size: cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    .award-carousel {
-        .carousel-cont {
-            display: flex;
-            height: 250px;
-            margin-top: 20px;
-            text-align: center;
-            a {
-                text-decoration: none;
-                h4 {
-                    font-size: 30px;
-                    font-weight: bold;
-                    color: $terracotta_red;
-                    text-shadow: -1px 0 #af473d, 0 1px #af473d, 1px 0 #af473d, 0 -1px #af473d;
+    .award-img {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+                    url(../Images/Testimonial_Images/award.jpg);
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        .award-carousel {
+            height: 300px;
+            .carousel-cont {
+                display: flex;
+                text-align: center;
+                height: 300px;
+                a {
+                    display: block;
+                    text-decoration: none;
+                    margin: auto auto;
+                    h4 {
+                        margin: 0 0 30px;
+                        font-size: 30px;
+                        font-weight: bold;
+                        color: $terracotta_red;
+                        text-shadow: -1px 0 #af473d, 0 1px #af473d, 1px 0 #af473d, 0 -1px #af473d;
+                    }
+                    p {
+                        padding: 0 25px;
+                        color: white;
+                    }
                 }
-                p {
-                    color: white;
-                }
-            }
-        }
-        .c-content-2 {
-            h4 {
-                margin-bottom: -11px;
-            }
-        }
-        .c-content-3 {
-            h4 {
-                margin-bottom: 0px;
-                margin-top: 10px;
-            }
-        }
-        .c-content-4 {
-            h4 {
-                margin-bottom: 0px;
             }
         }
     }
