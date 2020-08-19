@@ -84,11 +84,18 @@ html, body {
 }
 
 .award-img-cont {
-    height: 300px;
+    display: block;
+    height: auto;
     width: 100%;
     margin-top: 25px;
-    position: relative;
-    overflow: hidden;
+    // position: relative;
+    // overflow: hidden;
+    .award_header {
+        width: auto;
+        height: auto;
+        margin: 25px 0;
+        padding-left: 25px;
+    }
     .award-img {
         background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
                     url(../Images/Testimonial_Images/award.jpg);
@@ -106,7 +113,7 @@ html, body {
                     text-decoration: none;
                     margin: auto auto;
                     h4 {
-                        margin: 0 0 30px;
+                        margin: 0 10px 30px;
                         font-size: 30px;
                         font-weight: bold;
                         color: $terracotta_red;

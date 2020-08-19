@@ -357,11 +357,17 @@ html, body {
 }
 
 .award-img-cont {
-  height: 300px;
+  display: block;
+  height: auto;
   width: 100%;
   margin-top: 25px;
-  position: relative;
-  overflow: hidden;
+}
+
+.award-img-cont .award_header {
+  width: auto;
+  height: auto;
+  margin: 25px 0;
+  padding-left: 25px;
 }
 
 .award-img-cont .award-img {
@@ -391,7 +397,7 @@ html, body {
 }
 
 .award-img-cont .award-img .award-carousel .carousel-cont a h4 {
-  margin: 0 0 30px;
+  margin: 0 10px 30px;
   font-size: 30px;
   font-weight: bold;
   color: #af473d;
@@ -413,6 +419,7 @@ html, body {
   .testimonials .description_width .testimony-card {
     height: auto;
     padding: 0 25px;
+    margin-top: 50px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -429,7 +436,12 @@ html, body {
     margin-left: 25px;
     margin-top: -75px;
   }
+  .testimonials .award-img-cont .award_header {
+    width: 750px;
+    margin: 25px auto;
+  }
   .testimonials .award-img-cont .award-carousel {
+    height: 300px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -443,6 +455,9 @@ html, body {
   .testimonials .description_width .testimony-p {
     display: block;
   }
+  .testimonials .award-img-cont .award_header {
+    width: 975px;
+  }
   .testimonials .award-img-cont .award-carousel {
     width: 925px;
   }
@@ -450,6 +465,9 @@ html, body {
 
 @media (min-width: 1260px) {
   .testimonials .description_width {
+    width: 1260px;
+  }
+  .testimonials .award-img-cont .award_header {
     width: 1260px;
   }
   .testimonials .award-img-cont .award-carousel {

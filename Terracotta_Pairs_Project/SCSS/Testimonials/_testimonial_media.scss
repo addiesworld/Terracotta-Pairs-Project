@@ -1,6 +1,5 @@
 // Small : 750px
 @media (min-width: 750px) {
-
     .testimonials {
         .description_width {
             width: auto;
@@ -10,6 +9,7 @@
             .testimony-card {
                 height: auto;
                 padding: 0 25px;
+                margin-top: 50px;
                 flex-direction: row;
                 .testimony_author {
                     margin-left: auto;
@@ -25,9 +25,12 @@
             }
         }
         .award-img-cont {
-            // height: 305px;
-            // width: 100%;
+            .award_header {
+                width: 750px;
+                margin: 25px auto;
+            }
             .award-carousel {
+                height: 300px;
                 width: 700px;
                 margin-left: auto;
                 margin-right: auto;
@@ -38,7 +41,6 @@
 
 // Medium : 975px
 @media (min-width: 975px) {
-
     .testimonials {
         .description_width {
             width: 975px;
@@ -47,6 +49,9 @@
             }
         }
         .award-img-cont {
+            .award_header {
+                width: 975px;
+            }
             .award-carousel {
                 width: 925px;
             }
@@ -56,12 +61,14 @@
 
 // Large : 1260px 
 @media (min-width: 1260px) {
-
     .testimonials {
         .description_width {
             width: 1260px;
         }
         .award-img-cont {
+            .award_header {
+                width: 1260px;
+            }
             .award-carousel {
                 width: 1210px;
             }
