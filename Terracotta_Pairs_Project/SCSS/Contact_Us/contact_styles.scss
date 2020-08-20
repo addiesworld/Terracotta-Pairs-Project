@@ -1,0 +1,109 @@
+@import "../_variables.scss";
+@import "../../SCSS/header_footer_styles.scss";
+
+//Universal Styling
+* { // This can replace the need of html and body, as this selects everything. 
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+// #region General Website Styles: header, header_underline
+.head {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../../../Terracotta_Pairs_Project/Images/Homepage_Images/header_lobster.jpg);
+}
+
+.description_width {
+    width: auto;
+    margin: 25px;
+    padding: 0 10px;
+    height: auto;
+}
+.section_title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 25px 0 0;
+    color: $terracotta_red;
+    font-size: 30px;
+}
+.header_underline {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.karen-cont {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    padding: 30px 0px;
+    text-align: center;
+    .karen-img {
+        border-radius: 50%;
+        border: solid #af473d 5px;
+        padding: 5px;
+        height: 250px;
+        width: 250px;
+    }
+}
+
+.form-cont {
+    form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    }
+    input,
+    select {
+        margin: 10px 0px;
+        padding: 4px;
+    }
+    textarea {
+        width: 200px;
+        margin: 10px 0px;
+    }
+    input[type=submit] {
+        background-color: $terracotta_red;
+        text-transform: uppercase;
+        color: white;
+        padding: 12px 20px;
+        margin-bottom: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline-color: $terracotta_red;
+    }
+    .gdpr-text {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .g-recaptcha {
+        width: 200px;
+        margin-left: -50px;
+    }
+}
+
+#mapid {
+    height: 200px;
+    width: 100%;
+}
+// #endregion
+        
+
+@import "_contact_media.scss";
+@import "../_header_footer_media.scss";
