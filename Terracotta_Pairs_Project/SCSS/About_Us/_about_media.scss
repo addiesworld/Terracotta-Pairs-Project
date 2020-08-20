@@ -1,6 +1,15 @@
 @import "../_variables.scss";
 
 @media (min-width: 750px) {
+
+    .section_title {
+        font-size: 36px;
+    }
+
+    .header_underline {
+        width: 185px;
+    }
+
     .about_us {
         .about_width {
             width: 725px;
@@ -13,7 +22,6 @@
                     display: block;
                     width: 250px;
                     height: 250px;
-                    // background-size: cover;
                     object-fit: cover;
                     background-repeat: no-repeat;
                     background-position: center;
@@ -32,7 +40,6 @@
         margin-top: 50px;
         .history_width {
             width: 725px;
-            // padding: 0 10px;
             margin-left: auto;
             margin-right: auto;
             .description_text:last-of-type {

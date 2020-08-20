@@ -1,6 +1,15 @@
 @import "../_variables.scss";
 
 @media (min-width: 750px) {
+
+    .section_title {
+        font-size: 36px;
+    }
+
+    .header_underline {
+        width: 185px;
+    }
+
     .services {
         .services_width {
             width: 700px;
@@ -62,26 +71,27 @@
                 }
             }
             .section_content {
-                width: auto;
-                height: 100%;
-                flex-direction: row;
-                padding: 0 25px;
-                margin-bottom: 50px;
-                img {
-                    width: 50%;
-                    display: block;
-                    margin-right: 25px;
-                    overflow: hidden;
-                } 
-                p {
-                    width: 50%;
+                .content {
+                    width: auto;
+                    height: 100%;
+                    flex-direction: row;
+                    padding: 0 25px;
+                    img {
+                        width: 50%;
+                        display: block;
+                        margin-right: 25px;
+                        overflow: hidden;
+                    } 
+                    p {
+                        width: 50%;
+                    }
                 }
-            }
-            .alt-direction {
-                flex-direction: row-reverse;
-                img {
-                    margin-right: 0;
-                    margin-left: 20px;
+                .alt-direction {
+                    flex-direction: row-reverse;
+                    img {
+                        margin-right: 0;
+                        margin-left: 20px;
+                    }
                 }
             }
         }
@@ -104,11 +114,13 @@
                 }
             }
             .section_content {
-                img {
-                    width: 30%;
-                } 
-                p {
-                    width: 70%;
+                .content {
+                    img {
+                        width: 30%;
+                    } 
+                    p {
+                        width: 70%;
+                    }
                 }
             }
         }
@@ -132,11 +144,13 @@
                 }
             }
             .section_content {
-                img {
-                    width: 25%;
-                }
-                p {
-                    width: 75%;
+                .content {
+                    img {
+                        width: 25%;
+                    }
+                    p {
+                        width: 75%;
+                    }
                 }
             }
         }

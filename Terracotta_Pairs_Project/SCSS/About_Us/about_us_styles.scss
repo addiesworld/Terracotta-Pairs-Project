@@ -20,7 +20,8 @@ html, body {
     text-transform: uppercase;
     letter-spacing: 2px;
     width: 100%;
-    margin: 25px 0 0;
+    // margin: 25px 0 0;
+    margin: 0;
     color: $terracotta_red;
     font-size: 30px;
 }
@@ -35,10 +36,10 @@ html, body {
 // #endregion
 
 .about_us {
+    margin-top: 50px;
     .about_width {
         width: auto;
         height: auto;
-        // margin: 25px;
         padding: 0 25px;
         .content_container {
             display: flex;
@@ -47,7 +48,6 @@ html, body {
                 display: none;
             }
             .description_text {
-                // margin: 25px 0;
                 font-size: 16px;
             }
         }
@@ -57,7 +57,6 @@ html, body {
 .our_history {
     .history_width {
         width: auto;
-        // margin: 25px;
         padding: 0 25px;
         height: auto;
         .description_text {
@@ -71,15 +70,14 @@ html, body {
 }
 
 .meet_the_team {
-    // margin-top: 50px;
+    margin-top: 50px;
     .team_width {
-        width: auto;// temp
+        width: auto;
         padding: 0 25px;
         .card_container {
             width: auto;
             display: flex;
             flex-wrap: wrap;
-            // justify-content: space-between;
             justify-content: center;
             margin-top: 25px;
             .card {

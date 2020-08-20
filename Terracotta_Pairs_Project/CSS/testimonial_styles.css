@@ -284,7 +284,7 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 2px;
   width: 100%;
-  margin: 25px 0 0;
+  margin: 0;
   color: #af473d;
   font-size: 30px;
 }
@@ -417,6 +417,12 @@ html, body {
 }
 
 @media (min-width: 750px) {
+  .section_title {
+    font-size: 36px;
+  }
+  .header_underline {
+    width: 185px;
+  }
   .testimonials .description_width {
     width: 700px;
     margin: 25px auto;

@@ -65,9 +65,10 @@ function CreateStaffObject(staff) {
 
 function imageTest(imageURL, sex) {
     let image = new Image()
-    let urlImage = imageURL
+    // let urlImage = imageURL
     // let urlImage = "sfdgfd"
-    image.src= urlImage
+    // image.src= urlImage
+    image.src=imageURL
     if (image.width == 0) {
         if (sex == "Male") {
             return "../Images/About_Us_Images/Male_Placeholder.jpg"
@@ -78,21 +79,3 @@ function imageTest(imageURL, sex) {
     else 
         return imageURL
 }
-
-/* #region Card Template Layout
-<div class="card">
-    <div class="card_image">
-        <img src="../Images/About_Us_Images/Steve_Harrington.jpg" alt="Steve Harrington">
-    </div>
-    <div class="content">
-        <h3 class="card_name">Steve Harrington</h3>
-        <span class="card_name_underline"></span>
-        <h3 class="card_title">dingus</h3>
-        <p class="card_text">                        
-            Aliquam erat volutpat. Pellentesque aliquet iaculis erat, vitae dignissim leo lacinia ut. 
-            Donec in tellus consequat, vehicula mi ac, vestibulum arcu. 
-            Cras at mauris quam.
-        </p>
-    </div>
-</div>     
-#endregion */

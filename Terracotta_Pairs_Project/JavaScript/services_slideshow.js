@@ -2,6 +2,15 @@
 // Birthday 
 // Corporate
 // BBQ
+$('.services_slideshow').slick({
+    autoplay: true,
+    autplaySpeed: 2000,
+    fade: true,
+    cssEase: 'linear',
+    prevArrow: false,
+    nextArrow: false
+    // dots: true
+})
 
 const imagepathURL = [
     "../Images/Services_Images/Wedding_Food.jpg",
@@ -26,12 +35,3 @@ let imageValid = function(imageURL) {
     else 
         return imageURL
 }
-
-
-$('.services_slideshow').slick({
-    autoplay: true,
-    autplaySpeed: 2000,
-    fade: true,
-    cssEase: 'linear'
-    // dots: true
-})

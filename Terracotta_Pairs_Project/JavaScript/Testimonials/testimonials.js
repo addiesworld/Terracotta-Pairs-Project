@@ -27,7 +27,7 @@ async function addCharx5(item, index) {
     var stringTest = item.innerHTML.toString()
     var test = stringTest.substring(0, y+1)
     item.innerHTML = test
-    await sleep(typingSpeed)
+    // await sleep(typingSpeed) // Using this makes the | blink
   }
 }
 
