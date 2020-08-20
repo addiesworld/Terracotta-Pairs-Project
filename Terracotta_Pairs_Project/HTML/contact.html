@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Terracotta Catering</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <link rel="stylesheet" href="../CSS/Contact_Us/contact_styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="https://kit.fontawesome.com/151cafdb67.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <div class="header_container">
+                    <div class="top_container">
+                        <div class="logo_container">
+                            <p class="logo_terra">Terracotta</p>
+                            <p class="logo_catering">Catering</p>
+                        </div>
+                        <div class="contact_container">
+                            <p class="header_contact"><i class="fas fa-envelope"></i>info@terracotta.com</p>
+                            <p class="header_contact"><i class="fas fa-phone"></i>01234-567-234</p>
+                        </div>
+                    </div>
+                    <div class="content_container">
+                        <p class="slogan">Quality Local Catering</p>
+                        <span class="underline"></span>
+                        <p class="tagline">Restaurant quality food made with locally sourced ingredients</p>
+                        <a class="book_button" href="#">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation_bar">
+                <div class="button_container">
+                    <a class="nav_button" href="about_us.html">about us</a>
+                    <a class="nav_button" href="#">services</a>
+                    <a class="nav_button" href="testimonials.html">testimonials</a>
+                    <a class="nav_button" href="#">contact us</a>
+                </div>
+            </div>
+        </header>
+        <div class="description">
+            <div class="description_width">
+                <h2 class="section_title">book now</h2>
+                <span class="header_underline"></span>
+                <p class="description_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut lectus sem. 
+                    Nunc at diam eu massa consectetur imperdiet ac id diam!
+                </p>
+                <p class="description_text">
+                    Insert booking calendar.
+                </p>
+                <h2 class="section_title">contact us</h2>
+                <span class="header_underline"></span>
+                <div class="karen-cont">
+                    <img class="karen-img" src="../Images/Contact_Us_Images/Karen.jpg" alt="Ka'ren from HR">
+                    <p>Got a concern? Ka'ren from HR will be happy to help!</p>
+                </div>
+                <div class="form-cont">
+                    <form>
+                      <div class="row-1">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                      </div>
+                      <div class="row-2">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="emailaddress" placeholder="Your email address...">
+
+                        <label for="telephone">Telephone</label>
+                        <input type="text" id="telnumber" name="telephone" placeholder="Your contact number...">
+                      </div>
+                      <div class="country-row">
+                        <label for="country">Country</label>
+                        <select id="country" class="country" name="country">
+                            <option value="united-kingdom">United Kingdom</option>
+                            <option value="roi">Republic of Ireland</option>
+                            <option value="blank">---</option>
+                            <option value="austria">Austria</option>
+                            <option value="belgium">Belgium</option>
+                            <option value="bulgaria">Bulgaria</option>
+                            <option value="roc">Republic of Cyprus</option>
+                            <option value="czech-republic">Czech Republic</option>
+                            <option value="denmark">Denmark</option>
+                            <option value="estonia">Estonia</option>
+                            <option value="finland">Finland</option>
+                            <option value="france">France</option>
+                            <option value="germany">Germany</option>
+                            <option value="greece">Greece</option>
+                            <option value="hungary">Hungary</option>
+                            <option value="italy">Italy</option>
+                            <option value="latvia">Latvia</option>
+                            <option value="lithuania">Lithuania</option>
+                            <option value="luxembourg">Luxembourg</option>
+                            <option value="malta">Malta</option>
+                            <option value="netherlands">Netherlands</option>
+                            <option value="poland">Poland</option>
+                            <option value="portugal">Portugal</option>
+                            <option value="romania">Romania</option>
+                            <option value="slovakia">Slovakia</option>
+                            <option value="slovenia">Slovenia</option>
+                            <option value="spain">Spain</option>
+                            <option value="sweden">Sweden</option>
+                            <option value="blank">---</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="blank">---</option>
+                            <option value="other">Other</option>
+                        </select>
+                      </div>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Tell us about it..." style="height:200px"></textarea>
+
+                      <label for="checkbox" class="gdpr-text">I agree to my information being used for GDPR regulations.</label>
+                      <input type="checkbox" name="gdpr[10833]" value="Y">
+
+                      <div class="g-recaptcha" data-sitekey="6LdRTsEZAAAAABy8ECl56IU9ao6W5bwlY-xkyNET"></div>
+
+                      <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div id="mapid"></div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="book_container">
+                    <div class="book_now">
+                        <p class="book_text">Lorem upsum dolor sit amet, consectetur adipiscing elit, sed do eiusm. Lorem ipsum dolor sit amet, consectetur</p>
+                        <a class="book_now_button" href="#">book now</a>
+                    </div>
+                </div>
+                <div class="links_container">
+                    <div class="links">
+                        <div class="link_box">
+                            <h3>contact us</h3>
+                            <span class="underline"></span>
+                            <p>16 zobel close</p>
+                            <p>norwich</p>
+                            <p>norfolk</p>
+                            <p>NR3 2BY</p>
+                            <br>
+                            <p>01234-557-757</p>
+                            <p>info@terracotta.com</p>
+                        </div>
+                        <div class="link_box">
+                            <h3>sections</h3>
+                            <span class="underline"></span>
+                            <a href="about_us.html">about us</a>
+                            <a href="#">corporate</a>
+                            <a href="#">weddings</a>
+                            <a href="#">events</a>
+                            <a href="testimonials.html">testimonials</a>
+                            <a href="#">terms & conditions</a>
+                        </div>
+                        <div class="link_box">
+                            <h3>follow us</h3>
+                            <span class="underline"></span>
+                            <a href="www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
+                            <a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+                            <a href="uk.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+                        </div>
+                    </div>
+                    <p class="copyright">Copyright &copy; Terracotta Catering. All rights reserved 2019</p>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="../JavaScript/Contact-Us/contact.js"></script>
+    </body>
+</html>
