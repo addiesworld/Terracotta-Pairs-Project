@@ -143,10 +143,14 @@
   background-color: #7c332d;
 }
 
+.footer {
+  background-color: #3c3c3c;
+}
+
 .footer .book_container {
+  display: block;
   width: auto;
   height: auto;
-  background-color: #3c3c3c;
   padding: 0 25px;
 }
 
@@ -168,7 +172,6 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 0 40px;
   font-size: 20px;
 }
 
@@ -191,15 +194,18 @@
   text-decoration: none;
 }
 
-.footer .links_container {
+.footer .links_box {
+  background-color: #af473d;
+}
+
+.footer .links_box .links_container {
   width: auto;
   height: auto;
   color: white;
-  background-color: #af473d;
   padding: 20px;
 }
 
-.footer .links_container .links {
+.footer .links_box .links_container .links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,17 +213,17 @@
       flex-wrap: wrap;
 }
 
-.footer .links_container .links .link_box {
+.footer .links_box .links_container .links .link_box {
   width: 100%;
 }
 
-.footer .links_container .links .link_box h3 {
+.footer .links_box .links_container .links .link_box h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 25px;
 }
 
-.footer .links_container .links .link_box .underline {
+.footer .links_box .links_container .links .link_box .underline {
   display: block;
   content: "";
   width: 40%;
@@ -226,7 +232,7 @@
   margin-bottom: 20px;
 }
 
-.footer .links_container .links .link_box p {
+.footer .links_box .links_container .links .link_box p {
   display: block;
   width: 100%;
   text-transform: capitalize;
@@ -234,11 +240,11 @@
   margin: 0;
 }
 
-.footer .links_container .links .link_box .email {
+.footer .links_box .links_container .links .link_box .email {
   text-transform: lowercase;
 }
 
-.footer .links_container .links .link_box a {
+.footer .links_box .links_container .links .link_box a {
   margin-top: 5px;
   padding: 0;
   display: block;
@@ -247,15 +253,15 @@
   text-decoration: none;
 }
 
-.footer .links_container .links .link_box a i {
+.footer .links_box .links_container .links .link_box a i {
   margin-right: 15px;
 }
 
-.footer .links_container .links .link_box a:hover {
+.footer .links_box .links_container .links .link_box a:hover {
   text-decoration: underline;
 }
 
-.footer .links_container .copyright {
+.footer .links_box .links_container .copyright {
   margin-top: 30px;
   text-transform: uppercase;
 }
@@ -465,7 +471,7 @@ html, body {
 }
 
 .partners .partners_width {
-  width: 750px;
+  width: 725px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -479,11 +485,9 @@ html, body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 750px;
+  width: 725px;
   height: auto;
-  margin: 50px 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto;
 }
 
 .partners .partners_width .partners_container .partner_card {
@@ -504,7 +508,7 @@ html, body {
     margin-top: 50px;
   }
   .description .description_width {
-    width: 750px;
+    width: 725px;
     padding: 0 10px;
     margin-left: auto;
     margin-right: auto;
@@ -519,7 +523,7 @@ html, body {
     width: 185px;
   }
   .services .services_width {
-    width: 750px;
+    width: 725px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 8px;
@@ -547,7 +551,7 @@ html, body {
     margin-top: 25px;
   }
   .reviews .background_image .text_container {
-    width: 750px;
+    width: 725px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 8px;
@@ -567,10 +571,10 @@ html, body {
 
 @media (min-width: 975px) {
   .description .description_width {
-    width: 975px;
+    width: 950px;
   }
   .services .services_width {
-    width: 975px;
+    width: 950px;
   }
   .services .services_width .card_container {
     -webkit-box-pack: justify;
@@ -597,7 +601,7 @@ html, body {
     font-size: 18px;
   }
   .partners .partners_width {
-    width: 975px;
+    width: 950px;
   }
   .partners .partners_width .partners_container {
     width: 950px;
@@ -613,10 +617,10 @@ html, body {
 
 @media (min-width: 1260px) {
   .description .description_width {
-    width: 1260px;
+    width: 1235px;
   }
   .services .services_width {
-    width: 1260px;
+    width: 1235px;
   }
   .services .services_width .card_container .card {
     width: 400px;
@@ -635,7 +639,7 @@ html, body {
     font-size: 18px;
   }
   .partners .partners_width {
-    width: 1260px;
+    width: 1235px;
   }
   .partners .partners_width .partners_container {
     width: 1200px;
@@ -651,7 +655,7 @@ html, body {
 
 @media (min-width: 750px) {
   .head .header_container {
-    width: 750px;
+    width: 725px;
     padding: 0 25px;
     margin: 0 auto;
   }
@@ -686,7 +690,7 @@ html, body {
     margin-top: 20px;
   }
   .navigation_bar .button_container {
-    width: 750px;
+    width: 725px;
     margin: 0 auto;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -696,9 +700,11 @@ html, body {
   .navigation_bar .button_container a {
     width: 25%;
   }
-  .footer .book_container .book_now {
-    width: 750px;
+  .footer .book_container {
+    width: 725px;
     margin: 0 auto;
+  }
+  .footer .book_container .book_now {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -711,27 +717,30 @@ html, body {
   .footer .book_container .book_now .book_text {
     width: 70%;
     text-align: left;
-    padding: 0;
+    padding-right: 25px;
   }
   .footer .book_container .book_now .book_now_button {
-    width: auto;
+    width: 30%;
     padding: 10px 25px;
     margin: auto 0;
   }
-  .footer .links_container .links {
-    width: 750px;
+  .footer .links_box .links_container {
+    width: 725px;
+    margin: 0 auto;
+  }
+  .footer .links_box .links_container .links {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0 auto;
   }
-  .footer .links_container .links .link_box {
+  .footer .links_box .links_container .links .link_box {
     width: 33%;
   }
-  .footer .links_container .links .link_box .underline {
+  .footer .links_box .links_container .links .link_box .underline {
     width: 50%;
   }
-  .footer .links_container .copyright {
+  .footer .links_box .links_container .copyright {
     display: block;
     width: 100%;
     text-align: center;
@@ -746,7 +755,7 @@ html, body {
     background-size: 100%;
   }
   .head .header_container {
-    width: 955px;
+    width: 950px;
   }
   .head .header_container .content_container {
     width: 40%;
@@ -764,7 +773,7 @@ html, body {
     padding: 10px 40px;
   }
   .navigation_bar .button_container {
-    width: 955px;
+    width: 950px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -781,8 +790,8 @@ html, body {
     text-align: right;
     padding: 15px 20px;
   }
-  .footer .book_container .book_now {
-    width: 955px;
+  .footer .book_container {
+    width: 950px;
   }
   .footer .book_container .book_now .book_text {
     width: 675px;
@@ -793,20 +802,20 @@ html, body {
     width: 250px;
     padding: 10px 20px;
   }
-  .footer .links_container .links {
-    width: 955px;
+  .footer .links_box .links_container {
+    width: 950px;
   }
-  .footer .links_container .links .link_box {
+  .footer .links_box .links_container .links .link_box {
     width: 33%;
   }
-  .footer .links_container .links .link_box .underline {
+  .footer .links_box .links_container .links .link_box .underline {
     width: 50%;
   }
 }
 
 @media (min-width: 1260px) {
   .head .header_container {
-    width: 1240px;
+    width: 1235px;
   }
   .head .header_container .content_container .slogan {
     font-size: 50px;
@@ -818,27 +827,26 @@ html, body {
     font-size: 29px;
   }
   .navigation_bar .button_container {
-    width: 1240px;
+    width: 1235px;
   }
   .navigation_bar .button_container a {
     width: auto;
   }
-  .footer .book_container .book_now {
-    width: 1240px;
+  .footer .book_container {
+    width: 1235px;
   }
   .footer .book_container .book_now .book_text {
-    width: 1010px;
-    padding-right: 75px;
+    width: auto;
     font-size: 25px;
   }
   .footer .book_container .book_now .book_now_button {
     width: 250px;
     padding: 10px 20px;
   }
-  .footer .links_container .links {
-    width: 1240px;
+  .footer .links_box .links_container {
+    width: 1235px;
   }
-  .footer .links_container .links .link_box .underline {
+  .footer .links_box .links_container .links .link_box .underline {
     width: 50%;
   }
 }

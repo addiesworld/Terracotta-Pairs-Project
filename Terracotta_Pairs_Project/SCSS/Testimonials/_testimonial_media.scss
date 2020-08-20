@@ -2,7 +2,7 @@
 @media (min-width: 750px) {
     .testimonials {
         .description_width {
-            width: auto;
+            width: 700px;
             margin: 25px auto;
             padding: 0 10px;
             height: auto; 
@@ -26,7 +26,7 @@
         }
         .award-img-cont {
             .award_header {
-                width: 750px;
+                width: 700px;
                 margin: 25px auto;
             }
             .award-carousel {
@@ -43,14 +43,14 @@
 @media (min-width: 975px) {
     .testimonials {
         .description_width {
-            width: 975px;
+            width: 925px;
             .testimony-p {
                 display: block;
             }
         }
         .award-img-cont {
             .award_header {
-                width: 975px;
+                width: 925px;
             }
             .award-carousel {
                 width: 925px;
@@ -63,11 +63,11 @@
 @media (min-width: 1260px) {
     .testimonials {
         .description_width {
-            width: 1260px;
+            width: 1210px;
         }
         .award-img-cont {
             .award_header {
-                width: 1260px;
+                width: 1210px;
             }
             .award-carousel {
                 width: 1210px;

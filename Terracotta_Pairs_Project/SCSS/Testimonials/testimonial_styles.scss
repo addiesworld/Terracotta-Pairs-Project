@@ -37,11 +37,9 @@ html, body {
     .description_width {
         width: auto;
         margin: 25px;
-        padding: 0 10px;
+        padding: 0 25px;
         height: auto; 
-        // margin-top: 210px;
         .testimony-card {
-            // height: auto;
             margin-top: 25px;
             padding: 25px 0;
             display: flex;
@@ -67,7 +65,6 @@ html, body {
                     padding: 0;
                 }
             }
-
             .testimony_text {
                 padding: 0;
                 font-size: 16px;
@@ -77,57 +74,56 @@ html, body {
             }
         }
     }
-}
-
-.testimony-p {
-    display: none;
-}
-
-.award-img-cont {
-    display: block;
-    height: auto;
-    width: 100%;
-    margin-top: 25px;
-    // position: relative;
-    // overflow: hidden;
-    .award_header {
-        width: auto;
+    .award-img-cont {
+        display: block;
         height: auto;
-        margin: 25px 0;
-        padding-left: 25px;
-    }
-    .award-img {
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-                    url(../Images/Testimonial_Images/award.jpg);
-        background-size: cover;
-        height: 100%;
         width: 100%;
-        .award-carousel {
-            height: 300px;
-            .carousel-cont {
-                display: flex;
-                text-align: center;
+        margin-top: 50px;
+        .award_header {
+            width: auto;
+            height: auto;
+            margin: 25px 0;
+            padding-left: 25px;
+        }
+        .award-img {
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+                        url(../Images/Testimonial_Images/award.jpg);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            .award-carousel {
                 height: 300px;
-                a {
-                    display: block;
-                    text-decoration: none;
-                    margin: auto auto;
-                    h4 {
-                        margin: 0 10px 30px;
-                        font-size: 30px;
-                        font-weight: bold;
-                        color: $terracotta_red;
-                        text-shadow: -1px 0 #af473d, 0 1px #af473d, 1px 0 #af473d, 0 -1px #af473d;
-                    }
-                    p {
-                        padding: 0 25px;
-                        color: white;
+                .carousel-cont {
+                    display: flex;
+                    text-align: center;
+                    height: 300px;
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        margin: auto auto;
+                        h4 {
+                            margin: 0 10px 30px;
+                            font-size: 30px;
+                            font-weight: bold;
+                            color: $terracotta_red;
+                            text-shadow: -1px 0 #af473d, 0 1px #af473d, 1px 0 #af473d, 0 -1px #af473d;
+                        }
+                        p {
+                            width: auto;
+                            padding: 0 25px;
+                            color: white;
+                        }
                     }
                 }
             }
         }
     }
 }
+
+.testimony-p {
+    display: none;
+}
+
 
 @import "_testimonial_media.scss";
 @import "../_header_footer_media.scss";

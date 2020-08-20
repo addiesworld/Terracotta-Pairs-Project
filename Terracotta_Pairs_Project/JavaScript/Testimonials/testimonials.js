@@ -3,6 +3,8 @@ $('.award-carousel').slick({ // was autoplay
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    prevArrow: false,
+    nextArrow: false
   });
 
 const typingSpeed = 50;

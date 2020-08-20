@@ -5,7 +5,8 @@
 
     .head {
         .header_container {
-            width: 750px;
+            // width: 750px;
+            width: 725px;
             padding: 0 25px;
             margin: 0 auto;
             .top_container {
@@ -38,7 +39,7 @@
 
     .navigation_bar {
         .button_container { 
-            width: 750px;
+            width: 725px;
             margin: 0 auto;
             flex-wrap: nowrap;
             justify-content: space-around;
@@ -50,42 +51,50 @@
 
     .footer {
         .book_container {
+            // width: auto;
+            width: 725px;
+            margin: 0 auto;
             .book_now {
-                width: 750px;
-                margin: 0 auto;
+                // width: 725px;
+                // margin: 0 auto;
                 align-self: center;
                 flex-direction: row;
                 padding: 20px 0;
                 .book_text {
                     width: 70%;
                     text-align: left;
-                    padding: 0;
+                    // padding: 0;
+                    padding-right: 25px;
                 }
                 .book_now_button {
-                    width: auto;
+                    width: 30%;
                     padding: 10px 25px;
                     margin: auto 0;
                 }
             }
         }
-        .links_container {
-            .links {
-                width: 750px;
-                justify-content: center;
+        .links_box {
+            .links_container {
+                width: 725px;
                 margin: 0 auto;
-                .link_box {
-                    width: 33%;
-                    .underline {
-                        width: 50%;
+                .links {
+                    // width: 725px;
+                    justify-content: center;
+                    margin: 0 auto;
+                    .link_box {
+                        width: 33%;
+                        .underline {
+                            width: 50%;
+                        }
                     }
                 }
-            }
-            .copyright {
-                display: block;
-                width: 100%;
-                text-align: center;
-                margin-top: 50px;
-                margin-bottom: 0;
+                .copyright {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 0;
+                }
             }
         }
     }
@@ -97,7 +106,7 @@
         background-position: 40%;
         background-size: 100%;
         .header_container {
-            width: 955px;
+            width: 950px;
             .content_container {
                 width: 40%;
                 text-align: right;
@@ -118,7 +127,7 @@
 
     .navigation_bar {
         .button_container { 
-            width: 955px;
+            width: 950px;
             justify-content: flex-end;
             // padding: 0 10px;
             padding: 0 25px;
@@ -137,8 +146,8 @@
 
     .footer {
         .book_container {
+            width: 950px;
             .book_now {
-                width: 955px;
                 .book_text {
                     width: 675px;
                     padding-right: 50px;
@@ -150,13 +159,15 @@
                 }
             }
         }
-        .links_container {
-            .links {
-                width: 955px;
-                .link_box {
-                    width: 33%;
-                    .underline {
-                        width: 50%;
+        .links_box {
+            .links_container {
+                width: 950px;
+                .links {
+                    .link_box {
+                        width: 33%;
+                        .underline {
+                            width: 50%;
+                        }
                     }
                 }
             }
@@ -169,7 +180,7 @@
 
     .head {
         .header_container {
-            width: 1240px;
+            width: 1235px;
             .content_container {
                 // width: 30%;
                 // text-align: right;
@@ -189,7 +200,7 @@
 
     .navigation_bar {
         .button_container { 
-            width: 1240px;
+            width: 1235px;
             a {
                 // width: 200px;
                 width: auto;
@@ -199,11 +210,13 @@
 
     .footer {
         .book_container {
+            width: 1235px;
+            // width: 1200px;
             .book_now {
-                width: 1240px;
                 .book_text {
-                    width: 1010px;
-                    padding-right: 75px;
+                    // width: 1010px;
+                    width: auto;
+                    // padding-right: 75px;
                     font-size: 25px;
                 }
                 .book_now_button {
@@ -212,12 +225,14 @@
                 }
             }
         }
-        .links_container {
-            .links {
-                width: 1240px;
-                .link_box {
-                    .underline {
-                        width: 50%;
+        .links_box {
+            .links_container {
+                width: 1235px;
+                .links {
+                    .link_box {
+                        .underline {
+                            width: 50%;
+                        }
                     }
                 }
             }
