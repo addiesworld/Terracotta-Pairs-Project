@@ -2,7 +2,7 @@
 @media (min-width: 750px) {
 
     .description_width {
-        width: 750px;
+        width: 725px;
         margin: auto;
         padding: 0 10px;
         height: auto; 
@@ -52,7 +52,7 @@
     .map_container {
         margin-left: auto;
         margin-right: auto;
-        width: 750px;
+        width: 725px;
         height: 800px;
         iframe {
             width: 100%;
@@ -64,10 +64,10 @@
 // Medium : 975px
 @media (min-width: 975px) {
     .description_width {
-        width: 975px;
+        width: 950px;
     }
     .map_container {
-        width: 975px;
+        width: 950px;
         height: 800px; 
     }
 }
@@ -75,10 +75,10 @@
 // Large : 1260px 
 @media (min-width: 1260px) {
     .description_width {
-        width: 1260px;
+        width: 1235px;
     }
     .map_container {
-        width: 1260px;
+        width: 1235px;
         height: 800px; 
     }
 }
