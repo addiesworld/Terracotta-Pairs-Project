@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="../CSS/contact_styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+        <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""> -->
         <!-- <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script> -->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
         <script src="https://kit.fontawesome.com/151cafdb67.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
@@ -43,7 +43,7 @@
                     <a class="nav_button" href="about_us.html">about us</a>
                     <a class="nav_button" href="services.html">services</a>
                     <a class="nav_button" href="testimonials.html">testimonials</a>
-                    <a class="nav_button" href="#">contact us</a>
+                    <a class="nav_button" href="contact.html">contact us</a>
                 </div>
             </div>
         </header>
@@ -71,22 +71,23 @@
                 <div class="form-cont">
                     <form>
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..."> 
+                        <input type="text" class="fname" id="first_name_input" name="firstname" placeholder="Your name..."> 
                         <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                        <input type="text" class="lname" id="last_name_input" name="lastname" placeholder="Your last name...">
 
                         <label for="email">Email Address</label>
-                        <input type="text" id="email" name="emailaddress" placeholder="Your email address...">
+                        <input type="text" id="email_input" name="emailaddress" placeholder="Your email address...">
                         <label for="telephone">Telephone</label>
-                        <input type="text" id="telnumber" name="telephone" placeholder="Your contact number...">
+                        <input type="text" id="phone_input" name="telephone" placeholder="Your contact number...">
                         <label for="country">Country</label>
-                        <select id="country" class="country" name="country">
+                        <select id="country_input" class="country" name="country">
+                        <option value="blank">---</option>
                         <option value="united-kingdom">United Kingdom</option>
                         <option value="roi">Republic of Ireland</option>
-                        <option value="blank">---</option>
                         <option value="austria">Austria</option>
                         <option value="belgium">Belgium</option>
                         <option value="bulgaria">Bulgaria</option>
+                        <option value="canada">Canada</option>
                         <option value="roc">Republic of Cyprus</option>
                         <option value="czech-republic">Czech Republic</option>
                         <option value="denmark">Denmark</option>
@@ -109,27 +110,27 @@
                         <option value="slovenia">Slovenia</option>
                         <option value="spain">Spain</option>
                         <option value="sweden">Sweden</option>
-                        <option value="blank">---</option>
+                        <!-- <option value="blank">---</option> -->
                         <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
                         <option value="usa">USA</option>
-                        <option value="blank">---</option>
-                        <option value="other">Other</option>
+                        <!-- <option value="blank">---</option> -->
+                        <!-- <option value="other">Other</option> -->
                     
                     
                         </select>
 
                         <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Tell us about it..." style="height:200px"></textarea>
+                        <textarea id="subject_input" name="subject" placeholder="Tell us about it..." style="height:200px"></textarea>
 
                         <label for="checkbox" class="gdpr-text">I agree to my information being used for GDPR regulations.</label>
                         <input type="checkbox" name="gdpr[10833]" value="Y">
                         
-                        <div class="recaptcha_container">
+                        <!-- <div class="recaptcha_container">
                             <div class="g-recaptcha" data-sitekey="6LdRTsEZAAAAABy8ECl56IU9ao6W5bwlY-xkyNET"></div>
-                        </div>
-                        <input type="submit" value="Submit">
+                        </div> -->
+                        <!-- <input type="submit" id="submit_button" value="Submit"> -->
                     </form>
+                    <a class="submit_button" id="submit_button">Submit</a>
                 </div>
             </div>
         </div>
@@ -184,5 +185,7 @@
             </div>      
         </footer>
         <!-- <script type="text/javascript" src="../JavaScript/Contact-Us/contact.js"></script> -->
+        <script src="../JavaScript/book_validation.js"></script>
+        <!--type="type/javascript"-->
     </body>
 </html>

@@ -61,13 +61,12 @@ html, body {
             }
         }
         .form-cont {
+            display: block;
             margin: 0 auto;
             form {
                 display: flex;
                 flex-direction: column;
-                // width: 200px;
                 width: 100%;
-                // margin: auto;
                 flex-wrap: nowrap;
                 input,
                 select {
@@ -105,6 +104,20 @@ html, body {
                 .recaptcha_container {
                     margin-bottom: 20px;
                 }
+            }
+            .submit_button {
+                display: block;
+                margin: 10px auto 0;
+                width: 120px;
+                text-align: center;
+                background-color: $terracotta_red;
+                padding: 10px 20px;
+                text-transform: uppercase;
+                color: white;
+
+            }
+            .submit_button:hover {
+                background-color: $terracotta_red_dark;
             }
         }
     }

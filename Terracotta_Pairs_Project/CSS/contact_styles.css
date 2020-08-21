@@ -329,6 +329,7 @@ html, body {
 }
 
 .description .description_width .form-cont {
+  display: block;
   margin: 0 auto;
 }
 
@@ -384,6 +385,21 @@ html, body {
 
 .description .description_width .form-cont form .recaptcha_container {
   margin-bottom: 20px;
+}
+
+.description .description_width .form-cont .submit_button {
+  display: block;
+  margin: 10px auto 0;
+  width: 120px;
+  text-align: center;
+  background-color: #af473d;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.description .description_width .form-cont .submit_button:hover {
+  background-color: #7c332d;
 }
 
 .map_container {
