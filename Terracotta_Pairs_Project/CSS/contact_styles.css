@@ -1,7 +1,7 @@
 .head {
   background-size: cover;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../../Terracotta_Pairs_Project/Images/Homepage_Images/header_lobster.jpg);
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../../Terracotta_Pairs_Project/Images/Homepage_Images/header_lobster.jpg);
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), to(transparent)), url(../Images/Homepage_Images/header_lobster.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../Images/Homepage_Images/header_lobster.jpg);
 }
 
 .head .header_container {
