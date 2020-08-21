@@ -23,6 +23,11 @@
         margin-right: auto;
         width: 725px;
     }
+    .t-and-c_container {
+        width: 725px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 // Medium : 975px
@@ -35,6 +40,9 @@
     .map_container {
         width: 950px;
     }
+    .t-and-c_container {
+        width: 950px;
+    }
 }
 
 // Large : 1260px 
@@ -45,6 +53,9 @@
         }
     }
     .map_container {
+        width: 1235px;
+    }
+    .t-and-c_container {
         width: 1235px;
     }
 }

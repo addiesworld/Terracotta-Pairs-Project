@@ -106,7 +106,7 @@
   font-weight: 600;
   padding: 20px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin: 40px 0;
 }
 
 .head .header_container .content_container .book_button:hover {
@@ -245,6 +245,7 @@
 }
 
 .footer .links_box .links_container .links .link_box a {
+  width: 200px;
   margin-top: 5px;
   padding: 0;
   display: block;
@@ -420,6 +421,12 @@ html, body {
   tabindex: 0;
 }
 
+.t-and-c_container {
+  padding: 0 10px;
+  width: auto;
+  margin: 50px 0;
+}
+
 @media (min-width: 750px) {
   .description .description_width {
     width: 725px;
@@ -443,6 +450,11 @@ html, body {
     margin-right: auto;
     width: 725px;
   }
+  .t-and-c_container {
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 975px) {
@@ -452,6 +464,9 @@ html, body {
   .map_container {
     width: 950px;
   }
+  .t-and-c_container {
+    width: 950px;
+  }
 }
 
 @media (min-width: 1260px) {
@@ -459,6 +474,9 @@ html, body {
     width: 1235px;
   }
   .map_container {
+    width: 1235px;
+  }
+  .t-and-c_container {
     width: 1235px;
   }
 }
@@ -531,7 +549,7 @@ html, body {
   }
   .footer .book_container .book_now .book_now_button {
     width: 30%;
-    padding: 10px 25px;
+    padding: 10px 10px;
     margin: auto 0;
   }
   .footer .links_box .links_container {
@@ -610,7 +628,6 @@ html, body {
   }
   .footer .book_container .book_now .book_now_button {
     width: 250px;
-    padding: 10px 20px;
   }
   .footer .links_box .links_container {
     width: 950px;
@@ -651,7 +668,6 @@ html, body {
   }
   .footer .book_container .book_now .book_now_button {
     width: 250px;
-    padding: 10px 20px;
   }
   .footer .links_box .links_container {
     width: 1235px;

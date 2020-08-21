@@ -10,7 +10,7 @@ class TeamMember {
 }
 
 const Staff = [
-    Steve = new TeamMember("Steve", "Harrington", "Dingus", "../Images/About_Us_Images/Steve_Harrington.jpg", "Exercitation ea quis incididunt proident ipsum in. In deserunt veniam eu aliquip. Do deserunt nisi ullamco irure elit et voluptate nulla.", "Male"),
+    Steve = new TeamMember("Steve 'The Hair'", "Harrington", "Dingus", "../Images/About_Us_Images/Steve_Harrington.jpg", "Exercitation ea quis incididunt proident ipsum in. In deserunt veniam eu aliquip. Do deserunt nisi ullamco irure elit et voluptate nulla.", "Male"),
     Nancy = new TeamMember("Nancy", "Wheeler", "Badass", "../Images/About_Us_Images/Nancy_Wheeler.png", "Eiusmod ullamco aliqua ullamco consequat commodo non. Dolor ea Lorem nostrud eiusmod adipisicing adipisicing.  Eu aliquip laboris commodo dolore ut voluptate eiusmod aliqua quis eiusmod irure aute ullamco ut.", "Female"),
     Dustin = new TeamMember("Dustin", "Henderson", "Nerd", "../Images/About_Us_Images/Dustin.png", "Laborum dolor esse tempor Lorem nulla ad dolor.  Ex esse sint reprehenderit dolore fugiat enim eiusmod nisi commodo anim et excepteur fugiat.", "Male"),
     Eleven = new TeamMember("El '11'", "Hopper", "GateKeeper", "../Images/About_Us_Images/Eleven.jpg", "Consectetur ea reprehenderit quis duis magna sit cillum. Consectetur consequat nulla ad dolore pariatur esse id officia dolore elit nostrud minim est.", "Female"),

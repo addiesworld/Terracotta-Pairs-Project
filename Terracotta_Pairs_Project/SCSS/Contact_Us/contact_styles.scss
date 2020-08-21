@@ -32,6 +32,8 @@ html, body {
     margin-top: 10px;
     background-color: black;
 }
+
+
 // #endregion
 
 .description {
@@ -140,6 +142,12 @@ html, body {
         aria-hidden: false;
         tabindex: 0;
     }
+}
+
+.t-and-c_container {
+    padding: 0 10px;
+    width: auto;
+    margin: 50px 0;
 }
 
         

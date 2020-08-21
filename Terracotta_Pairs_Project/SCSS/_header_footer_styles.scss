@@ -87,7 +87,7 @@
                 font-weight: 600;
                 padding: 20px;
                 text-transform: uppercase;
-                margin-bottom: 20px;
+                margin: 40px 0;
             }
             .book_button:hover {
                 background-color: $terracotta_red_dark;
@@ -195,6 +195,7 @@
                         text-transform: lowercase;
                     }
                     a {
+                        width: 200px;
                         margin-top: 5px;
                         padding: 0;
                         display: block;

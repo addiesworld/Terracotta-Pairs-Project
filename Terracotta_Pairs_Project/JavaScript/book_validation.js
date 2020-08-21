@@ -2,7 +2,7 @@
 const book_now_button = document.getElementById("submit_button");
 console.log(book_now_button)
 book_now_button.addEventListener("click", function(){
-    console.log("Book Now Pressed")
+    // console.log("Book Now Pressed")
     ValidationTest();
 })
 
@@ -49,10 +49,10 @@ function ValidationTest() {
             // console.log("Valid Data")
             CreateRequest(firstNameValue, lastNameValue, emailValue, phoneValue, countryValue)
         } else {
-            console.log("Invalid Data")
+            // console.log("Invalid Data")
         }
     } else {
-        console.log("Missing Element Selected")
+        // console.log("Missing Element Selected")
     }
 }
 
@@ -86,7 +86,7 @@ function ValidateNumber(_number) {
 }
 
 function ValidateCountry(_country) {
-    console.log(_country.value)
+    // console.log(_country.value)
     if (validCountries.includes(_country.value)) {
         countryValue = _country.value
         return true
