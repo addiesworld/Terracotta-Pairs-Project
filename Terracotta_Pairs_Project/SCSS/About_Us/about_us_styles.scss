@@ -1,5 +1,5 @@
-@import "../variables";
-@import "../header_footer_styles";
+@import "../_variables.scss";
+@import "../_header_footer_styles.scss";
 
 //Universal Styling
 * { // This can replace the need of html and body, as this selects everything. 

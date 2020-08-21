@@ -298,6 +298,10 @@ html, body {
   background-color: black;
 }
 
+.testimonials {
+  margin-top: 50px;
+}
+
 .testimonials .description_width {
   width: auto;
   margin: 25px;

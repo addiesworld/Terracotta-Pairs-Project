@@ -14,10 +14,6 @@ html, body {
 }
 
 // #region General Website Styles: header, header_underline
-.head {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), transparent), url(../../../Terracotta_Pairs_Project/Images/Homepage_Images/header_lobster.jpg);
-}
-
 .section_title {
     display: block;
     text-transform: uppercase;
@@ -27,6 +23,7 @@ html, body {
     color: $terracotta_red;
     font-size: 30px;
 }
+
 .header_underline {
     content: "";
     display: block;
@@ -35,6 +32,7 @@ html, body {
     margin-top: 10px;
     background-color: black;
 }
+// #endregion
 
 .description {
     .description_width {
@@ -121,7 +119,7 @@ html, body {
         tabindex: 0;
     }
 }
-// #endregion
+
         
 
 @import "_contact_media.scss";
