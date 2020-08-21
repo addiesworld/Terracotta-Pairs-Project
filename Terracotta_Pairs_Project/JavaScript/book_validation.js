@@ -27,6 +27,7 @@ const numberFormat = /^[0-9]+$/
 
 const validCountries = [ "united-kingdom", "roi", "austria", "belgium", "bulgaria", "roc", "czech-republic", "denmark", "estonia", "finland", "france", "germany", "greece", "hungary", "italy",
 "latvia", "lithuania", "luxumbourg", "malta", "netherlands", "poland", "portugal", "romania", "slovakia", "slovenia", "spain", "sweden", "australia", "canada", "usa"]
+
 class Request {
     constructor(firstname, lastname, email, phone, country, subject) {
         this.firstname = firstname;
