@@ -1,5 +1,5 @@
 @import "../_variables.scss";
-@import "../../SCSS/header_footer_styles.scss";
+@import "../_header_footer_styles.scss";
 
 //Universal Styling
 * { // This can replace the need of html and body, as this selects everything. 
@@ -98,9 +98,30 @@ html, body {
     }
 }
 
-#mapid {
-    height: 200px;
-    width: 100%;
+// #mapid {
+//     // height: 200px;
+//     // width: 100%;
+// }
+
+// iframe {
+//     width: 1920px;
+//     height: 800px; 
+//     //  frameborder: 0; 
+//     border:0; 
+//     allowfullscreen:"";
+//     aria-hidden: false;
+//     tabindex: 0;
+// }
+.map_container {
+    iframe {
+        width: auto;
+        height: 800px; 
+        //  frameborder: 0; 
+        border:0; 
+        allowfullscreen:"";
+        aria-hidden: false;
+        tabindex: 0;
+    }
 }
 // #endregion
         
