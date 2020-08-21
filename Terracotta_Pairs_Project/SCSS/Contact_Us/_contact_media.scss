@@ -46,8 +46,18 @@
             margin-left: 0px;
         }
     }
-    #mapid {
-        height: 300px;
+    // #mapid {
+    //     height: 300px;
+    // }
+    .map_container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 750px;
+        height: 800px;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
@@ -56,11 +66,19 @@
     .description_width {
         width: 975px;
     }
+    .map_container {
+        width: 975px;
+        height: 800px; 
+    }
 }
 
 // Large : 1260px 
 @media (min-width: 1260px) {
     .description_width {
         width: 1260px;
+    }
+    .map_container {
+        width: 1260px;
+        height: 800px; 
     }
 }
