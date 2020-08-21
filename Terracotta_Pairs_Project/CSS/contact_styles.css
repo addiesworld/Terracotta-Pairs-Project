@@ -300,31 +300,36 @@ html, body {
 
 .description .description_width {
   width: auto;
-  margin: 25px 25px 50px;
   padding: 0 10px;
   height: auto;
 }
 
-.description .description_width .karen-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 250px;
-  margin: auto;
-  padding: 30px 0px;
-  text-align: center;
+.description .description_width .info {
+  margin: 0 auto;
 }
 
-.description .description_width .karen-cont .karen-img {
+.description .description_width .karen-cont {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.description .description_width .karen-cont .centre_content {
+  margin: 25px auto 0;
+  text-align: center;
+  width: auto;
+}
+
+.description .description_width .karen-cont .centre_content .karen-img {
   border-radius: 50%;
   border: solid #af473d 5px;
   padding: 5px;
   height: 250px;
   width: 250px;
+}
+
+.description .description_width .form-cont {
+  margin: 0 auto;
 }
 
 .description .description_width .form-cont form {
@@ -336,24 +341,23 @@ html, body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  margin: auto;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
 
-.description .description_width .form-cont input,
-.description .description_width .form-cont select {
+.description .description_width .form-cont form input,
+.description .description_width .form-cont form select {
   margin: 10px 0px;
   padding: 15px;
 }
 
-.description .description_width .form-cont textarea {
+.description .description_width .form-cont form textarea {
   width: 100%;
   margin: 10px 0px;
   padding: 15px;
 }
 
-.description .description_width .form-cont input[type=submit] {
+.description .description_width .form-cont form input[type=submit] {
   background-color: #af473d;
   text-transform: uppercase;
   color: white;
@@ -363,18 +367,22 @@ html, body {
   cursor: pointer;
 }
 
-.description .description_width .form-cont input:focus,
-.description .description_width .form-cont select:focus,
-.description .description_width .form-cont textarea:focus {
+.description .description_width .form-cont form input[type=submit]:hover {
+  background-color: #7c332d;
+}
+
+.description .description_width .form-cont form input:focus,
+.description .description_width .form-cont form select:focus,
+.description .description_width .form-cont form textarea:focus {
   outline-color: #af473d;
 }
 
-.description .description_width .form-cont .gdpr-text {
+.description .description_width .form-cont form .gdpr-text {
   font-size: 12px;
   font-weight: bold;
 }
 
-.description .description_width .form-cont .recaptcha_container {
+.description .description_width .form-cont form .recaptcha_container {
   margin-bottom: 20px;
 }
 
@@ -397,29 +405,18 @@ html, body {
 }
 
 @media (min-width: 750px) {
-  .description_width {
+  .description .description_width {
     width: 725px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 10px;
-    height: auto;
   }
-  .description_width .karen-cont {
-    padding-top: 50px;
-  }
-  .description_width .form-cont {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 620px;
-    margin: auto;
-  }
-  .description_width .form-cont form {
-    width: auto;
-  }
-  .description_width .form-cont textarea {
+  .description .description_width .form-cont {
     width: 620px;
   }
-  .description_width .form-cont input[type=submit] {
+  .description .description_width .form-cont textarea {
+    width: 620px;
+  }
+  .description .description_width .form-cont input[type=submit] {
     width: 200px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -433,7 +430,7 @@ html, body {
 }
 
 @media (min-width: 975px) {
-  .description_width {
+  .description .description_width {
     width: 950px;
   }
   .map_container {
@@ -442,7 +439,7 @@ html, body {
 }
 
 @media (min-width: 1260px) {
-  .description_width {
+  .description .description_width {
     width: 1235px;
   }
   .map_container {

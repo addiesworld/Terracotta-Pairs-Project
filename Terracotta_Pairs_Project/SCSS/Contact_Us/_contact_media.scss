@@ -1,52 +1,26 @@
 // Small : 750px
 @media (min-width: 750px) {
-
-    .description_width {
-        width: 725px;
-        margin: auto;
-        padding: 0 10px;
-        height: auto; 
-        .karen-cont {
-            padding-top: 50px;
-        }
-        .form-cont {
-            display: flex;
-            width: 620px;
-            margin: auto;
-            form {
-                width: auto;
-            }
-            // label {
-            //     width: auto;
-            // }
-            // .row-1 {
-            //     input,
-            //     select {
-            //         width: 218px;
-            //     }
-            // }
-            // .row-2 {
-            //     input,
-            //     select {
-            //         width: 207px;
-            //     }
-            // // .country-row {
-            // //     width: 250px;
-            // //     select {
-            // //         margin-left: 49px;
-            // //     }
-            // // }
-            // }
-            textarea {
+    .description {
+        .description_width {
+            width: 725px;
+            margin: 0 auto;
+            padding: 0 10px;
+            .form-cont {
+                // display: flex;
                 width: 620px;
-            }
-            input[type=submit] {
-                width: 200px;
-                align-self: center;
+                form {
+                    // width: auto;
+                }
+                textarea {
+                    width: 620px;
+                }
+                input[type=submit] {
+                    width: 200px;
+                    align-self: center;
+                }
             }
         }
     }
-
     .map_container {
         margin-left: auto;
         margin-right: auto;
@@ -56,8 +30,10 @@
 
 // Medium : 975px
 @media (min-width: 975px) {
-    .description_width {
-        width: 950px;
+    .description {
+        .description_width {
+            width: 950px;
+        }
     }
     .map_container {
         width: 950px;
@@ -66,8 +42,10 @@
 
 // Large : 1260px 
 @media (min-width: 1260px) {
-    .description_width {
-        width: 1235px;
+    .description {
+        .description_width {
+            width: 1235px;
+        }
     }
     .map_container {
         width: 1235px;
