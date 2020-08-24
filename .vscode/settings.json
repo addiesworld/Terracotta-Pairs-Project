@@ -6,10 +6,13 @@
            "savePath": "/Terracotta_Pairs_Project/CSS"
        }
    ],
+   "liveSassCompile.settings.includeItems": [
+    "Terracotta_Pairs_Project/JavaScript/"
+    ],
    "liveSassCompile.settings.excludeList": [
       "**/node_modules/**",
       ".vscode/**",
-      "Terracotta_Pairs_Project/JavaScript/**"
+      "Terracotta_Pairs_Project/JavaScript/slick-1.8.1/slick/slick-theme.scss"
    ],
    "liveSassCompile.settings.generateMap": true,
    "liveSassCompile.settings.autoprefix": [

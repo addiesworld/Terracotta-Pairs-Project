@@ -53,23 +53,18 @@
     }
 
     .reviews {
-        .background_image {
-            .text_container {
-                width: 725px;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 0 8px;
-                .quote_container {
-                    .quote_content {
-                        .quote {
-                            font-size: 18px;
-                        padding: 30px 50px 0;
-                        }
-                        .quote_author {                        
-                            font-size: 16px;
-                        }
-                    }
+        .review_slick {
+            width: 725px;
+            margin-left: auto;
+            margin-right: auto;
+            div .quote_container .quote_content {
+                .quote {
+                    font-size: 18px;
+                padding: 30px 50px 0;
                 }
+                .quote_author {                        
+                    font-size: 16px;
+                }     
             }
         }
     }
@@ -108,20 +103,35 @@
         }
     }
 
+    // .reviews {
+    //     .background_image {
+    //         .text_container {
+    //             width: 950px;
+    //             .quote_container {
+    //                 .quote_content {
+    //                     .quote {
+    //                         font-size: 20px;
+    //                     }
+    //                     .quote_author {                        
+    //                         font-size: 18px;
+    //                     }
+    //                 }
+    //             }               
+    //         }
+    //     }
+    // }
+
     .reviews {
-        .background_image {
-            .text_container {
-                width: 950px;
-                .quote_container {
-                    .quote_content {
-                        .quote {
-                            font-size: 20px;
-                        }
-                        .quote_author {                        
-                            font-size: 18px;
-                        }
-                    }
+        .review_slick {
+            width: 950px;
+            div .quote_container .quote_content {
+                .quote {
+                    font-size: 20px;
+                // padding: 30px 50px 0;
                 }
+                .quote_author {                        
+                    font-size: 18px;
+                }     
             }
         }
     }
@@ -167,20 +177,31 @@
         }
     }
 
+    // .reviews {
+    //     .background_image {
+    //         .text_container {
+    //             width: 1200px;
+    //             .quote_container {
+    //                 .quote_content {
+    //                     .quote {
+    //                         font-size: 22px;
+    //                     }
+    //                     .quote_author {                        
+    //                         font-size: 18px;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
     .reviews {
-        .background_image {
-            .text_container {
-                width: 1200px;
-                .quote_container {
-                    .quote_content {
-                        .quote {
-                            font-size: 22px;
-                        }
-                        .quote_author {                        
-                            font-size: 18px;
-                        }
-                    }
-                }
+        .review_slick {
+            width: 1235px;
+            div .quote_container .quote_content {
+                .quote {
+                    font-size: 22px;
+                }  
             }
         }
     }
